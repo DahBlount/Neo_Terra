@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Neo_Terra.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{47DD4D93-2539-4F91-AEE7-3EBE7C73189C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Neo_Terra.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Neo_TerraEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{215B0957-CDAD-4AF3-8BDD-62ED5CBD6A76}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Neo_Terra">
+      <UniqueIdentifier>{5A165338-CF50-491C-84FD-6B05B6601DF0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Neo_Terra\Neo_Terra.Build.cs">
+      <Filter>Source\Neo_Terra</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Neo_Terra\Neo_Terra.cpp">
+      <Filter>Source\Neo_Terra</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Neo_Terra\Neo_Terra.h">
+      <Filter>Source\Neo_Terra</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Neo_Terra\Neo_TerraGameMode.cpp">
+      <Filter>Source\Neo_Terra</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Neo_Terra\Neo_TerraGameMode.h">
+      <Filter>Source\Neo_Terra</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Neo_Terra\Pilot.cpp">
+      <Filter>Source\Neo_Terra</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Neo_Terra\Pilot.h">
+      <Filter>Source\Neo_Terra</Filter>
+    </ClInclude>
+    <Filter Include="Source\Neo_Terra\Resources">
+      <UniqueIdentifier>{75E9FDE0-8B78-478F-85E6-FBF2C8B4DE04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Neo_Terra\Resources\Windows">
+      <UniqueIdentifier>{8F31F78A-CCBE-4A78-A744-C1D1479951CB}</UniqueIdentifier>
+    </Filter>
+    <ResourceCompile Include="..\..\Source\Neo_Terra\Resources\Windows\Neo_Terra.rc">
+      <Filter>Source\Neo_Terra\Resources\Windows</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Neo_Terra\FileRead.h">
+      <Filter>Source\Neo_Terra</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Neo_Terra\FileRead.cpp">
+      <Filter>Source\Neo_Terra</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
