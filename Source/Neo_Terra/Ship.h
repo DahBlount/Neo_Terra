@@ -11,11 +11,6 @@ class NEO_TERRA_API AShip : public APawn
 	GENERATED_BODY()
 
 public:
-	struct SHIP
-	{
-		FVector Pos;
-
-	};
 
 public:
 	// Sets default values for this pawn's properties
