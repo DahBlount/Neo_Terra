@@ -2,8 +2,6 @@
 
 #pragma once
 
-#include "Core.h"
-#include "Engine.h"
 #include "GameFramework/GameMode.h"
 #include "Neo_TerraGameMode.generated.h"
 
