@@ -39,7 +39,6 @@ void ANTCharacter::SetupPlayerInputComponent(class UInputComponent* InputCompone
 	InputComponent->BindAxis("MoveRight", this, &ANTCharacter::MoveRight);
 	InputComponent->BindAxis("Turn", this, &ANTCharacter::AddControllerYawInput);
 	InputComponent->BindAxis("LookUp", this, &ANTCharacter::AddControllerPitchInput);
-	InputComponent->BindAxis("Roll", this, &ANTCharacter::AddControllerRollInput);
 	InputComponent->BindAction("Jump", IE_Pressed, this, &ANTCharacter::OnStartJump);
 	InputComponent->BindAction("Jump", IE_Released, this, &ANTCharacter::OnStopJump);
 }
