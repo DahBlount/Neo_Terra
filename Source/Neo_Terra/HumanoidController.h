@@ -12,8 +12,10 @@ UCLASS()
 class NEO_TERRA_API AHumanoidController : public APlayerController
 {
 	GENERATED_BODY()
+
 public:
-	AHumanoidController();	//Default constructor
+	AHumanoidController(const FObjectInitializer& ObjectInitializer);	//Default constructor
+
 
 	
 };

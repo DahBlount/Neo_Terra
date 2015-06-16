@@ -50,18 +50,30 @@
     <None Include="..\..\Config\DefaultEngine.ini" />
     <None Include="..\..\Config\DefaultGame.ini" />
     <None Include="..\..\Config\DefaultInput.ini" />
-    <None Include="..\..\Source\Neo_Terra\Neo_Terra.Build.cs" />
     <ClCompile Include="..\..\Source\Neo_Terra\HumanoidController.cpp" />
-    <ClCompile Include="..\..\Source\Neo_Terra\Neo_Terra.cpp" />
     <ClInclude Include="..\..\Source\Neo_Terra\HumanoidController.h" />
+    <None Include="..\..\Source\Neo_Terra\Neo_Terra.Build.cs" />
+    <ClCompile Include="..\..\Source\Neo_Terra\Neo_Terra.cpp" />
     <ClInclude Include="..\..\Source\Neo_Terra\Neo_Terra.h" />
     <ClCompile Include="..\..\Source\Neo_Terra\Neo_TerraGameMode.cpp" />
     <ClInclude Include="..\..\Source\Neo_Terra\Neo_TerraGameMode.h" />
     <ClCompile Include="..\..\Source\Neo_Terra\NTCharacter.cpp" />
-    <ClCompile Include="..\..\Source\Neo_Terra\Ship.cpp" />
     <ClInclude Include="..\..\Source\Neo_Terra\NTCharacter.h" />
+    <ClCompile Include="..\..\Source\Neo_Terra\Ship.cpp" />
     <ClInclude Include="..\..\Source\Neo_Terra\Ship.h" />
+    <ClCompile Include="..\..\Source\Neo_Terra\FP_FirstPerson\FP_FirstPersonCharacter.cpp" />
+    <ClInclude Include="..\..\Source\Neo_Terra\FP_FirstPerson\FP_FirstPersonCharacter.h" />
+    <ClCompile Include="..\..\Source\Neo_Terra\FP_FirstPerson\FP_FirstPersonGameMode.cpp" />
+    <ClInclude Include="..\..\Source\Neo_Terra\FP_FirstPerson\FP_FirstPersonGameMode.h" />
+    <ClCompile Include="..\..\Source\Neo_Terra\FP_FirstPerson\FP_FirstPersonHUD.cpp" />
+    <ClInclude Include="..\..\Source\Neo_Terra\FP_FirstPerson\FP_FirstPersonHUD.h" />
     <ResourceCompile Include="..\..\Source\Neo_Terra\Resources\Windows\Neo_Terra.rc" />
+    <ClCompile Include="..\..\Source\Neo_Terra\TP_TopDown\TP_TopDownCharacter.cpp" />
+    <ClInclude Include="..\..\Source\Neo_Terra\TP_TopDown\TP_TopDownCharacter.h" />
+    <ClCompile Include="..\..\Source\Neo_Terra\TP_TopDown\TP_TopDownGameMode.cpp" />
+    <ClInclude Include="..\..\Source\Neo_Terra\TP_TopDown\TP_TopDownGameMode.h" />
+    <ClCompile Include="..\..\Source\Neo_Terra\TP_TopDown\TP_TopDownPlayerController.cpp" />
+    <ClInclude Include="..\..\Source\Neo_Terra\TP_TopDown\TP_TopDownPlayerController.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{483E8DB6-449F-4180-BE83-AD7133326DDD}</ProjectGuid>

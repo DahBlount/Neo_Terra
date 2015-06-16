@@ -1,4 +1,4 @@
-﻿Log file open, 06/15/15 19:19:38
+﻿Log file open, 06/16/15 09:09:58
 LogInit:Display: Running engine for game: Neo_Terra
 LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
 LogInit: API Version: 2455222
@@ -9,329 +9,913 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.7
 LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2015.06.16-02.19.38:615][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
-[2015.06.16-02.19.38:671][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.06.16-02.19.38:813][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.06.16-02.19.38:821][  0]LogInit: Object subsystem initialized
-[2015.06.16-02.19.38:822][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
-[2015.06.16-02.19.38:822][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.06.16-02.19.38:822][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2015.06.16-02.19.38:822][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.06.16-02.19.38:822][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2015.06.16-02.19.38:822][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.06.16-02.19.38:822][  0]LogInit: Selected Device Profile: [Windows]
-[2015.06.16-02.19.38:822][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.06.16-02.19.38:826][  0]LogInit: Computer: ALLEN
-[2015.06.16-02.19.38:826][  0]LogInit: User: tyler000
-[2015.06.16-02.19.38:826][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.06.16-02.19.38:826][  0]LogInit: High frequency timer resolution =3.417964 MHz
-[2015.06.16-02.19.38:827][  0]LogMemory: Memory total: Physical=6.9GB (7GB approx) Virtual=131072.0GB
-[2015.06.16-02.19.38:827][  0]LogMemory: Platform Memory Stats for Windows
-[2015.06.16-02.19.38:827][  0]LogMemory: Process Physical Memory: 46.23 MB used, 46.23 MB peak
-[2015.06.16-02.19.38:827][  0]LogMemory: Process Virtual Memory: 26.52 MB used, 26.52 MB peak
-[2015.06.16-02.19.38:827][  0]LogMemory: Physical Memory: 2982.49 MB used, 7109.95 MB total
-[2015.06.16-02.19.38:827][  0]LogMemory: Virtual Memory: 292.57 MB used, 134217728.00 MB total
-[2015.06.16-02.19.38:844][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
-[2015.06.16-02.19.38:844][  0]LogD3D11RHI: Adapter has 3996MB of dedicated video memory, 0MB of dedicated system memory, and 3554MB of shared system memory, 1 output[s]
-[2015.06.16-02.19.39:032][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
-[2015.06.16-02.19.39:032][  0]LogD3D11RHI: Adapter has 992MB of dedicated video memory, 0MB of dedicated system memory, and 800MB of shared system memory, 0 output[s]
-[2015.06.16-02.19.39:032][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.06.16-02.19.39:032][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
-[2015.06.16-02.19.39:032][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.06.16-02.19.39:034][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.06.16-02.19.39:042][  0]LogD3D11RHI: Async texture creation enabled
-[2015.06.16-02.19.39:730][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
-[2015.06.16-02.19.39:774][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+[2015.06.16-16.09.58:786][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.06.16-16.09.58:842][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.06.16-16.09.59:012][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.06.16-16.09.59:019][  0]LogInit: Object subsystem initialized
+[2015.06.16-16.09.59:021][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.06.16-16.09.59:021][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.16-16.09.59:021][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.06.16-16.09.59:021][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.16-16.09.59:021][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.06.16-16.09.59:021][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.16-16.09.59:021][  0]LogInit: Selected Device Profile: [Windows]
+[2015.06.16-16.09.59:021][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.06.16-16.09.59:026][  0]LogInit: Computer: ALLEN
+[2015.06.16-16.09.59:026][  0]LogInit: User: tyler000
+[2015.06.16-16.09.59:026][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.06.16-16.09.59:026][  0]LogInit: High frequency timer resolution =3.417964 MHz
+[2015.06.16-16.09.59:026][  0]LogMemory: Memory total: Physical=6.9GB (7GB approx) Virtual=131072.0GB
+[2015.06.16-16.09.59:026][  0]LogMemory: Platform Memory Stats for Windows
+[2015.06.16-16.09.59:026][  0]LogMemory: Process Physical Memory: 46.14 MB used, 46.14 MB peak
+[2015.06.16-16.09.59:026][  0]LogMemory: Process Virtual Memory: 26.57 MB used, 26.57 MB peak
+[2015.06.16-16.09.59:026][  0]LogMemory: Physical Memory: 3873.29 MB used, 7109.95 MB total
+[2015.06.16-16.09.59:026][  0]LogMemory: Virtual Memory: 292.57 MB used, 134217728.00 MB total
+[2015.06.16-16.09.59:044][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2015.06.16-16.09.59:044][  0]LogD3D11RHI: Adapter has 3996MB of dedicated video memory, 0MB of dedicated system memory, and 3554MB of shared system memory, 1 output[s]
+[2015.06.16-16.09.59:214][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.06.16-16.09.59:214][  0]LogD3D11RHI: Adapter has 992MB of dedicated video memory, 0MB of dedicated system memory, and 800MB of shared system memory, 0 output[s]
+[2015.06.16-16.09.59:215][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.06.16-16.09.59:215][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.06.16-16.09.59:215][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.06.16-16.09.59:218][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.06.16-16.09.59:226][  0]LogD3D11RHI: Async texture creation enabled
+[2015.06.16-16.09.59:747][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.06.16-16.09.59:791][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
 Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
 Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
-[2015.06.16-02.19.39:774][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+[2015.06.16-16.09.59:791][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
 Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
 Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
-[2015.06.16-02.19.39:835][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.06.16-02.19.43:651][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.06.16-02.19.44:805][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.06.16-02.19.44:925][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.06.16-02.19.45:197][  0]LogDerivedDataCache: Loaded boot cache 0.26s 39MB C:/Users/tyler_000/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2015.06.16-02.19.45:197][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/tyler_000/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
-[2015.06.16-02.19.45:197][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.06.16-02.19.45:197][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.06.16-02.19.45:288][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.06.16-02.19.45:344][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tyler_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.06.16-02.19.48:398][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.06.16-02.19.48:398][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.06.16-02.19.50:077][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.06.16-02.19.50:476][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
-[2015.06.16-02.20.09:814][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.06.16-02.20.10:954][  0]SourceControl: Info Source control is disabled
-[2015.06.16-02.20.10:954][  0]SourceControl: Info Source control is disabled
-[2015.06.16-02.20.10:954][  0]SourceControl: Info Source control is disabled
-[2015.06.16-02.20.10:954][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.06.16-02.20.10:954][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.06.16-02.20.10:964][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.06.16-02.20.11:648][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.4.msysgit.0
+[2015.06.16-16.09.59:862][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.06.16-16.10.02:979][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.16-16.10.04:128][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.16-16.10.04:283][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.06.16-16.10.04:662][  0]LogDerivedDataCache: Loaded boot cache 0.38s 39MB C:/Users/tyler_000/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.06.16-16.10.04:662][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/tyler_000/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.06.16-16.10.04:662][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.06.16-16.10.04:662][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.06.16-16.10.04:788][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.06.16-16.10.04:800][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tyler_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.06.16-16.10.08:329][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.06.16-16.10.08:329][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.06.16-16.10.09:903][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.06.16-16.10.10:243][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.06.16-16.10.28:369][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.06.16-16.10.29:371][  0]SourceControl: Info Source control is disabled
+[2015.06.16-16.10.29:371][  0]SourceControl: Info Source control is disabled
+[2015.06.16-16.10.29:371][  0]SourceControl: Info Source control is disabled
+[2015.06.16-16.10.29:371][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.06.16-16.10.29:372][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.06.16-16.10.29:381][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.06.16-16.10.30:365][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.4.msysgit.0
 '
-[2015.06.16-02.20.12:876][  0]LogObj: 24253 objects as part of root set at end of initial load.
-[2015.06.16-02.20.12:876][  0]LogUObjectAllocator: 5151832 out of 0 bytes used by permanent object pool.
-[2015.06.16-02.20.13:142][  0]LogEngine: Initializing Engine...
-[2015.06.16-02.20.15:663][  0]LogInit: XAudio2 using 'Digital Output (2- USB PnP Sound Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2015.06.16-02.20.15:674][  0]LogInit: FAudioDevice initialized.
-[2015.06.16-02.20.15:775][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.06.16-02.20.15:818][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/tyler_000/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2015.06.16-02.20.15:822][  0]LogInit: Texture streaming: Enabled
-[2015.06.16-02.20.16:476][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.06.16-02.20.16:476][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
-[2015.06.16-02.20.16:476][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
-[2015.06.16-02.20.16:476][  0]LogAnalytics: SetUserId 6632c32e4547395767ec168df9274b5c|64132dcb96a94bf09c470f630e0c208d|4454835d-7eb2-4712-923a-e1b4390bdbbb
-[2015.06.16-02.20.16:476][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
-[2015.06.16-02.20.17:024][  0]LogInit: Transaction tracking system initialized
-[2015.06.16-02.20.17:857][  0]BlueprintLog: New page: Editor Load
-[2015.06.16-02.20.17:937][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
-[2015.06.16-02.20.17:937][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2015.06.16-02.20.20:579][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.06.16-02.20.20:931][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.06.16-02.20.23:713][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
-[2015.06.16-02.20.23:713][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
-[2015.06.16-02.20.23:713][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
-[2015.06.16-02.20.23:769][  0]LogLinker:Warning: Can't find file '/Game/Flying/FlyingOverview'
-[2015.06.16-02.20.23:769][  0]LogLinker:Warning: Can't find file '/Game/Flying/FlyingOverview'
-[2015.06.16-02.20.23:769][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/Flying/FlyingOverview.FlyingOverview_C'
-[2015.06.16-02.20.24:125][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
-[2015.06.16-02.20.24:126][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
-[2015.06.16-02.20.24:333][  0]LogConsoleResponse:Display: 
-[2015.06.16-02.20.28:031][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.06.16-02.20.30:185][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.06.16-02.20.30:225][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.4.msysgit.0
+[2015.06.16-16.10.31:507][  0]LogObj: 24253 objects as part of root set at end of initial load.
+[2015.06.16-16.10.31:507][  0]LogUObjectAllocator: 5151832 out of 0 bytes used by permanent object pool.
+[2015.06.16-16.10.31:706][  0]LogEngine: Initializing Engine...
+[2015.06.16-16.10.34:236][  0]LogInit: XAudio2 using 'Digital Output (2- USB PnP Sound Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.06.16-16.10.34:259][  0]LogInit: FAudioDevice initialized.
+[2015.06.16-16.10.34:323][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.06.16-16.10.34:361][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/tyler_000/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.06.16-16.10.34:363][  0]LogInit: Texture streaming: Enabled
+[2015.06.16-16.10.35:255][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.06.16-16.10.35:255][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.06.16-16.10.35:255][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.06.16-16.10.35:255][  0]LogAnalytics: SetUserId 6632c32e4547395767ec168df9274b5c|64132dcb96a94bf09c470f630e0c208d|4454835d-7eb2-4712-923a-e1b4390bdbbb
+[2015.06.16-16.10.35:255][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.06.16-16.10.35:657][  0]LogInit: Transaction tracking system initialized
+[2015.06.16-16.10.36:456][  0]BlueprintLog: New page: Editor Load
+[2015.06.16-16.10.36:529][  0]LogAssetRegistry: FAssetRegistry took 0.0111 seconds to start up
+[2015.06.16-16.10.36:529][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.06.16-16.10.38:314][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.16-16.10.38:685][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.16-16.10.40:603][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2015.06.16-16.10.40:603][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2015.06.16-16.10.40:603][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2015.06.16-16.10.40:694][  0]LogLinker:Warning: Can't find file '/Game/Flying/FlyingOverview'
+[2015.06.16-16.10.40:694][  0]LogLinker:Warning: Can't find file '/Game/Flying/FlyingOverview'
+[2015.06.16-16.10.40:694][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/Flying/FlyingOverview.FlyingOverview_C'
+[2015.06.16-16.10.41:083][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.06.16-16.10.41:084][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.06.16-16.10.41:208][  0]LogConsoleResponse:Display: 
+[2015.06.16-16.10.42:780][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.06.16-16.10.44:302][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.06.16-16.10.44:321][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.4.msysgit.0
 '
-[2015.06.16-02.20.30:248][  0]Cmd: MAP LOAD FILE="../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.06.16-02.20.30:286][  0]LightingResults: New page: Lighting Build
-[2015.06.16-02.20.30:335][  0]MapCheck: New page: Map Check
-[2015.06.16-02.20.30:335][  0]LightingResults: New page: Lighting Build
-[2015.06.16-02.20.30:344][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004B90D4E980
-[2015.06.16-02.20.38:796][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.06.16-02.20.38:822][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2015.06.16-02.20.38:823][  0]Cmd: MAP CHECKDEP
-[2015.06.16-02.20.38:823][  0]MapCheck: New page: Minimal_Default - Jun 15, 2015, 12:20:38 PM
-[2015.06.16-02.20.38:930][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 106.206ms to complete.
-[2015.06.16-02.20.38:930][  0]LogFileHelpers: Loading map 'Minimal_Default' took 8.683
-[2015.06.16-02.20.39:547][  0]LogSourceControl: RunCommandInternalRaw: 'git status'
-[2015.06.16-02.20.39:547][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='On branch master
+[2015.06.16-16.10.44:321][  0]Cmd: MAP LOAD FILE="../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.06.16-16.10.44:328][  0]LightingResults: New page: Lighting Build
+[2015.06.16-16.10.44:340][  0]MapCheck: New page: Map Check
+[2015.06.16-16.10.44:340][  0]LightingResults: New page: Lighting Build
+[2015.06.16-16.10.44:346][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C406F2A980
+[2015.06.16-16.10.47:996][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.06.16-16.10.48:014][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.06.16-16.10.48:015][  0]Cmd: MAP CHECKDEP
+[2015.06.16-16.10.48:015][  0]MapCheck: New page: Minimal_Default - Jun 16, 2015, 2:10:48 AM
+[2015.06.16-16.10.48:119][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 104.425ms to complete.
+[2015.06.16-16.10.48:119][  0]LogFileHelpers: Loading map 'Minimal_Default' took 3.799
+[2015.06.16-16.10.48:620][  0]LogSourceControl: RunCommandInternalRaw: 'git status'
+[2015.06.16-16.10.48:620][  0]LogCollectionManager: Loaded 0 collections in 0.001913 seconds
+[2015.06.16-16.10.48:631][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 1700 classes and 263 folders.
+[2015.06.16-16.10.48:646][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Classes_Game/Neo_Terra'
+[2015.06.16-16.10.48:939][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0041 seconds. Added 1 classes and 2 folders.
+[2015.06.16-16.10.49:512][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.06.16-16.10.49:512][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.06.16-16.10.49:517][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.06.16-16.10.49:542][  0]LogLoad: Full Startup: 53.08 seconds (BP compile: 0.06 seconds)
+[2015.06.16-16.10.50:219][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='On branch master
 Your branch is up-to-date with 'origin/master'.
 
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
-	modified:   Intermediate/CachedAssetRegistry.bin
-	modified:   Intermediate/Config/CoalescedSourceConfigs/Engine.ini
 	modified:   Saved/Autosaves/PackageRestoreData.json
-	modified:   Saved/Config/Windows/Editor.ini
 	modified:   Saved/Config/Windows/EditorLayout.ini
-	modified:   Saved/Config/Windows/EditorUserSettings.ini
 	modified:   Saved/Config/Windows/Engine.ini
 	modified:   Saved/Logs/Neo_Terra.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
 '
-[2015.06.16-02.20.39:547][  0]LogSourceControl: RunCommandInternalRaw: 'git symbolic-ref --short HEAD'
-[2015.06.16-02.20.39:547][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='master
+[2015.06.16-16.10.50:219][  0]LogSourceControl: RunCommandInternalRaw: 'git symbolic-ref --short HEAD'
+[2015.06.16-16.10.50:219][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='master
 '
-[2015.06.16-02.20.39:547][  0]LogCollectionManager: Loaded 0 collections in 0.002027 seconds
-[2015.06.16-02.20.39:569][  0]LogContentBrowser: Native class hierarchy populated in 0.0218 seconds. Added 1700 classes and 263 folders.
-[2015.06.16-02.20.39:649][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0042 seconds. Added 1 classes and 2 folders.
-[2015.06.16-02.20.39:908][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.06.16-02.20.39:908][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
-[2015.06.16-02.20.39:914][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.06.16-02.20.39:941][  0]LogLoad: Full Startup: 64.67 seconds (BP compile: 0.07 seconds)
-[2015.06.16-02.20.40:620][  0]SourceControl: Info master
-[2015.06.16-02.20.40:895][  0]LogRenderer:Warning: Reallocating scene render targets to support 208x336 (Frame:2).
-[2015.06.16-02.20.41:687][  3]LogAssetRegistry: Asset discovery search completed in 23.7613 seconds
-[2015.06.16-02.22.04:052][636]LogRenderer:Warning: Reallocating scene render targets to support 344x640 (Frame:5).
-[2015.06.16-02.24.13:959][382]LogRenderer:Warning: Reallocating scene render targets to support 592x768 (Frame:8).
-[2015.06.16-02.24.23:991][481]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Classes_Game'
-[2015.06.16-02.24.27:024][813]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Classes_Game/Neo_Terra'
-[2015.06.16-02.30.20:183][685]Cmd: QUIT_EDITOR
-[2015.06.16-02.30.20:367][685]LogExit: Preparing to exit.
-[2015.06.16-02.30.20:880][685]LogExit: Editor shut down
-[2015.06.16-02.30.20:881][685]LogExit: Transaction tracking system shut down
-[2015.06.16-02.30.20:881][685]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004B8A327100
-[2015.06.16-02.30.20:881][685]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004B98617420
-[2015.06.16-02.30.20:916][685]LogExit: Object subsystem successfully closed.
-[2015.06.16-02.30.20:960][685]LogModuleManager: Shutting down and abandoning module CrashTracker (178)
-[2015.06.16-02.30.20:960][685]LogModuleManager: Shutting down and abandoning module SuperSearch (177)
-[2015.06.16-02.30.20:960][685]LogModuleManager: Shutting down and abandoning module SceneOutliner (176)
-[2015.06.16-02.30.20:960][685]LogModuleManager: Shutting down and abandoning module EditorWidgets (175)
-[2015.06.16-02.30.20:960][685]LogModuleManager: Shutting down and abandoning module CollectionManager (174)
-[2015.06.16-02.30.20:960][685]LogModuleManager: Shutting down and abandoning module StatsViewer (173)
-[2015.06.16-02.30.20:960][685]LogModuleManager: Shutting down and abandoning module FoliageEdit (172)
-[2015.06.16-02.30.20:960][685]LogModuleManager: Shutting down and abandoning module LandscapeEditor (171)
-[2015.06.16-02.30.20:960][685]LogModuleManager: Shutting down and abandoning module MeshPaint (170)
-[2015.06.16-02.30.20:960][685]LogModuleManager: Shutting down and abandoning module ActorPickerMode (169)
-[2015.06.16-02.30.20:960][685]LogModuleManager: Shutting down and abandoning module GeometryMode (168)
-[2015.06.16-02.30.20:960][685]LogModuleManager: Shutting down and abandoning module TextureAlignMode (167)
-[2015.06.16-02.30.20:960][685]LogModuleManager: Shutting down and abandoning module BspMode (166)
-[2015.06.16-02.30.20:960][685]LogModuleManager: Shutting down and abandoning module PlacementMode (165)
-[2015.06.16-02.30.20:960][685]LogModuleManager: Shutting down and abandoning module AutomationWorker (164)
-[2015.06.16-02.30.20:960][685]LogModuleManager: Shutting down and abandoning module CharacterAI (163)
-[2015.06.16-02.30.20:960][685]LogModuleManager: Shutting down and abandoning module SmartSnapping (162)
-[2015.06.16-02.30.20:960][685]LogModuleManager: Shutting down and abandoning module ViewportSnapping (161)
-[2015.06.16-02.30.20:960][685]LogModuleManager: Shutting down and abandoning module LogVisualizer (160)
-[2015.06.16-02.30.20:960][685]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (159)
-[2015.06.16-02.30.20:960][685]LogModuleManager: Shutting down and abandoning module IntroTutorials (158)
-[2015.06.16-02.30.20:960][685]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (157)
-[2015.06.16-02.30.20:960][685]LogModuleManager: Shutting down and abandoning module HardwareTargeting (156)
-[2015.06.16-02.30.20:960][685]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (155)
-[2015.06.16-02.30.20:960][685]LogModuleManager: Shutting down and abandoning module UndoHistory (154)
-[2015.06.16-02.30.20:960][685]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (153)
-[2015.06.16-02.30.20:960][685]LogModuleManager: Shutting down and abandoning module UserFeedback (152)
-[2015.06.16-02.30.20:960][685]LogModuleManager: Shutting down and abandoning module XmlParser (151)
-[2015.06.16-02.30.20:960][685]LogModuleManager: Shutting down and abandoning module Blutility (150)
-[2015.06.16-02.30.20:960][685]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (149)
-[2015.06.16-02.30.20:960][685]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (148)
-[2015.06.16-02.30.20:960][685]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (147)
-[2015.06.16-02.30.21:346][685]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (146)
-[2015.06.16-02.30.21:346][685]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (145)
-[2015.06.16-02.30.21:346][685]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (144)
-[2015.06.16-02.30.21:346][685]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (143)
-[2015.06.16-02.30.21:346][685]LogModuleManager: Shutting down and abandoning module InputBindingEditor (142)
-[2015.06.16-02.30.21:346][685]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (141)
-[2015.06.16-02.30.21:346][685]LogModuleManager: Shutting down and abandoning module SettingsEditor (140)
-[2015.06.16-02.30.21:346][685]LogModuleManager: Shutting down and abandoning module ProjectLauncher (139)
-[2015.06.16-02.30.21:346][685]LogModuleManager: Shutting down and abandoning module SessionFrontend (138)
-[2015.06.16-02.30.21:346][685]LogModuleManager: Shutting down and abandoning module ProfilerClient (137)
-[2015.06.16-02.30.21:346][685]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (136)
-[2015.06.16-02.30.21:346][685]LogModuleManager: Shutting down and abandoning module DeviceManager (135)
-[2015.06.16-02.30.21:346][685]LogModuleManager: Shutting down and abandoning module AutomationController (134)
-[2015.06.16-02.30.21:346][685]LogModuleManager: Shutting down and abandoning module AutomationWindow (133)
-[2015.06.16-02.30.21:346][685]LogModuleManager: Shutting down and abandoning module Layers (132)
-[2015.06.16-02.30.21:346][685]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (131)
-[2015.06.16-02.30.21:346][685]LogModuleManager: Shutting down and abandoning module DetailCustomizations (130)
-[2015.06.16-02.30.21:346][685]LogModuleManager: Shutting down and abandoning module PackagesDialog (129)
-[2015.06.16-02.30.21:346][685]LogModuleManager: Shutting down and abandoning module AssetRegistry (128)
-[2015.06.16-02.30.21:364][685]LogModuleManager: Shutting down and abandoning module Persona (127)
-[2015.06.16-02.30.21:364][685]LogModuleManager: Shutting down and abandoning module SlateReflector (126)
-[2015.06.16-02.30.21:364][685]LogModuleManager: Shutting down and abandoning module LevelEditor (125)
-[2015.06.16-02.30.21:365][685]LogModuleManager: Shutting down and abandoning module Kismet (124)
-[2015.06.16-02.30.21:365][685]LogModuleManager: Shutting down and abandoning module GraphEditor (123)
-[2015.06.16-02.30.21:365][685]LogModuleManager: Shutting down and abandoning module ClassViewer (122)
-[2015.06.16-02.30.21:365][685]LogModuleManager: Shutting down and abandoning module Toolbox (121)
-[2015.06.16-02.30.21:365][685]LogModuleManager: Shutting down and abandoning module ModuleUI (120)
-[2015.06.16-02.30.21:365][685]LogModuleManager: Shutting down and abandoning module MovieSceneTools (119)
-[2015.06.16-02.30.21:365][685]LogModuleManager: Shutting down and abandoning module OutputLog (118)
-[2015.06.16-02.30.21:365][685]LogModuleManager: Shutting down and abandoning module GammaUI (117)
-[2015.06.16-02.30.21:365][685]LogModuleManager: Shutting down and abandoning module Documentation (116)
-[2015.06.16-02.30.21:365][685]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (115)
-[2015.06.16-02.30.21:365][685]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (114)
-[2015.06.16-02.30.21:365][685]LogModuleManager: Shutting down and abandoning module HTTP (113)
-[2015.06.16-02.30.21:365][685]LogModuleManager: Shutting down and abandoning module AnalyticsET (112)
-[2015.06.16-02.30.21:365][685]LogModuleManager: Shutting down and abandoning module Analytics (111)
-[2015.06.16-02.30.21:365][685]LogModuleManager: Shutting down and abandoning module AITestSuite (110)
-[2015.06.16-02.30.21:365][685]LogModuleManager: Shutting down and abandoning module GameplayDebugger (109)
-[2015.06.16-02.30.21:365][685]LogModuleManager: Shutting down and abandoning module AIModule (108)
-[2015.06.16-02.30.21:365][685]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
-[2015.06.16-02.30.21:601][685]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
-[2015.06.16-02.30.21:601][685]LogModuleManager: Shutting down and abandoning module SlateRemote (105)
-[2015.06.16-02.30.21:601][685]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (104)
-[2015.06.16-02.30.21:601][685]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (103)
-[2015.06.16-02.30.21:601][685]LogModuleManager: Shutting down and abandoning module CableComponent (102)
-[2015.06.16-02.30.21:601][685]LogModuleManager: Shutting down and abandoning module MessagingDebugger (101)
-[2015.06.16-02.30.21:601][685]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (100)
-[2015.06.16-02.30.21:601][685]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (99)
-[2015.06.16-02.30.21:601][685]LogModuleManager: Shutting down and abandoning module PluginsEditor (98)
-[2015.06.16-02.30.21:601][685]LogModuleManager: Shutting down and abandoning module MainFrame (97)
-[2015.06.16-02.30.21:601][685]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
-[2015.06.16-02.30.21:601][685]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
-[2015.06.16-02.30.21:601][685]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (94)
-[2015.06.16-02.30.21:601][685]LogModuleManager: Shutting down and abandoning module HotReload (93)
-[2015.06.16-02.30.21:601][685]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (92)
-[2015.06.16-02.30.21:601][685]LogModuleManager: Shutting down and abandoning module UObjectPlugin (91)
-[2015.06.16-02.30.21:601][685]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (90)
-[2015.06.16-02.30.21:601][685]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (89)
-[2015.06.16-02.30.21:601][685]LogModuleManager: Shutting down and abandoning module SourceControl (88)
-[2015.06.16-02.30.21:601][685]LogModuleManager: Shutting down and abandoning module GitSourceControl (87)
-[2015.06.16-02.30.21:601][685]LogModuleManager: Shutting down and abandoning module BlankPlugin (86)
-[2015.06.16-02.30.21:601][685]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (85)
-[2015.06.16-02.30.21:601][685]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (84)
-[2015.06.16-02.30.21:601][685]LogModuleManager: Shutting down and abandoning module ContentBrowser (83)
-[2015.06.16-02.30.21:602][685]LogModuleManager: Shutting down and abandoning module Paper2DEditor (82)
-[2015.06.16-02.30.21:602][685]LogModuleManager: Shutting down and abandoning module Neo_Terra (81)
-[2015.06.16-02.30.21:602][685]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
-[2015.06.16-02.30.21:602][685]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
-[2015.06.16-02.30.21:703][685]LogModuleManager: Shutting down and abandoning module Paper2D (78)
-[2015.06.16-02.30.21:703][685]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
-[2015.06.16-02.30.21:704][685]LogModuleManager: Shutting down and abandoning module Media (76)
-[2015.06.16-02.30.21:704][685]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
-[2015.06.16-02.30.21:704][685]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2015.06.16-02.30.21:704][685]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
-[2015.06.16-02.30.21:704][685]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
-[2015.06.16-02.30.21:704][685]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
-[2015.06.16-02.30.21:704][685]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
-[2015.06.16-02.30.21:704][685]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
-[2015.06.16-02.30.21:704][685]LogModuleManager: Shutting down and abandoning module MessageLog (68)
-[2015.06.16-02.30.21:704][685]LogModuleManager: Shutting down and abandoning module Sequencer (67)
-[2015.06.16-02.30.21:704][685]LogModuleManager: Shutting down and abandoning module AssetTools (66)
-[2015.06.16-02.30.21:704][685]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
-[2015.06.16-02.30.21:704][685]LogModuleManager: Shutting down and abandoning module UMG (64)
-[2015.06.16-02.30.21:704][685]LogModuleManager: Shutting down and abandoning module Slate (63)
-[2015.06.16-02.30.21:704][685]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
-[2015.06.16-02.30.21:708][685]LogModuleManager: Shutting down and abandoning module SessionServices (61)
-[2015.06.16-02.30.21:708][685]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
-[2015.06.16-02.30.21:708][685]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
-[2015.06.16-02.30.21:708][685]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
-[2015.06.16-02.30.21:708][685]LogModuleManager: Shutting down and abandoning module Networking (56)
-[2015.06.16-02.30.21:708][685]LogModuleManager: Shutting down and abandoning module Core (55)
-[2015.06.16-02.30.21:708][685]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
-[2015.06.16-02.30.21:708][685]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
-[2015.06.16-02.30.21:708][685]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
-[2015.06.16-02.30.21:708][685]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
-[2015.06.16-02.30.21:757][685]LogDerivedDataCache: Shutdown
-[2015.06.16-02.30.21:757][685]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
-[2015.06.16-02.30.21:757][685]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
-[2015.06.16-02.30.21:768][685]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
-[2015.06.16-02.30.21:768][685]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
-[2015.06.16-02.30.21:768][685]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
-[2015.06.16-02.30.21:776][685]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
-[2015.06.16-02.30.21:784][685]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
-[2015.06.16-02.30.21:788][685]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
-[2015.06.16-02.30.21:788][685]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
-[2015.06.16-02.30.21:793][685]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
-[2015.06.16-02.30.21:793][685]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
-[2015.06.16-02.30.21:793][685]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
-[2015.06.16-02.30.21:793][685]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
-[2015.06.16-02.30.21:793][685]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
-[2015.06.16-02.30.21:793][685]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
-[2015.06.16-02.30.21:796][685]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
-[2015.06.16-02.30.21:798][685]LogModuleManager: Shutting down and abandoning module Messaging (34)
-[2015.06.16-02.30.21:798][685]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
-[2015.06.16-02.30.21:798][685]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
-[2015.06.16-02.30.21:798][685]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
-[2015.06.16-02.30.21:798][685]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
-[2015.06.16-02.30.21:798][685]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
-[2015.06.16-02.30.21:798][685]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
-[2015.06.16-02.30.21:798][685]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
-[2015.06.16-02.30.21:798][685]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
-[2015.06.16-02.30.21:798][685]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
-[2015.06.16-02.30.21:798][685]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
-[2015.06.16-02.30.21:799][685]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
-[2015.06.16-02.30.21:799][685]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
-[2015.06.16-02.30.21:799][685]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
-[2015.06.16-02.30.21:799][685]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
-[2015.06.16-02.30.21:799][685]LogModuleManager: Shutting down and abandoning module InputCore (19)
-[2015.06.16-02.30.21:799][685]LogModuleManager: Shutting down and abandoning module Settings (18)
-[2015.06.16-02.30.21:799][685]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
-[2015.06.16-02.30.21:799][685]LogModuleManager: Shutting down and abandoning module OculusRift (15)
-[2015.06.16-02.30.21:799][685]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2015.06.16-02.30.21:799][685]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
-[2015.06.16-02.30.21:799][685]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
-[2015.06.16-02.30.21:799][685]LogModuleManager: Shutting down and abandoning module Landscape (11)
-[2015.06.16-02.30.21:799][685]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2015.06.16-02.30.21:800][685]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2015.06.16-02.30.21:800][685]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2015.06.16-02.30.21:800][685]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.06.16-02.30.21:800][685]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.06.16-02.30.21:800][685]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.06.16-02.30.21:800][685]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.06.16-02.30.21:800][685]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.06.16-02.30.21:800][685]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.06.16-02.30.21:800][685]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.06.16-02.30.21:800][685]LogExit: Exiting.
-[2015.06.16-02.30.21:804][685]Log file closed, 06/15/15 19:30:21
+[2015.06.16-16.10.50:219][  0]SourceControl: Info master
+[2015.06.16-16.10.50:411][  0]LogRenderer:Warning: Reallocating scene render targets to support 352x504 (Frame:2).
+[2015.06.16-16.10.51:156][  3]LogAssetRegistry: Asset discovery search completed in 14.6389 seconds
+[2015.06.16-16.11.32:111][273]LogRenderer:Warning: Reallocating scene render targets to support 592x608 (Frame:5).
+[2015.06.16-16.11.49:573][  7]LogVSAccessor:Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2015.06.16-16.17.59:651][815]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.06.16-16.18.05:689][414]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0597 seconds. Added 0 classes and 0 folders.
+[2015.06.16-16.18.05:829][414]LogJson:Warning: Field AssetTypes was not found.
+[2015.06.16-16.18.05:829][414]LogJson:Error: Json Value of type 'Null' used as a 'Array'.
+[2015.06.16-16.18.05:829][414]LogJson:Warning: Field ClassTypes was not found.
+[2015.06.16-16.18.05:829][414]LogJson:Error: Json Value of type 'Null' used as a 'String'.
+[2015.06.16-16.18.05:829][414]LogJson:Warning: Field FocusAsset was not found.
+[2015.06.16-16.18.05:829][414]LogJson:Error: Json Value of type 'Null' used as a 'String'.
+[2015.06.16-16.18.05:882][414]LogJson:Warning: Field AssetTypes was not found.
+[2015.06.16-16.18.05:882][414]LogJson:Error: Json Value of type 'Null' used as a 'Array'.
+[2015.06.16-16.18.05:882][414]LogJson:Warning: Field ClassTypes was not found.
+[2015.06.16-16.18.05:882][414]LogJson:Error: Json Value of type 'Null' used as a 'String'.
+[2015.06.16-16.18.05:882][414]LogJson:Warning: Field FocusAsset was not found.
+[2015.06.16-16.18.05:882][414]LogJson:Error: Json Value of type 'Null' used as a 'String'.
+[2015.06.16-16.18.06:337][414]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/AddContentDialog/Fonts/Roboto-Regular.ttf'
+[2015.06.16-16.18.15:543][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FP_FirstPerson.uasset"'
+[2015.06.16-16.18.15:924][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.18.15:924][462]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/4.7/FeaturePacks/FP_FirstPerson.upack)
+[2015.06.16-16.18.16:091][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Config/DefaultEngine.ini"'
+[2015.06.16-16.18.16:135][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.18.16:169][462]LogPackFactory: Content/FirstPerson/Animations/FirstPersonFire.uasset (72807) -> ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonFire.uasset
+[2015.06.16-16.18.16:170][462]LogPackFactory: Content/FirstPerson/Animations/FirstPersonIdle.uasset (87821) -> ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonIdle.uasset
+[2015.06.16-16.18.16:171][462]LogPackFactory: Content/FirstPerson/Animations/FirstPersonJumpEnd.uasset (72631) -> ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonJumpEnd.uasset
+[2015.06.16-16.18.16:172][462]LogPackFactory: Content/FirstPerson/Animations/FirstPersonJumpLoop.uasset (77922) -> ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonJumpLoop.uasset
+[2015.06.16-16.18.16:201][462]LogPackFactory: Content/FirstPerson/Animations/FirstPersonJumpStart.uasset (72820) -> ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonJumpStart.uasset
+[2015.06.16-16.18.16:201][462]LogPackFactory: Content/FirstPerson/Animations/FirstPersonMontage.uasset (63083) -> ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonMontage.uasset
+[2015.06.16-16.18.16:202][462]LogPackFactory: Content/FirstPerson/Animations/FirstPersonRun.uasset (76268) -> ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonRun.uasset
+[2015.06.16-16.18.16:203][462]LogPackFactory: Content/FirstPerson/FirstPersonOverview.uasset (26798) -> ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/FirstPersonOverview.uasset
+[2015.06.16-16.18.16:204][462]LogPackFactory: Content/FirstPerson/Audio/FirstPersonFire.uasset (303238) -> ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Audio/FirstPersonFire.uasset
+[2015.06.16-16.18.16:205][462]LogPackFactory: Content/FirstPerson/Blueprints/FirstPersonCharacter.uasset (73760) -> ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Blueprints/FirstPersonCharacter.uasset
+[2015.06.16-16.18.16:206][462]LogPackFactory: Content/FirstPerson/Character/FirstPersonAnimBlueprint.uasset (407232) -> ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Character/FirstPersonAnimBlueprint.uasset
+[2015.06.16-16.18.16:207][462]LogPackFactory: Content/FirstPerson/Character/FirstPersonSkeletalMesh.uasset (388336) -> ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Character/FirstPersonSkeletalMesh.uasset
+[2015.06.16-16.18.16:215][462]LogPackFactory: Content/FirstPerson/Character/FirstPersonSkeleton.uasset (14584) -> ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Character/FirstPersonSkeleton.uasset
+[2015.06.16-16.18.16:216][462]LogPackFactory: Content/FirstPerson/Maps/FirstPersonExampleMap.umap (9193781) -> ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Maps/FirstPersonExampleMap.umap
+[2015.06.16-16.18.16:277][462]LogPackFactory: Content/FirstPerson/Meshes/CubeMaterial.uasset (77892) -> ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Meshes/CubeMaterial.uasset
+[2015.06.16-16.18.16:314][462]LogPackFactory: Content/FirstPerson/Meshes/CubeMesh.uasset (54512) -> ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Meshes/CubeMesh.uasset
+[2015.06.16-16.18.16:315][462]LogPackFactory: Content/FirstPerson/Meshes/FirstPersonCube.uasset (81913) -> ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Meshes/FirstPersonCube.uasset
+[2015.06.16-16.18.16:328][462]LogPackFactory: Content/FirstPerson/Textures/FirstPersonCrosshair.uasset (2384) -> ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Textures/FirstPersonCrosshair.uasset
+[2015.06.16-16.18.16:329][462]LogPackFactory: Source/FP_FirstPerson/FP_FirstPersonCharacter.cpp (9127) -> C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonCharacter.cpp
+[2015.06.16-16.18.16:331][462]LogPackFactory: Source/FP_FirstPerson/FP_FirstPersonCharacter.h (5011) -> C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonCharacter.h
+[2015.06.16-16.18.16:343][462]LogPackFactory: Source/FP_FirstPerson/FP_FirstPersonGameMode.cpp (650) -> C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonGameMode.cpp
+[2015.06.16-16.18.16:344][462]LogPackFactory: Source/FP_FirstPerson/FP_FirstPersonGameMode.h (347) -> C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonGameMode.h
+[2015.06.16-16.18.16:345][462]LogPackFactory: Source/FP_FirstPerson/FP_FirstPersonHUD.cpp (1219) -> C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonHUD.cpp
+[2015.06.16-16.18.16:346][462]LogPackFactory: Source/FP_FirstPerson/FP_FirstPersonHUD.h (466) -> C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonHUD.h
+[2015.06.16-16.18.16:348][462]LogPackFactory: Finished extracting 56 files (including 0 errors).
+[2015.06.16-16.18.16:374][462]Running C:/Program Files/Epic Games/4.7/Engine/Binaries/DotNET/UnrealBuildTool.exe -projectfiles -project="C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Neo_Terra.uproject" -game -rocket -progress
+[2015.06.16-16.18.17:008][462]Discovering modules, targets and source code for game...
+[2015.06.16-16.18.31:541][462]Recompiling Neo_Terra...
+[2015.06.16-16.18.31:541][462]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.7/Engine/Binaries/DotNET/UnrealBuildTool.exe Neo_Terra -ModuleWithSuffix Neo_Terra 2144 Win64 Development -editorrecompile -canskiplink "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Neo_Terra.uproject" -rocket  -rocket]
+[2015.06.16-16.20.56:737][462]CompilerResultsLog: New page: Compilation - Jun 16, 2015, 2:20:56 AM
+[2015.06.16-16.20.56:753][462]CompilerResultsLog: Info Parsing headers for Neo_TerraEditor
+[2015.06.16-16.20.56:753][462]CompilerResultsLog: Info Reflection code generated for Neo_TerraEditor
+[2015.06.16-16.20.56:753][462]CompilerResultsLog: Info Performing 7 actions (4 in parallel)
+[2015.06.16-16.20.56:753][462]CompilerResultsLog: Info Neo_Terra.generated.cpp
+[2015.06.16-16.20.56:753][462]CompilerResultsLog: Info FP_FirstPersonGameMode.cpp
+[2015.06.16-16.20.56:753][462]CompilerResultsLog: Info FP_FirstPersonCharacter.cpp
+[2015.06.16-16.20.56:753][462]CompilerResultsLog: Info FP_FirstPersonHUD.cpp
+[2015.06.16-16.20.56:753][462]CompilerResultsLog: Info NTCharacter.cpp
+[2015.06.16-16.20.56:753][462]CompilerResultsLog: Info HumanoidController.cpp
+[2015.06.16-16.20.56:753][462]CompilerResultsLog:Error: Error C:\Users\tyler_000\Documents\Unreal Projects\Neo_Terra\Source\Neo_Terra\HumanoidController.cpp(7)  : error C2512: 'APlayerController' : no appropriate default constructor available
+[2015.06.16-16.20.56:753][462]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.06.16-16.20.56:753][462]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\tyler_000\Documents\Unreal Projects\Neo_Terra\Binaries\Win64\UE4Editor-Neo_Terra-2144.dll
+[2015.06.16-16.20.56:753][462]CompilerResultsLog: Info Cumulative action seconds (4 processors): 0.00 building projects, 484.19 compiling, 0.00 creating app bundles, 0.00 generating debug info, 0.00 linking, 0.00 other
+[2015.06.16-16.20.56:753][462]CompilerResultsLog: Info UBT execution time: 144.98 seconds
+[2015.06.16-16.20.56:753][462]LogMainFrame: MainFrame: Module compiling took 145.297 seconds
+[2015.06.16-16.20.56:759][462]Warning: HotReload failed, recompile failed
+[2015.06.16-16.20.56:788][462]Warning: RebindPackages failed because the compiler could not be started.
+[2015.06.16-16.21.02:837][462]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonCharacter.cpp'
+[2015.06.16-16.21.02:839][462]LogVSAccessor:Warning: Couldn't open file 'C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonCharacter.h'.
+[2015.06.16-16.21.02:839][462]LogVSAccessor:Warning: Couldn't open file 'C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonGameMode.cpp'.
+[2015.06.16-16.21.02:839][462]LogVSAccessor:Warning: Couldn't open file 'C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonGameMode.h'.
+[2015.06.16-16.21.02:839][462]LogVSAccessor:Warning: Couldn't open file 'C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonHUD.cpp'.
+[2015.06.16-16.21.02:839][462]LogVSAccessor:Warning: Couldn't open file 'C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonHUD.h'.
+[2015.06.16-16.21.02:863][462]LogLinker:Warning: Asset '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonFire.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.16-16.21.02:864][462]LogLinker:Warning: Asset '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.16-16.21.02:865][462]LogLinker:Warning: Asset '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Character/FirstPersonSkeleton.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.16-16.21.02:873][462]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.16-16.21.02:979][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonFire.uasset"'
+[2015.06.16-16.21.03:107][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPerson/Animations/FirstPersonFire.uasset
+'
+[2015.06.16-16.21.03:134][462]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonFire.uasset"'
+[2015.06.16-16.21.03:191][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.21.03:191][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonFire.uasset"'
+[2015.06.16-16.21.03:224][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPerson/Animations/FirstPersonFire.uasset
+'
+[2015.06.16-16.21.03:256][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonIdle.uasset"'
+[2015.06.16-16.21.03:310][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPerson/Animations/FirstPersonIdle.uasset
+'
+[2015.06.16-16.21.03:336][462]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonIdle.uasset"'
+[2015.06.16-16.21.03:373][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.21.03:373][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonIdle.uasset"'
+[2015.06.16-16.21.03:406][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPerson/Animations/FirstPersonIdle.uasset
+'
+[2015.06.16-16.21.03:438][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonJumpEnd.uasset"'
+[2015.06.16-16.21.03:484][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPerson/Animations/FirstPersonJumpEnd.uasset
+'
+[2015.06.16-16.21.03:510][462]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonJumpEnd.uasset"'
+[2015.06.16-16.21.03:550][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.21.03:550][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonJumpEnd.uasset"'
+[2015.06.16-16.21.03:583][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPerson/Animations/FirstPersonJumpEnd.uasset
+'
+[2015.06.16-16.21.03:612][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonJumpLoop.uasset"'
+[2015.06.16-16.21.03:650][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPerson/Animations/FirstPersonJumpLoop.uasset
+'
+[2015.06.16-16.21.03:678][462]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonJumpLoop.uasset"'
+[2015.06.16-16.21.03:717][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.21.03:717][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonJumpLoop.uasset"'
+[2015.06.16-16.21.03:750][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPerson/Animations/FirstPersonJumpLoop.uasset
+'
+[2015.06.16-16.21.03:780][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonJumpStart.uasset"'
+[2015.06.16-16.21.03:817][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPerson/Animations/FirstPersonJumpStart.uasset
+'
+[2015.06.16-16.21.03:847][462]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonJumpStart.uasset"'
+[2015.06.16-16.21.03:916][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.21.03:916][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonJumpStart.uasset"'
+[2015.06.16-16.21.03:949][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPerson/Animations/FirstPersonJumpStart.uasset
+'
+[2015.06.16-16.21.03:980][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonMontage.uasset"'
+[2015.06.16-16.21.04:019][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPerson/Animations/FirstPersonMontage.uasset
+'
+[2015.06.16-16.21.04:047][462]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonMontage.uasset"'
+[2015.06.16-16.21.04:085][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.21.04:085][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonMontage.uasset"'
+[2015.06.16-16.21.04:118][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPerson/Animations/FirstPersonMontage.uasset
+'
+[2015.06.16-16.21.04:148][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonRun.uasset"'
+[2015.06.16-16.21.04:194][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPerson/Animations/FirstPersonRun.uasset
+'
+[2015.06.16-16.21.04:221][462]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonRun.uasset"'
+[2015.06.16-16.21.04:279][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.21.04:279][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonRun.uasset"'
+[2015.06.16-16.21.04:312][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPerson/Animations/FirstPersonRun.uasset
+'
+[2015.06.16-16.21.04:343][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/FirstPersonOverview.uasset"'
+[2015.06.16-16.21.04:385][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPerson/FirstPersonOverview.uasset
+'
+[2015.06.16-16.21.04:417][462]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/FirstPersonOverview.uasset"'
+[2015.06.16-16.21.04:452][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.21.04:452][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/FirstPersonOverview.uasset"'
+[2015.06.16-16.21.04:485][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPerson/FirstPersonOverview.uasset
+'
+[2015.06.16-16.21.04:511][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Audio/FirstPersonFire.uasset"'
+[2015.06.16-16.21.04:550][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPerson/Audio/FirstPersonFire.uasset
+'
+[2015.06.16-16.21.04:577][462]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Audio/FirstPersonFire.uasset"'
+[2015.06.16-16.21.04:627][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.21.04:627][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Audio/FirstPersonFire.uasset"'
+[2015.06.16-16.21.04:672][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPerson/Audio/FirstPersonFire.uasset
+'
+[2015.06.16-16.21.04:698][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Blueprints/FirstPersonCharacter.uasset"'
+[2015.06.16-16.21.04:736][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPerson/Blueprints/FirstPersonCharacter.uasset
+'
+[2015.06.16-16.21.04:765][462]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Blueprints/FirstPersonCharacter.uasset"'
+[2015.06.16-16.21.04:833][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.21.04:833][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Blueprints/FirstPersonCharacter.uasset"'
+[2015.06.16-16.21.04:866][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPerson/Blueprints/FirstPersonCharacter.uasset
+'
+[2015.06.16-16.21.04:898][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Character/FirstPersonAnimBlueprint.uasset"'
+[2015.06.16-16.21.04:936][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPerson/Character/FirstPersonAnimBlueprint.uasset
+'
+[2015.06.16-16.21.04:965][462]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Character/FirstPersonAnimBlueprint.uasset"'
+[2015.06.16-16.21.05:014][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.21.05:014][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Character/FirstPersonAnimBlueprint.uasset"'
+[2015.06.16-16.21.05:047][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPerson/Character/FirstPersonAnimBlueprint.uasset
+'
+[2015.06.16-16.21.05:072][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Character/FirstPersonSkeletalMesh.uasset"'
+[2015.06.16-16.21.05:128][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPerson/Character/FirstPersonSkeletalMesh.uasset
+'
+[2015.06.16-16.21.05:156][462]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Character/FirstPersonSkeletalMesh.uasset"'
+[2015.06.16-16.21.05:201][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.21.05:201][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Character/FirstPersonSkeletalMesh.uasset"'
+[2015.06.16-16.21.05:234][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPerson/Character/FirstPersonSkeletalMesh.uasset
+'
+[2015.06.16-16.21.05:265][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Character/FirstPersonSkeleton.uasset"'
+[2015.06.16-16.21.05:311][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPerson/Character/FirstPersonSkeleton.uasset
+'
+[2015.06.16-16.21.05:338][462]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Character/FirstPersonSkeleton.uasset"'
+[2015.06.16-16.21.05:417][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.21.05:417][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Character/FirstPersonSkeleton.uasset"'
+[2015.06.16-16.21.05:450][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPerson/Character/FirstPersonSkeleton.uasset
+'
+[2015.06.16-16.21.05:478][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Maps/FirstPersonExampleMap.umap"'
+[2015.06.16-16.21.05:519][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPerson/Maps/FirstPersonExampleMap.umap
+'
+[2015.06.16-16.21.05:552][462]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Maps/FirstPersonExampleMap.umap"'
+[2015.06.16-16.21.05:916][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.21.05:916][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Maps/FirstPersonExampleMap.umap"'
+[2015.06.16-16.21.05:960][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPerson/Maps/FirstPersonExampleMap.umap
+'
+[2015.06.16-16.21.05:992][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Meshes/CubeMaterial.uasset"'
+[2015.06.16-16.21.06:034][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPerson/Meshes/CubeMaterial.uasset
+'
+[2015.06.16-16.21.06:066][462]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Meshes/CubeMaterial.uasset"'
+[2015.06.16-16.21.06:100][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.21.06:100][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Meshes/CubeMaterial.uasset"'
+[2015.06.16-16.21.06:133][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPerson/Meshes/CubeMaterial.uasset
+'
+[2015.06.16-16.21.06:161][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Meshes/CubeMesh.uasset"'
+[2015.06.16-16.21.06:200][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPerson/Meshes/CubeMesh.uasset
+'
+[2015.06.16-16.21.06:227][462]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Meshes/CubeMesh.uasset"'
+[2015.06.16-16.21.06:256][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.21.06:256][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Meshes/CubeMesh.uasset"'
+[2015.06.16-16.21.06:300][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPerson/Meshes/CubeMesh.uasset
+'
+[2015.06.16-16.21.06:328][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Meshes/FirstPersonCube.uasset"'
+[2015.06.16-16.21.06:366][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPerson/Meshes/FirstPersonCube.uasset
+'
+[2015.06.16-16.21.06:395][462]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Meshes/FirstPersonCube.uasset"'
+[2015.06.16-16.21.06:433][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.21.06:433][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Meshes/FirstPersonCube.uasset"'
+[2015.06.16-16.21.06:466][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPerson/Meshes/FirstPersonCube.uasset
+'
+[2015.06.16-16.21.06:497][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Textures/FirstPersonCrosshair.uasset"'
+[2015.06.16-16.21.06:543][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/FirstPerson/Textures/FirstPersonCrosshair.uasset
+'
+[2015.06.16-16.21.06:570][462]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Textures/FirstPersonCrosshair.uasset"'
+[2015.06.16-16.21.06:607][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.21.06:607][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Textures/FirstPersonCrosshair.uasset"'
+[2015.06.16-16.21.06:640][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPerson/Textures/FirstPersonCrosshair.uasset
+'
+[2015.06.16-16.21.06:671][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonCharacter.cpp"'
+[2015.06.16-16.21.06:718][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonCharacter.cpp
+'
+[2015.06.16-16.21.06:745][462]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonCharacter.cpp"'
+[2015.06.16-16.21.06:784][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.21.06:784][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonCharacter.cpp"'
+[2015.06.16-16.21.06:828][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonCharacter.cpp
+'
+[2015.06.16-16.21.06:858][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonCharacter.h"'
+[2015.06.16-16.21.06:901][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonCharacter.h
+'
+[2015.06.16-16.21.06:932][462]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonCharacter.h"'
+[2015.06.16-16.21.06:967][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.21.06:967][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonCharacter.h"'
+[2015.06.16-16.21.07:000][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonCharacter.h
+'
+[2015.06.16-16.21.07:027][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonGameMode.cpp"'
+[2015.06.16-16.21.07:067][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonGameMode.cpp
+'
+[2015.06.16-16.21.07:095][462]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonGameMode.cpp"'
+[2015.06.16-16.21.07:134][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.21.07:134][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonGameMode.cpp"'
+[2015.06.16-16.21.07:167][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonGameMode.cpp
+'
+[2015.06.16-16.21.07:196][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonGameMode.h"'
+[2015.06.16-16.21.07:233][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonGameMode.h
+'
+[2015.06.16-16.21.07:263][462]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonGameMode.h"'
+[2015.06.16-16.21.07:299][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.21.07:299][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonGameMode.h"'
+[2015.06.16-16.21.07:332][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonGameMode.h
+'
+[2015.06.16-16.21.07:357][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonHUD.cpp"'
+[2015.06.16-16.21.07:400][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonHUD.cpp
+'
+[2015.06.16-16.21.07:431][462]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonHUD.cpp"'
+[2015.06.16-16.21.07:466][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.21.07:466][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonHUD.cpp"'
+[2015.06.16-16.21.07:499][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonHUD.cpp
+'
+[2015.06.16-16.21.07:526][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonHUD.h"'
+[2015.06.16-16.21.07:566][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonHUD.h
+'
+[2015.06.16-16.21.07:593][462]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonHUD.h"'
+[2015.06.16-16.21.07:622][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.21.07:622][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonHUD.h"'
+[2015.06.16-16.21.07:666][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonHUD.h
+'
+[2015.06.16-16.21.07:732][462]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.06.16-16.21.07:732][462]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPerson/Animations'
+[2015.06.16-16.21.07:761][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonFire.uasset"'
+[2015.06.16-16.21.07:802][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPerson/Animations/FirstPersonFire.uasset
+'
+[2015.06.16-16.21.07:927][462]LogLinker:Warning: Asset '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Character/FirstPersonSkeletalMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.16-16.21.08:602][462]LogSavePackage: Save=338.697845ms
+[2015.06.16-16.21.08:602][462]LogSavePackage: Moving '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Saved/FirstPersonFireF7BD642C457051EBA17B9DB79D961454.tmp' to '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonFire.uasset'
+[2015.06.16-16.21.08:644][462]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.06.16-16.21.08:644][462]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPerson'
+[2015.06.16-16.21.08:881][462]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonFire.uasset"'
+[2015.06.16-16.21.08:881][462]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Content/FirstPerson/Animations/FirstPersonFire.uasset
+'
+[2015.06.16-16.21.11:577][472]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/FirstPersonOverview.uasset"'
+[2015.06.16-16.21.11:904][473]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPerson/FirstPersonOverview.uasset
+'
+[2015.06.16-16.21.30:394][834]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPerson/Blueprints'
+[2015.06.16-16.21.31:406][953]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Blueprints/FirstPersonCharacter.uasset"'
+[2015.06.16-16.21.31:447][958]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPerson/Blueprints/FirstPersonCharacter.uasset
+'
+[2015.06.16-16.21.32:794][119]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPerson'
+[2015.06.16-16.21.33:799][239]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/FirstPersonOverview.uasset"'
+[2015.06.16-16.21.33:833][243]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPerson/FirstPersonOverview.uasset
+'
+[2015.06.16-16.23.03:663][420]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPerson/Textures'
+[2015.06.16-16.23.04:671][538]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Textures/FirstPersonCrosshair.uasset"'
+[2015.06.16-16.23.04:713][543]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPerson/Textures/FirstPersonCrosshair.uasset
+'
+[2015.06.16-16.24.05:003][459]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.06.16-16.31.36:713][251]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPerson'
+[2015.06.16-16.31.37:717][371]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/FirstPersonOverview.uasset"'
+[2015.06.16-16.31.37:918][395]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/FirstPerson/FirstPersonOverview.uasset
+'
+[2015.06.16-16.37.33:240][693]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.06.16-16.37.44:812][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TP_TopDown.uasset"'
+[2015.06.16-16.37.44:935][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.37.44:935][ 38]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/4.7/FeaturePacks/TP_TopDown.upack)
+[2015.06.16-16.37.45:142][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Config/DefaultInput.ini"'
+[2015.06.16-16.37.45:180][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.37.45:335][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Config/DefaultEngine.ini"'
+[2015.06.16-16.37.45:371][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Config/DefaultEngine.ini
+'
+[2015.06.16-16.37.45:403][ 38]LogPackFactory: Content/TopDown/Animations/TopDownIdle.uasset (150707) -> ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Animations/TopDownIdle.uasset
+[2015.06.16-16.37.45:404][ 38]LogPackFactory: Content/TopDown/Animations/TopDownRun.uasset (93622) -> ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Animations/TopDownRun.uasset
+[2015.06.16-16.37.45:405][ 38]LogPackFactory: Content/TopDown/Animations/TopDownWalk.uasset (109054) -> ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Animations/TopDownWalk.uasset
+[2015.06.16-16.37.45:406][ 38]LogPackFactory: Content/TopDown/TopDownOverview.uasset (20784) -> ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/TopDownOverview.uasset
+[2015.06.16-16.37.45:407][ 38]LogPackFactory: Content/TopDown/Blueprints/TopDownCharacter.uasset (78712) -> ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Blueprints/TopDownCharacter.uasset
+[2015.06.16-16.37.45:408][ 38]LogPackFactory: Content/TopDown/Character/TopDownAnimBlueprint.uasset (143733) -> ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Character/TopDownAnimBlueprint.uasset
+[2015.06.16-16.37.45:409][ 38]LogPackFactory: Content/TopDown/Character/TopDownIdleRun.uasset (67514) -> ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Character/TopDownIdleRun.uasset
+[2015.06.16-16.37.45:438][ 38]LogPackFactory: Content/TopDown/Character/TopDownSkeletalMesh.uasset (683496) -> ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Character/TopDownSkeletalMesh.uasset
+[2015.06.16-16.37.45:439][ 38]LogPackFactory: Content/TopDown/Character/TopDownSkeleton.uasset (11036) -> ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Character/TopDownSkeleton.uasset
+[2015.06.16-16.37.45:440][ 38]LogPackFactory: Content/TopDown/Maps/TopDownExampleMap.umap (18782227) -> ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Maps/TopDownExampleMap.umap
+[2015.06.16-16.37.45:475][ 38]LogPackFactory: Content/TopDown/Meshes/CubeMaterial.uasset (77766) -> ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Meshes/CubeMaterial.uasset
+[2015.06.16-16.37.45:476][ 38]LogPackFactory: Content/TopDown/Meshes/CubeMesh.uasset (54356) -> ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Meshes/CubeMesh.uasset
+[2015.06.16-16.37.45:476][ 38]LogPackFactory: Source/TP_TopDown/TP_TopDownCharacter.cpp (1550) -> C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/TP_TopDown/TP_TopDownCharacter.cpp
+[2015.06.16-16.37.45:478][ 38]LogPackFactory: Source/TP_TopDown/TP_TopDownCharacter.h (1020) -> C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/TP_TopDown/TP_TopDownCharacter.h
+[2015.06.16-16.37.45:479][ 38]LogPackFactory: Source/TP_TopDown/TP_TopDownGameMode.cpp (702) -> C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/TP_TopDown/TP_TopDownGameMode.cpp
+[2015.06.16-16.37.45:480][ 38]LogPackFactory: Source/TP_TopDown/TP_TopDownGameMode.h (335) -> C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/TP_TopDown/TP_TopDownGameMode.h
+[2015.06.16-16.37.45:481][ 38]LogPackFactory: Source/TP_TopDown/TP_TopDownPlayerController.cpp (2829) -> C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/TP_TopDown/TP_TopDownPlayerController.cpp
+[2015.06.16-16.37.45:483][ 38]LogPackFactory: Source/TP_TopDown/TP_TopDownPlayerController.h (1142) -> C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/TP_TopDown/TP_TopDownPlayerController.h
+[2015.06.16-16.37.45:484][ 38]LogPackFactory: Finished extracting 44 files (including 0 errors).
+[2015.06.16-16.37.45:485][ 38]Running C:/Program Files/Epic Games/4.7/Engine/Binaries/DotNET/UnrealBuildTool.exe -projectfiles -project="C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Neo_Terra.uproject" -game -rocket -progress
+[2015.06.16-16.37.45:866][ 38]Discovering modules, targets and source code for game...
+[2015.06.16-16.37.49:511][ 38]Recompiling Neo_Terra...
+[2015.06.16-16.37.49:511][ 38]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.7/Engine/Binaries/DotNET/UnrealBuildTool.exe Neo_Terra -ModuleWithSuffix Neo_Terra 6432 Win64 Development -editorrecompile -canskiplink "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Neo_Terra.uproject" -rocket  -rocket]
+[2015.06.16-16.39.23:377][ 38]CompilerResultsLog: New page: Compilation - Jun 16, 2015, 2:39:23 AM
+[2015.06.16-16.39.23:377][ 38]CompilerResultsLog: Info Parsing headers for Neo_TerraEditor
+[2015.06.16-16.39.23:377][ 38]CompilerResultsLog: Info Reflection code generated for Neo_TerraEditor
+[2015.06.16-16.39.23:377][ 38]CompilerResultsLog: Info Performing 8 actions (4 in parallel)
+[2015.06.16-16.39.23:377][ 38]CompilerResultsLog: Info Neo_TerraGameMode.cpp
+[2015.06.16-16.39.23:377][ 38]CompilerResultsLog: Info Neo_Terra.generated.cpp
+[2015.06.16-16.39.23:377][ 38]CompilerResultsLog: Info HumanoidController.cpp
+[2015.06.16-16.39.23:377][ 38]CompilerResultsLog: Info TP_TopDownGameMode.cpp
+[2015.06.16-16.39.23:377][ 38]CompilerResultsLog:Error: Error C:\Users\tyler_000\Documents\Unreal Projects\Neo_Terra\Source\Neo_Terra\HumanoidController.cpp(7)  : error C2511: 'AHumanoidController::AHumanoidController(void)' : overloaded member function not found in 'AHumanoidController'
+[2015.06.16-16.39.23:377][ 38]CompilerResultsLog: Info          c:\users\tyler_000\documents\unreal projects\neo_terra\source\neo_terra\HumanoidController.h(12)  : see declaration of 'AHumanoidController'
+[2015.06.16-16.39.23:377][ 38]CompilerResultsLog:Error: Error c:\users\tyler_000\documents\unreal projects\neo_terra\source\neo_terra\NTCharacter.h(87)  : error C2535: 'void ANTCharacter::MoveForward(float)' : member function already defined or declared
+[2015.06.16-16.39.23:377][ 38]CompilerResultsLog: Info          c:\users\tyler_000\documents\unreal projects\neo_terra\source\neo_terra\NTCharacter.h(64)  : see declaration of 'ANTCharacter::MoveForward'
+[2015.06.16-16.39.23:377][ 38]CompilerResultsLog:Error: Error c:\users\tyler_000\documents\unreal projects\neo_terra\source\neo_terra\NTCharacter.h(90)  : error C2535: 'void ANTCharacter::MoveRight(float)' : member function already defined or declared
+[2015.06.16-16.39.23:377][ 38]CompilerResultsLog: Info          c:\users\tyler_000\documents\unreal projects\neo_terra\source\neo_terra\NTCharacter.h(68)  : see declaration of 'ANTCharacter::MoveRight'
+[2015.06.16-16.39.23:377][ 38]CompilerResultsLog: Info TP_TopDownCharacter.cpp
+[2015.06.16-16.39.23:377][ 38]CompilerResultsLog: Info TP_TopDownPlayerController.cpp
+[2015.06.16-16.39.23:377][ 38]CompilerResultsLog:Error: Error C:\Users\tyler_000\Documents\Unreal Projects\Neo_Terra\Source\Neo_Terra\NTCharacter.h(87)  : error C2535: 'void ANTCharacter::MoveForward(float)' : member function already defined or declared
+[2015.06.16-16.39.23:377][ 38]CompilerResultsLog: Info          C:\Users\tyler_000\Documents\Unreal Projects\Neo_Terra\Source\Neo_Terra\NTCharacter.h(64)  : see declaration of 'ANTCharacter::MoveForward'
+[2015.06.16-16.39.23:377][ 38]CompilerResultsLog:Error: Error C:\Users\tyler_000\Documents\Unreal Projects\Neo_Terra\Source\Neo_Terra\NTCharacter.h(90)  : error C2535: 'void ANTCharacter::MoveRight(float)' : member function already defined or declared
+[2015.06.16-16.39.23:377][ 38]CompilerResultsLog: Info          C:\Users\tyler_000\Documents\Unreal Projects\Neo_Terra\Source\Neo_Terra\NTCharacter.h(68)  : see declaration of 'ANTCharacter::MoveRight'
+[2015.06.16-16.39.23:377][ 38]CompilerResultsLog: Info NTCharacter.cpp
+[2015.06.16-16.39.23:377][ 38]CompilerResultsLog:Error: Error c:\users\tyler_000\documents\unreal projects\neo_terra\source\neo_terra\NTCharacter.h(87)  : error C2535: 'void ANTCharacter::MoveForward(float)' : member function already defined or declared
+[2015.06.16-16.39.23:377][ 38]CompilerResultsLog: Info          c:\users\tyler_000\documents\unreal projects\neo_terra\source\neo_terra\NTCharacter.h(64)  : see declaration of 'ANTCharacter::MoveForward'
+[2015.06.16-16.39.23:378][ 38]CompilerResultsLog:Error: Error c:\users\tyler_000\documents\unreal projects\neo_terra\source\neo_terra\NTCharacter.h(90)  : error C2535: 'void ANTCharacter::MoveRight(float)' : member function already defined or declared
+[2015.06.16-16.39.23:378][ 38]CompilerResultsLog: Info          c:\users\tyler_000\documents\unreal projects\neo_terra\source\neo_terra\NTCharacter.h(68)  : see declaration of 'ANTCharacter::MoveRight'
+[2015.06.16-16.39.23:378][ 38]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.06.16-16.39.23:378][ 38]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\tyler_000\Documents\Unreal Projects\Neo_Terra\Binaries\Win64\UE4Editor-Neo_Terra-6432.dll
+[2015.06.16-16.39.23:378][ 38]CompilerResultsLog: Info Cumulative action seconds (4 processors): 0.00 building projects, 318.46 compiling, 0.00 creating app bundles, 0.00 generating debug info, 0.00 linking, 0.00 other
+[2015.06.16-16.39.23:378][ 38]CompilerResultsLog: Info UBT execution time: 93.75 seconds
+[2015.06.16-16.39.23:378][ 38]LogMainFrame: MainFrame: Module compiling took 93.879 seconds
+[2015.06.16-16.39.23:378][ 38]Warning: HotReload failed, recompile failed
+[2015.06.16-16.39.23:403][ 38]Warning: RebindPackages failed because the compiler could not be started.
+[2015.06.16-16.41.29:176][ 38]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/TP_TopDown/TP_TopDownCharacter.cpp'
+[2015.06.16-16.41.29:218][ 38]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/TP_TopDown/TP_TopDownCharacter.h'
+[2015.06.16-16.41.29:272][ 38]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/TP_TopDown/TP_TopDownGameMode.cpp'
+[2015.06.16-16.41.29:302][ 38]LogVSAccessor:Warning: Couldn't open file 'C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/TP_TopDown/TP_TopDownGameMode.h'.
+[2015.06.16-16.41.29:302][ 38]LogVSAccessor:Warning: Couldn't open file 'C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/TP_TopDown/TP_TopDownPlayerController.cpp'.
+[2015.06.16-16.41.29:302][ 38]LogVSAccessor:Warning: Couldn't open file 'C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/TP_TopDown/TP_TopDownPlayerController.h'.
+[2015.06.16-16.41.29:340][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Animations/TopDownIdle.uasset"'
+[2015.06.16-16.41.29:521][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/TopDown/Animations/TopDownIdle.uasset
+'
+[2015.06.16-16.41.29:551][ 38]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Animations/TopDownIdle.uasset"'
+[2015.06.16-16.41.29:589][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.41.29:589][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Animations/TopDownIdle.uasset"'
+[2015.06.16-16.41.29:622][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/TopDown/Animations/TopDownIdle.uasset
+'
+[2015.06.16-16.41.29:659][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Animations/TopDownRun.uasset"'
+[2015.06.16-16.41.29:703][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/TopDown/Animations/TopDownRun.uasset
+'
+[2015.06.16-16.41.29:731][ 38]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Animations/TopDownRun.uasset"'
+[2015.06.16-16.41.29:769][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.41.29:769][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Animations/TopDownRun.uasset"'
+[2015.06.16-16.41.29:824][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/TopDown/Animations/TopDownRun.uasset
+'
+[2015.06.16-16.41.29:852][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Animations/TopDownWalk.uasset"'
+[2015.06.16-16.41.29:889][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/TopDown/Animations/TopDownWalk.uasset
+'
+[2015.06.16-16.41.29:918][ 38]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Animations/TopDownWalk.uasset"'
+[2015.06.16-16.41.29:985][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.41.29:985][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Animations/TopDownWalk.uasset"'
+[2015.06.16-16.41.30:018][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/TopDown/Animations/TopDownWalk.uasset
+'
+[2015.06.16-16.41.30:045][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/TopDownOverview.uasset"'
+[2015.06.16-16.41.30:089][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/TopDown/TopDownOverview.uasset
+'
+[2015.06.16-16.41.30:119][ 38]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/TopDownOverview.uasset"'
+[2015.06.16-16.41.30:155][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.41.30:155][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/TopDownOverview.uasset"'
+[2015.06.16-16.41.30:188][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/TopDown/TopDownOverview.uasset
+'
+[2015.06.16-16.41.30:219][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Blueprints/TopDownCharacter.uasset"'
+[2015.06.16-16.41.30:263][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/TopDown/Blueprints/TopDownCharacter.uasset
+'
+[2015.06.16-16.41.30:293][ 38]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Blueprints/TopDownCharacter.uasset"'
+[2015.06.16-16.41.30:358][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.41.30:358][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Blueprints/TopDownCharacter.uasset"'
+[2015.06.16-16.41.30:391][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/TopDown/Blueprints/TopDownCharacter.uasset
+'
+[2015.06.16-16.41.30:419][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Character/TopDownAnimBlueprint.uasset"'
+[2015.06.16-16.41.30:455][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/TopDown/Character/TopDownAnimBlueprint.uasset
+'
+[2015.06.16-16.41.30:486][ 38]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Character/TopDownAnimBlueprint.uasset"'
+[2015.06.16-16.41.30:552][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.41.30:552][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Character/TopDownAnimBlueprint.uasset"'
+[2015.06.16-16.41.30:596][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/TopDown/Character/TopDownAnimBlueprint.uasset
+'
+[2015.06.16-16.41.30:623][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Character/TopDownIdleRun.uasset"'
+[2015.06.16-16.41.30:660][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/TopDown/Character/TopDownIdleRun.uasset
+'
+[2015.06.16-16.41.30:689][ 38]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Character/TopDownIdleRun.uasset"'
+[2015.06.16-16.41.30:726][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.41.30:726][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Character/TopDownIdleRun.uasset"'
+[2015.06.16-16.41.30:759][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/TopDown/Character/TopDownIdleRun.uasset
+'
+[2015.06.16-16.41.30:791][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Character/TopDownSkeletalMesh.uasset"'
+[2015.06.16-16.41.30:837][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/TopDown/Character/TopDownSkeletalMesh.uasset
+'
+[2015.06.16-16.41.30:866][ 38]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Character/TopDownSkeletalMesh.uasset"'
+[2015.06.16-16.41.30:914][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.41.30:914][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Character/TopDownSkeletalMesh.uasset"'
+[2015.06.16-16.41.30:947][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/TopDown/Character/TopDownSkeletalMesh.uasset
+'
+[2015.06.16-16.41.30:977][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Character/TopDownSkeleton.uasset"'
+[2015.06.16-16.41.31:020][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/TopDown/Character/TopDownSkeleton.uasset
+'
+[2015.06.16-16.41.31:051][ 38]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Character/TopDownSkeleton.uasset"'
+[2015.06.16-16.41.31:118][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.41.31:118][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Character/TopDownSkeleton.uasset"'
+[2015.06.16-16.41.31:151][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/TopDown/Character/TopDownSkeleton.uasset
+'
+[2015.06.16-16.41.31:177][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Maps/TopDownExampleMap.umap"'
+[2015.06.16-16.41.31:222][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/TopDown/Maps/TopDownExampleMap.umap
+'
+[2015.06.16-16.41.31:251][ 38]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Maps/TopDownExampleMap.umap"'
+[2015.06.16-16.41.32:048][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.41.32:048][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Maps/TopDownExampleMap.umap"'
+[2015.06.16-16.41.32:081][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/TopDown/Maps/TopDownExampleMap.umap
+'
+[2015.06.16-16.41.32:108][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Meshes/CubeMaterial.uasset"'
+[2015.06.16-16.41.32:144][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/TopDown/Meshes/CubeMaterial.uasset
+'
+[2015.06.16-16.41.32:175][ 38]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Meshes/CubeMaterial.uasset"'
+[2015.06.16-16.41.32:231][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.41.32:231][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Meshes/CubeMaterial.uasset"'
+[2015.06.16-16.41.32:264][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/TopDown/Meshes/CubeMaterial.uasset
+'
+[2015.06.16-16.41.32:295][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Meshes/CubeMesh.uasset"'
+[2015.06.16-16.41.32:335][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/TopDown/Meshes/CubeMesh.uasset
+'
+[2015.06.16-16.41.32:361][ 38]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Meshes/CubeMesh.uasset"'
+[2015.06.16-16.41.32:391][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.41.32:391][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Meshes/CubeMesh.uasset"'
+[2015.06.16-16.41.32:435][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/TopDown/Meshes/CubeMesh.uasset
+'
+[2015.06.16-16.41.32:462][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/TP_TopDown/TP_TopDownCharacter.cpp"'
+[2015.06.16-16.41.32:502][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Source/Neo_Terra/TP_TopDown/TP_TopDownCharacter.cpp
+'
+[2015.06.16-16.41.32:534][ 38]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/TP_TopDown/TP_TopDownCharacter.cpp"'
+[2015.06.16-16.41.32:568][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.41.32:568][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/TP_TopDown/TP_TopDownCharacter.cpp"'
+[2015.06.16-16.41.32:602][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Source/Neo_Terra/TP_TopDown/TP_TopDownCharacter.cpp
+'
+[2015.06.16-16.41.32:627][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/TP_TopDown/TP_TopDownCharacter.h"'
+[2015.06.16-16.41.32:670][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Source/Neo_Terra/TP_TopDown/TP_TopDownCharacter.h
+'
+[2015.06.16-16.41.32:700][ 38]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/TP_TopDown/TP_TopDownCharacter.h"'
+[2015.06.16-16.41.32:769][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.41.32:769][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/TP_TopDown/TP_TopDownCharacter.h"'
+[2015.06.16-16.41.32:802][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Source/Neo_Terra/TP_TopDown/TP_TopDownCharacter.h
+'
+[2015.06.16-16.41.32:832][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/TP_TopDown/TP_TopDownGameMode.cpp"'
+[2015.06.16-16.41.32:872][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Source/Neo_Terra/TP_TopDown/TP_TopDownGameMode.cpp
+'
+[2015.06.16-16.41.32:899][ 38]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/TP_TopDown/TP_TopDownGameMode.cpp"'
+[2015.06.16-16.41.32:961][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.41.32:961][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/TP_TopDown/TP_TopDownGameMode.cpp"'
+[2015.06.16-16.41.32:994][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Source/Neo_Terra/TP_TopDown/TP_TopDownGameMode.cpp
+'
+[2015.06.16-16.41.33:027][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/TP_TopDown/TP_TopDownGameMode.h"'
+[2015.06.16-16.41.33:105][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Source/Neo_Terra/TP_TopDown/TP_TopDownGameMode.h
+'
+[2015.06.16-16.41.33:134][ 38]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/TP_TopDown/TP_TopDownGameMode.h"'
+[2015.06.16-16.41.33:204][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.41.33:204][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/TP_TopDown/TP_TopDownGameMode.h"'
+[2015.06.16-16.41.33:237][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Source/Neo_Terra/TP_TopDown/TP_TopDownGameMode.h
+'
+[2015.06.16-16.41.33:268][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/TP_TopDown/TP_TopDownPlayerController.cpp"'
+[2015.06.16-16.41.33:305][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Source/Neo_Terra/TP_TopDown/TP_TopDownPlayerController.cpp
+'
+[2015.06.16-16.41.33:335][ 38]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/TP_TopDown/TP_TopDownPlayerController.cpp"'
+[2015.06.16-16.41.33:383][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.41.33:383][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/TP_TopDown/TP_TopDownPlayerController.cpp"'
+[2015.06.16-16.41.33:416][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Source/Neo_Terra/TP_TopDown/TP_TopDownPlayerController.cpp
+'
+[2015.06.16-16.41.33:443][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/TP_TopDown/TP_TopDownPlayerController.h"'
+[2015.06.16-16.41.33:486][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Source/Neo_Terra/TP_TopDown/TP_TopDownPlayerController.h
+'
+[2015.06.16-16.41.33:521][ 38]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/TP_TopDown/TP_TopDownPlayerController.h"'
+[2015.06.16-16.41.33:565][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.41.33:565][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/TP_TopDown/TP_TopDownPlayerController.h"'
+[2015.06.16-16.41.33:625][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Source/Neo_Terra/TP_TopDown/TP_TopDownPlayerController.h
+'
+[2015.06.16-16.41.33:637][ 38]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.06.16-16.41.33:637][ 38]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TopDown/Animations'
+[2015.06.16-16.41.33:674][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Animations/TopDownIdle.uasset"'
+[2015.06.16-16.41.33:720][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/TopDown/Animations/TopDownIdle.uasset
+'
+[2015.06.16-16.41.33:858][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown/Animations/TopDownIdle" FILE="../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Animations/TopDownIdle.uasset" SILENT=true
+[2015.06.16-16.41.34:108][ 38]LogSavePackage: Save=235.773102ms
+[2015.06.16-16.41.34:108][ 38]LogSavePackage: Moving '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Saved/TopDownIdleE140653B42FC17F355C4A5B44C043770.tmp' to '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Animations/TopDownIdle.uasset'
+[2015.06.16-16.41.34:115][ 38]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.06.16-16.41.34:116][ 38]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TopDown'
+[2015.06.16-16.41.34:154][ 39]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Animations/TopDownIdle.uasset"'
+[2015.06.16-16.41.34:176][ 39]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Content/TopDown/Animations/TopDownIdle.uasset
+'
+[2015.06.16-16.41.34:230][ 40]LogHttp:Warning: Timeout processing Http request. 000000C4108D9440 url=http://et2.epicgames.com/ET2/CollectData.1?SessionID=%7BDA0AB615-45B8-83A4-3D98-DCA6C3D2B970%7D&AppID=Rocket.Release&AppVersion=4.7.6-2513093%2B%2B%2Bdepot%2BUE4-Releases%2B4.7&UserID=6632c32e4547395767ec168df9274b5c%7C64132dcb96a94bf09c470f630e0c208d%7C4454835d-7eb2-4712-923a-e1b4390bdbbb&IsEditor=1
+[2015.06.16-16.41.34:497][ 41]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 000000C4108D9440. 
+[2015.06.16-16.41.34:497][ 41]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 000000C4108D9440. 
+[2015.06.16-16.41.34:497][ 41]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 000000C4108D9440. 
+[2015.06.16-16.41.34:497][ 41]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 000000C4108D9440. 
+[2015.06.16-16.41.36:517][ 50]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/TopDownOverview.uasset"'
+[2015.06.16-16.41.36:558][ 55]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/TopDown/TopDownOverview.uasset
+'
+[2015.06.16-16.41.42:755][798]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TopDown/Character'
+[2015.06.16-16.41.43:761][909]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Character/TopDownAnimBlueprint.uasset" "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Character/TopDownIdleRun.uasset" "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Character/TopDownSkeletalMesh.uasset" "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/TopDown/Character/TopDownSkeleton.uasset"'
+[2015.06.16-16.41.43:802][914]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/TopDown/Character/TopDownAnimBlueprint.uasset
+A  Content/TopDown/Character/TopDownIdleRun.uasset
+A  Content/TopDown/Character/TopDownSkeletalMesh.uasset
+A  Content/TopDown/Character/TopDownSkeleton.uasset
+'
+[2015.06.16-16.41.45:373][ 95]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Classes_Game'
+[2015.06.16-16.41.46:498][229]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Classes_Game/Neo_Terra'
+[2015.06.16-16.42.14:532][442]LogSourceControl: RunCommandInternalRaw: 'git add "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/HumanoidCameraManager.h" "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/HumanoidCameraManager.cpp"'
+[2015.06.16-16.42.14:594][442]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.16-16.42.14:594][442]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/HumanoidCameraManager.h" "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Source/Neo_Terra/HumanoidCameraManager.cpp"'
+[2015.06.16-16.42.14:627][442]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Source/Neo_Terra/HumanoidCameraManager.cpp
+A  Source/Neo_Terra/HumanoidCameraManager.h
+'
+[2015.06.16-16.42.14:648][442]Recompiling Neo_Terra...
+[2015.06.16-16.42.14:648][442]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.7/Engine/Binaries/DotNET/UnrealBuildTool.exe Neo_Terra -ModuleWithSuffix Neo_Terra 6750 Win64 Development -editorrecompile -canskiplink "C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Neo_Terra.uproject" -rocket  -rocket]
+[2015.06.16-16.42.22:996][442]CompilerResultsLog: New page: Compilation - Jun 16, 2015, 2:42:22 AM
+[2015.06.16-16.42.22:996][442]CompilerResultsLog: Info Parsing headers for Neo_TerraEditor
+[2015.06.16-16.42.22:996][442]CompilerResultsLog: Info Reflection code generated for Neo_TerraEditor
+[2015.06.16-16.42.22:996][442]CompilerResultsLog: Info Performing 6 actions (4 in parallel)
+[2015.06.16-16.42.22:996][442]CompilerResultsLog: Info Neo_TerraGameMode.cpp
+[2015.06.16-16.42.22:996][442]CompilerResultsLog: Info HumanoidController.cpp
+[2015.06.16-16.42.22:996][442]CompilerResultsLog: Info HumanoidCameraManager.cpp
+[2015.06.16-16.42.22:996][442]CompilerResultsLog: Info Neo_Terra.generated.cpp
+[2015.06.16-16.42.22:996][442]CompilerResultsLog:Error: Error c:\users\tyler_000\documents\unreal projects\neo_terra\source\neo_terra\NTCharacter.h(87)  : error C2535: 'void ANTCharacter::MoveForward(float)' : member function already defined or declared
+[2015.06.16-16.42.22:996][442]CompilerResultsLog: Info          c:\users\tyler_000\documents\unreal projects\neo_terra\source\neo_terra\NTCharacter.h(64)  : see declaration of 'ANTCharacter::MoveForward'
+[2015.06.16-16.42.22:996][442]CompilerResultsLog:Error: Error c:\users\tyler_000\documents\unreal projects\neo_terra\source\neo_terra\NTCharacter.h(90)  : error C2535: 'void ANTCharacter::MoveRight(float)' : member function already defined or declared
+[2015.06.16-16.42.22:996][442]CompilerResultsLog: Info          c:\users\tyler_000\documents\unreal projects\neo_terra\source\neo_terra\NTCharacter.h(68)  : see declaration of 'ANTCharacter::MoveRight'
+[2015.06.16-16.42.22:996][442]CompilerResultsLog:Error: Error C:\Users\tyler_000\Documents\Unreal Projects\Neo_Terra\Source\Neo_Terra\HumanoidController.cpp(7)  : error C2511: 'AHumanoidController::AHumanoidController(void)' : overloaded member function not found in 'AHumanoidController'
+[2015.06.16-16.42.22:996][442]CompilerResultsLog: Info          c:\users\tyler_000\documents\unreal projects\neo_terra\source\neo_terra\HumanoidController.h(12)  : see declaration of 'AHumanoidController'
+[2015.06.16-16.42.22:996][442]CompilerResultsLog: Info NTCharacter.cpp
+[2015.06.16-16.42.22:996][442]CompilerResultsLog:Error: Error c:\users\tyler_000\documents\unreal projects\neo_terra\source\neo_terra\NTCharacter.h(87)  : error C2535: 'void ANTCharacter::MoveForward(float)' : member function already defined or declared
+[2015.06.16-16.42.22:996][442]CompilerResultsLog: Info          c:\users\tyler_000\documents\unreal projects\neo_terra\source\neo_terra\NTCharacter.h(64)  : see declaration of 'ANTCharacter::MoveForward'
+[2015.06.16-16.42.22:996][442]CompilerResultsLog:Error: Error c:\users\tyler_000\documents\unreal projects\neo_terra\source\neo_terra\NTCharacter.h(90)  : error C2535: 'void ANTCharacter::MoveRight(float)' : member function already defined or declared
+[2015.06.16-16.42.22:996][442]CompilerResultsLog: Info          c:\users\tyler_000\documents\unreal projects\neo_terra\source\neo_terra\NTCharacter.h(68)  : see declaration of 'ANTCharacter::MoveRight'
+[2015.06.16-16.42.22:996][442]CompilerResultsLog:Error: Error C:\Users\tyler_000\Documents\Unreal Projects\Neo_Terra\Source\Neo_Terra\NTCharacter.h(87)  : error C2535: 'void ANTCharacter::MoveForward(float)' : member function already defined or declared
+[2015.06.16-16.42.22:996][442]CompilerResultsLog: Info          C:\Users\tyler_000\Documents\Unreal Projects\Neo_Terra\Source\Neo_Terra\NTCharacter.h(64)  : see declaration of 'ANTCharacter::MoveForward'
+[2015.06.16-16.42.22:996][442]CompilerResultsLog:Error: Error C:\Users\tyler_000\Documents\Unreal Projects\Neo_Terra\Source\Neo_Terra\NTCharacter.h(90)  : error C2535: 'void ANTCharacter::MoveRight(float)' : member function already defined or declared
+[2015.06.16-16.42.22:997][442]CompilerResultsLog: Info          C:\Users\tyler_000\Documents\Unreal Projects\Neo_Terra\Source\Neo_Terra\NTCharacter.h(68)  : see declaration of 'ANTCharacter::MoveRight'
+[2015.06.16-16.42.22:997][442]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.06.16-16.42.22:997][442]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\tyler_000\Documents\Unreal Projects\Neo_Terra\Binaries\Win64\UE4Editor-Neo_Terra-6750.dll
+[2015.06.16-16.42.22:997][442]CompilerResultsLog: Info Cumulative action seconds (4 processors): 0.00 building projects, 2.25 compiling, 0.00 creating app bundles, 0.00 generating debug info, 0.00 linking, 0.00 other
+[2015.06.16-16.42.22:997][442]CompilerResultsLog: Info UBT execution time: 7.80 seconds
+[2015.06.16-16.42.22:997][442]LogMainFrame: MainFrame: Module compiling took 8.354 seconds
+[2015.06.16-16.42.22:997][442]Warning: HotReload failed, recompile failed
+[2015.06.16-16.42.23:023][442]Warning: RebindPackages failed because the compiler could not be started.
+[2015.06.16-16.48.16:802][149]Cmd: QUIT_EDITOR
+[2015.06.16-16.48.17:663][149]LogExit: Preparing to exit.
+[2015.06.16-16.48.20:131][149]LogExit: Editor shut down
+[2015.06.16-16.48.20:131][149]LogExit: Transaction tracking system shut down
+[2015.06.16-16.48.22:808][149]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C4003BA7A0
+[2015.06.16-16.48.22:808][149]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C40DCD8180
+[2015.06.16-16.48.22:808][149]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C40DD4A200
+[2015.06.16-16.48.22:808][149]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C40DD4B600
+[2015.06.16-16.48.22:808][149]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C414D43240
+[2015.06.16-16.48.22:808][149]LogExit: Object subsystem successfully closed.
+[2015.06.16-16.48.24:822][149]LogModuleManager: Shutting down and abandoning module WidgetCarousel (180)
+[2015.06.16-16.48.24:855][149]LogModuleManager: Shutting down and abandoning module AddContentDialog (179)
+[2015.06.16-16.48.24:856][149]LogModuleManager: Shutting down and abandoning module CrashTracker (178)
+[2015.06.16-16.48.24:856][149]LogModuleManager: Shutting down and abandoning module SuperSearch (177)
+[2015.06.16-16.48.24:856][149]LogModuleManager: Shutting down and abandoning module SceneOutliner (176)
+[2015.06.16-16.48.24:875][149]LogModuleManager: Shutting down and abandoning module EditorWidgets (175)
+[2015.06.16-16.48.24:875][149]LogModuleManager: Shutting down and abandoning module CollectionManager (174)
+[2015.06.16-16.48.24:891][149]LogModuleManager: Shutting down and abandoning module StatsViewer (173)
+[2015.06.16-16.48.24:955][149]LogModuleManager: Shutting down and abandoning module FoliageEdit (172)
+[2015.06.16-16.48.24:955][149]LogModuleManager: Shutting down and abandoning module LandscapeEditor (171)
+[2015.06.16-16.48.25:003][149]LogModuleManager: Shutting down and abandoning module MeshPaint (170)
+[2015.06.16-16.48.25:018][149]LogModuleManager: Shutting down and abandoning module ActorPickerMode (169)
+[2015.06.16-16.48.25:018][149]LogModuleManager: Shutting down and abandoning module GeometryMode (168)
+[2015.06.16-16.48.25:018][149]LogModuleManager: Shutting down and abandoning module TextureAlignMode (167)
+[2015.06.16-16.48.25:018][149]LogModuleManager: Shutting down and abandoning module BspMode (166)
+[2015.06.16-16.48.25:018][149]LogModuleManager: Shutting down and abandoning module PlacementMode (165)
+[2015.06.16-16.48.25:018][149]LogModuleManager: Shutting down and abandoning module AutomationWorker (164)
+[2015.06.16-16.48.25:018][149]LogModuleManager: Shutting down and abandoning module CharacterAI (163)
+[2015.06.16-16.48.25:018][149]LogModuleManager: Shutting down and abandoning module SmartSnapping (162)
+[2015.06.16-16.48.25:018][149]LogModuleManager: Shutting down and abandoning module ViewportSnapping (161)
+[2015.06.16-16.48.25:018][149]LogModuleManager: Shutting down and abandoning module LogVisualizer (160)
+[2015.06.16-16.48.25:092][149]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (159)
+[2015.06.16-16.48.25:092][149]LogModuleManager: Shutting down and abandoning module IntroTutorials (158)
+[2015.06.16-16.48.25:213][149]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (157)
+[2015.06.16-16.48.25:219][149]LogModuleManager: Shutting down and abandoning module HardwareTargeting (156)
+[2015.06.16-16.48.25:219][149]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (155)
+[2015.06.16-16.48.25:235][149]LogModuleManager: Shutting down and abandoning module UndoHistory (154)
+[2015.06.16-16.48.25:254][149]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (153)
+[2015.06.16-16.48.25:254][149]LogModuleManager: Shutting down and abandoning module UserFeedback (152)
+[2015.06.16-16.48.25:254][149]LogModuleManager: Shutting down and abandoning module XmlParser (151)
+[2015.06.16-16.48.25:270][149]LogModuleManager: Shutting down and abandoning module Blutility (150)
+[2015.06.16-16.48.25:270][149]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (149)
+[2015.06.16-16.48.25:270][149]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (148)
+[2015.06.16-16.48.25:270][149]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (147)
+[2015.06.16-16.48.26:065][149]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (146)
+[2015.06.16-16.48.26:065][149]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (145)
+[2015.06.16-16.48.26:065][149]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (144)
+[2015.06.16-16.48.26:073][149]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (143)
+[2015.06.16-16.48.26:073][149]LogModuleManager: Shutting down and abandoning module InputBindingEditor (142)
+[2015.06.16-16.48.26:091][149]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (141)
+[2015.06.16-16.48.26:091][149]LogModuleManager: Shutting down and abandoning module SettingsEditor (140)
+[2015.06.16-16.48.26:094][149]LogModuleManager: Shutting down and abandoning module ProjectLauncher (139)
+[2015.06.16-16.48.26:147][149]LogModuleManager: Shutting down and abandoning module SessionFrontend (138)
+[2015.06.16-16.48.26:169][149]LogModuleManager: Shutting down and abandoning module ProfilerClient (137)
+[2015.06.16-16.48.26:175][149]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (136)
+[2015.06.16-16.48.26:175][149]LogModuleManager: Shutting down and abandoning module DeviceManager (135)
+[2015.06.16-16.48.26:215][149]LogModuleManager: Shutting down and abandoning module AutomationController (134)
+[2015.06.16-16.48.26:245][149]LogModuleManager: Shutting down and abandoning module AutomationWindow (133)
+[2015.06.16-16.48.26:262][149]LogModuleManager: Shutting down and abandoning module Layers (132)
+[2015.06.16-16.48.26:369][149]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (131)
+[2015.06.16-16.48.26:369][149]LogModuleManager: Shutting down and abandoning module DetailCustomizations (130)
+[2015.06.16-16.48.26:453][149]LogModuleManager: Shutting down and abandoning module PackagesDialog (129)
+[2015.06.16-16.48.26:469][149]LogModuleManager: Shutting down and abandoning module AssetRegistry (128)
+[2015.06.16-16.48.26:582][149]LogModuleManager: Shutting down and abandoning module Persona (127)
+[2015.06.16-16.48.26:758][149]LogModuleManager: Shutting down and abandoning module SlateReflector (126)
+[2015.06.16-16.48.26:849][149]LogModuleManager: Shutting down and abandoning module LevelEditor (125)
+[2015.06.16-16.48.26:897][149]LogModuleManager: Shutting down and abandoning module Kismet (124)
+[2015.06.16-16.48.26:976][149]LogModuleManager: Shutting down and abandoning module GraphEditor (123)
+[2015.06.16-16.48.27:120][149]LogModuleManager: Shutting down and abandoning module ClassViewer (122)
+[2015.06.16-16.48.27:120][149]LogModuleManager: Shutting down and abandoning module Toolbox (121)
+[2015.06.16-16.48.27:120][149]LogModuleManager: Shutting down and abandoning module ModuleUI (120)
+[2015.06.16-16.48.27:145][149]LogModuleManager: Shutting down and abandoning module MovieSceneTools (119)
+[2015.06.16-16.48.27:199][149]LogModuleManager: Shutting down and abandoning module OutputLog (118)
+[2015.06.16-16.48.27:199][149]LogModuleManager: Shutting down and abandoning module GammaUI (117)
+[2015.06.16-16.48.27:218][149]LogModuleManager: Shutting down and abandoning module Documentation (116)
+[2015.06.16-16.48.27:237][149]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (115)
+[2015.06.16-16.48.27:270][149]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (114)
+[2015.06.16-16.48.27:284][149]LogModuleManager: Shutting down and abandoning module HTTP (113)
+[2015.06.16-16.48.27:284][149]LogModuleManager: Shutting down and abandoning module AnalyticsET (112)
+[2015.06.16-16.48.27:284][149]LogModuleManager: Shutting down and abandoning module Analytics (111)
+[2015.06.16-16.48.27:284][149]LogModuleManager: Shutting down and abandoning module AITestSuite (110)
+[2015.06.16-16.48.27:301][149]LogModuleManager: Shutting down and abandoning module GameplayDebugger (109)
+[2015.06.16-16.48.27:317][149]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.06.16-16.48.27:429][149]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.06.16-16.48.27:539][149]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.06.16-16.48.27:600][149]LogModuleManager: Shutting down and abandoning module SlateRemote (105)
+[2015.06.16-16.48.27:600][149]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (104)
+[2015.06.16-16.48.27:600][149]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (103)
+[2015.06.16-16.48.27:600][149]LogModuleManager: Shutting down and abandoning module CableComponent (102)
+[2015.06.16-16.48.27:623][149]LogModuleManager: Shutting down and abandoning module MessagingDebugger (101)
+[2015.06.16-16.48.27:697][149]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (100)
+[2015.06.16-16.48.27:749][149]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (99)
+[2015.06.16-16.48.27:749][149]LogModuleManager: Shutting down and abandoning module PluginsEditor (98)
+[2015.06.16-16.48.27:768][149]LogModuleManager: Shutting down and abandoning module MainFrame (97)
+[2015.06.16-16.48.27:768][149]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.06.16-16.48.27:789][149]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.06.16-16.48.27:821][149]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (94)
+[2015.06.16-16.48.27:822][149]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.06.16-16.48.27:838][149]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (92)
+[2015.06.16-16.48.27:838][149]LogModuleManager: Shutting down and abandoning module UObjectPlugin (91)
+[2015.06.16-16.48.27:838][149]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (90)
+[2015.06.16-16.48.27:881][149]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (89)
+[2015.06.16-16.48.27:941][149]LogModuleManager: Shutting down and abandoning module SourceControl (88)
+[2015.06.16-16.48.27:941][149]LogModuleManager: Shutting down and abandoning module GitSourceControl (87)
+[2015.06.16-16.48.27:941][149]LogModuleManager: Shutting down and abandoning module BlankPlugin (86)
+[2015.06.16-16.48.27:941][149]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (85)
+[2015.06.16-16.48.27:941][149]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (84)
+[2015.06.16-16.48.27:941][149]LogModuleManager: Shutting down and abandoning module ContentBrowser (83)
+[2015.06.16-16.48.27:941][149]LogModuleManager: Shutting down and abandoning module Paper2DEditor (82)
+[2015.06.16-16.48.27:996][149]LogModuleManager: Shutting down and abandoning module Neo_Terra (81)
+[2015.06.16-16.48.27:996][149]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.06.16-16.48.28:014][149]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.06.16-16.48.28:115][149]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.06.16-16.48.28:130][149]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.06.16-16.48.28:165][149]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.06.16-16.48.28:165][149]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.06.16-16.48.28:211][149]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.06.16-16.48.28:211][149]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.06.16-16.48.28:231][149]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.06.16-16.48.28:290][149]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.06.16-16.48.28:307][149]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.06.16-16.48.28:369][149]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.06.16-16.48.28:369][149]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.06.16-16.48.28:369][149]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.06.16-16.48.28:491][149]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.06.16-16.48.28:555][149]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.06.16-16.48.28:814][149]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.06.16-16.48.28:836][149]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.06.16-16.48.28:836][149]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.06.16-16.48.29:013][149]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.06.16-16.48.29:013][149]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.06.16-16.48.29:013][149]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.06.16-16.48.29:013][149]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.06.16-16.48.29:013][149]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.06.16-16.48.29:013][149]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.06.16-16.48.29:013][149]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.06.16-16.48.29:013][149]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.06.16-16.48.29:013][149]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.06.16-16.48.29:066][149]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.06.16-16.48.29:095][149]LogDerivedDataCache: Shutdown
+[2015.06.16-16.48.29:095][149]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.06.16-16.48.29:132][149]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.06.16-16.48.29:172][149]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.06.16-16.48.29:197][149]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.06.16-16.48.29:197][149]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.06.16-16.48.29:213][149]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.06.16-16.48.29:221][149]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.06.16-16.48.29:241][149]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.06.16-16.48.29:241][149]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.06.16-16.48.29:255][149]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.06.16-16.48.29:255][149]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.06.16-16.48.29:264][149]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.06.16-16.48.29:264][149]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.06.16-16.48.29:264][149]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.06.16-16.48.29:264][149]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.06.16-16.48.29:275][149]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.06.16-16.48.29:294][149]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.06.16-16.48.29:294][149]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.06.16-16.48.29:294][149]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.06.16-16.48.29:294][149]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.06.16-16.48.29:294][149]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.06.16-16.48.29:294][149]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.06.16-16.48.29:294][149]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.06.16-16.48.29:294][149]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.06.16-16.48.29:294][149]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.06.16-16.48.29:294][149]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.06.16-16.48.29:294][149]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.06.16-16.48.29:294][149]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.06.16-16.48.29:294][149]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.06.16-16.48.29:294][149]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.06.16-16.48.29:294][149]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.06.16-16.48.29:294][149]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.06.16-16.48.29:294][149]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.06.16-16.48.29:294][149]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.06.16-16.48.29:294][149]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.06.16-16.48.29:294][149]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.06.16-16.48.29:294][149]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.06.16-16.48.29:308][149]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.06.16-16.48.29:308][149]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.06.16-16.48.29:308][149]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.06.16-16.48.29:365][149]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.06.16-16.48.29:365][149]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.06.16-16.48.29:365][149]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.06.16-16.48.29:365][149]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.06.16-16.48.29:365][149]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.06.16-16.48.29:365][149]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.06.16-16.48.29:381][149]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.06.16-16.48.29:398][149]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.06.16-16.48.29:418][149]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.06.16-16.48.29:481][149]LogExit: Exiting.
+[2015.06.16-16.48.29:515][149]Log file closed, 06/16/15 09:48:29
