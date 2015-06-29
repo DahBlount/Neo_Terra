@@ -59,14 +59,6 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	float WeaponDamage;
 
-	//Handles forward and backward movement
-	UFUNCTION()
-	void MoveForward(float Val);
-
-	//Handles strafing
-	UFUNCTION()
-	void MoveRight(float Val);
-
 	//sets jump flag when key is pressed
 	UFUNCTION()
 	void OnStartJump();

@@ -12,8 +12,6 @@ UCLASS()
 class NEO_TERRA_API AHumanoidCameraManager : public APlayerCameraManager
 {
 	GENERATED_BODY()
-
-
 	
 	
 	
