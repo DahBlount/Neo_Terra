@@ -1,401 +1,700 @@
-﻿Log file open, 06/25/15 10:27:44
-LogInit:Display: Running engine for game: Neo_Terra
-LogInit:Warning: Incompatible or missing module: UE4Editor-Neo_Terra.dll
-Running C:/Program Files/Epic Games/4.7/Engine/Binaries/DotNET/UnrealBuildTool.exe Neo_Terra Development Win64 -project="C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Neo_Terra.uproject" -rocket -editorrecompile -progress
-Parsing headers for Neo_TerraEditor
-Reflection code generated for Neo_TerraEditor
-Performing 16 actions (4 in parallel)
-[2/16] Resource ModuleVersionResource.rc.inl
-[3/16] Resource Neo_Terra.rc
-PCH.Neo_Terra.Neo_Terra.h.cpp
-Neo_Terra.generated.cpp
-Neo_TerraGameMode.cpp
-FP_FirstPersonGameMode.cpp
-TP_TopDownGameMode.cpp
-HumanoidCameraManager.cpp
-TP_TopDownPlayerController.cpp
-TP_TopDownCharacter.cpp
-FP_FirstPersonHUD.cpp
-Ship.cpp
-NTCharacter.cpp
-FP_FirstPersonCharacter.cpp
-Neo_Terra.cpp
-[16/16] Link UE4Editor-Neo_Terra.dll
-   Creating library C:\Users\tyler_000\Documents\Unreal Projects\Neo_Terra\Intermediate\Build\Win64\Neo_TerraEditor\Development\UE4Editor-Neo_Terra.lib and object C:\Users\tyler_000\Documents\Unreal Projects\Neo_Terra\Intermediate\Build\Win64\Neo_TerraEditor\Development\UE4Editor-Neo_Terra.exp
--------- End Detailed Actions Stats -----------------------------------------------------------
-Cumulative action seconds (4 processors): 0.00 building projects, 43.69 compiling, 0.00 creating app bundles, 0.00 generating debug info, 1.40 linking, 0.00 other
-UBT execution time: 70.87 seconds
-LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
-LogInit: API Version: 2455222
-LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
-LogInit: Compiled with Visual C++: 18.00.21005.01
-LogInit: Build Configuration: Development
-LogInit: Branch Name: ++depot+UE4-Releases+4.7
-LogInit: Command line:  
-LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
-LogInit: Rocket: 1
-[2015.06.25-17.29.00:036][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
-[2015.06.25-17.29.00:090][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.06.25-17.29.00:424][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.06.25-17.29.00:431][  0]LogInit: Object subsystem initialized
-[2015.06.25-17.29.00:432][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
-[2015.06.25-17.29.00:432][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.06.25-17.29.00:432][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2015.06.25-17.29.00:432][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.06.25-17.29.00:432][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2015.06.25-17.29.00:432][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.06.25-17.29.00:432][  0]LogInit: Selected Device Profile: [Windows]
-[2015.06.25-17.29.00:432][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.06.25-17.29.00:455][  0]LogInit: Computer: ALLEN
-[2015.06.25-17.29.00:455][  0]LogInit: User: tyler000
-[2015.06.25-17.29.00:455][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.06.25-17.29.00:455][  0]LogInit: High frequency timer resolution =3.417964 MHz
-[2015.06.25-17.29.00:455][  0]LogMemory: Memory total: Physical=6.9GB (7GB approx) Virtual=131072.0GB
-[2015.06.25-17.29.00:455][  0]LogMemory: Platform Memory Stats for Windows
-[2015.06.25-17.29.00:455][  0]LogMemory: Process Physical Memory: 48.29 MB used, 48.29 MB peak
-[2015.06.25-17.29.00:455][  0]LogMemory: Process Virtual Memory: 28.83 MB used, 28.83 MB peak
-[2015.06.25-17.29.00:455][  0]LogMemory: Physical Memory: 2680.67 MB used, 7109.95 MB total
-[2015.06.25-17.29.00:455][  0]LogMemory: Virtual Memory: 305.19 MB used, 134217728.00 MB total
-[2015.06.25-17.29.02:026][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
-[2015.06.25-17.29.02:026][  0]LogD3D11RHI: Adapter has 3996MB of dedicated video memory, 0MB of dedicated system memory, and 3554MB of shared system memory, 1 output[s]
-[2015.06.25-17.29.03:452][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
-[2015.06.25-17.29.03:452][  0]LogD3D11RHI: Adapter has 992MB of dedicated video memory, 0MB of dedicated system memory, and 800MB of shared system memory, 0 output[s]
-[2015.06.25-17.29.03:453][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.06.25-17.29.03:453][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
-[2015.06.25-17.29.03:453][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.06.25-17.29.03:455][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.06.25-17.29.03:464][  0]LogD3D11RHI: Async texture creation enabled
-[2015.06.25-17.29.05:126][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
-[2015.06.25-17.29.05:348][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
-Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
-Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
-[2015.06.25-17.29.05:348][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
-Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
-Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
-[2015.06.25-17.29.05:405][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.06.25-17.29.13:615][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.06.25-17.29.15:602][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.06.25-17.29.15:760][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.06.25-17.29.16:594][  0]LogDerivedDataCache: Loaded boot cache 0.83s 40MB C:/Users/tyler_000/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2015.06.25-17.29.16:594][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/tyler_000/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
-[2015.06.25-17.29.16:595][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.06.25-17.29.16:595][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.06.25-17.29.16:746][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.06.25-17.29.16:757][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tyler_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.06.25-17.29.23:310][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.06.25-17.29.23:310][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.06.25-17.29.23:621][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.06.25-17.29.23:913][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
-[2015.06.25-17.29.40:717][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.06.25-17.29.40:862][  0]LogLinker:Warning: Asset '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Blueprints/FirstPersonCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.06.25-17.29.40:862][  0]LogLinker:Warning: Asset '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Character/FirstPersonAnimBlueprint.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.06.25-17.29.40:864][  0]LogLinker:Warning: Asset '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.06.25-17.29.40:864][  0]LogLinker:Warning: Asset '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Character/FirstPersonSkeleton.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.06.25-17.29.40:865][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.06.25-17.29.40:867][  0]LogLinker:Warning: Asset '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonJumpEnd.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.06.25-17.29.40:868][  0]LogLinker:Warning: Asset '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonJumpLoop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.06.25-17.29.40:870][  0]LogLinker:Warning: Asset '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonJumpStart.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.06.25-17.29.40:871][  0]LogLinker:Warning: Asset '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.06.25-17.29.40:979][  0]LogLinker:Warning: Asset '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Animations/FirstPersonMontage.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.06.25-17.29.40:984][  0]LogLinker:Warning: Asset '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Audio/FirstPersonFire.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.06.25-17.29.40:985][  0]LogLinker:Warning: Asset '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Character/FirstPersonSkeletalMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.06.25-17.29.41:002][  0]LogLinker:Warning: Asset '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/FirstPerson/Textures/FirstPersonCrosshair.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.06.25-17.29.41:666][  0]SourceControl: Info Source control is disabled
-[2015.06.25-17.29.41:666][  0]SourceControl: Info Source control is disabled
-[2015.06.25-17.29.41:666][  0]SourceControl: Info Source control is disabled
-[2015.06.25-17.29.41:666][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.06.25-17.29.41:666][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.06.25-17.29.41:675][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.06.25-17.29.42:051][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.4.msysgit.0
-'
-[2015.06.25-17.29.42:695][  0]LogObj: 29509 objects as part of root set at end of initial load.
-[2015.06.25-17.29.42:695][  0]LogUObjectAllocator: 6996888 out of 0 bytes used by permanent object pool.
-[2015.06.25-17.29.42:817][  0]LogEngine: Initializing Engine...
-[2015.06.25-17.29.44:985][  0]LogInit: XAudio2 using 'Digital Output (2- USB PnP Sound Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2015.06.25-17.29.45:056][  0]LogInit: FAudioDevice initialized.
-[2015.06.25-17.29.45:118][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.06.25-17.29.45:134][  0]LogDerivedDataCache: Saved boot cache 0.01s 40MB C:/Users/tyler_000/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2015.06.25-17.29.45:136][  0]LogInit: Texture streaming: Enabled
-[2015.06.25-17.29.45:283][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.06.25-17.29.45:283][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
-[2015.06.25-17.29.45:283][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
-[2015.06.25-17.29.45:283][  0]LogAnalytics: SetUserId 6632c32e4547395767ec168df9274b5c|64132dcb96a94bf09c470f630e0c208d|4454835d-7eb2-4712-923a-e1b4390bdbbb
-[2015.06.25-17.29.45:283][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
-[2015.06.25-17.29.45:682][  0]LogInit: Transaction tracking system initialized
-[2015.06.25-17.29.46:276][  0]BlueprintLog: New page: Editor Load
-[2015.06.25-17.29.46:325][  0]LogAssetRegistry: FAssetRegistry took 0.0102 seconds to start up
-[2015.06.25-17.29.46:325][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2015.06.25-17.29.48:621][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.06.25-17.29.48:984][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.06.25-17.29.50:142][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
-[2015.06.25-17.29.50:142][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
-[2015.06.25-17.29.50:142][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
-[2015.06.25-17.29.50:164][  0]LogLinker:Warning: Can't find file '/Game/Flying/FlyingOverview'
-[2015.06.25-17.29.50:164][  0]LogLinker:Warning: Can't find file '/Game/Flying/FlyingOverview'
-[2015.06.25-17.29.50:164][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/Flying/FlyingOverview.FlyingOverview_C'
-[2015.06.25-17.29.50:590][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
-[2015.06.25-17.29.50:590][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
-[2015.06.25-17.29.50:694][  0]LogConsoleResponse:Display: 
-[2015.06.25-17.29.51:323][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.06.25-17.29.52:505][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.06.25-17.29.52:525][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.4.msysgit.0
-'
-[2015.06.25-17.29.52:525][  0]Cmd: MAP LOAD FILE="../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.06.25-17.29.52:565][  0]LightingResults: New page: Lighting Build
-[2015.06.25-17.29.52:576][  0]MapCheck: New page: Map Check
-[2015.06.25-17.29.52:576][  0]LightingResults: New page: Lighting Build
-[2015.06.25-17.29.52:584][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D0E5FF060
-[2015.06.25-17.29.54:017][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.06.25-17.29.54:024][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2015.06.25-17.29.54:024][  0]Cmd: MAP CHECKDEP
-[2015.06.25-17.29.54:024][  0]MapCheck: New page: Minimal_Default - Jun 25, 2015, 3:29:54 AM
-[2015.06.25-17.29.54:142][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 117.322ms to complete.
-[2015.06.25-17.29.54:142][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.617
-[2015.06.25-17.29.54:390][  0]LogSourceControl: RunCommandInternalRaw: 'git status'
-[2015.06.25-17.29.54:390][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='On branch master
-Your branch is up-to-date with 'origin/master'.
-
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-
-	modified:   Source/Neo_Terra/HumanoidCameraManager.h
-
-Changes not staged for commit:
-  (use "git add/rm <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	deleted:    Binaries/Win64/UE4Editor-Neo_Terra-2060.dll
-	deleted:    Binaries/Win64/UE4Editor-Neo_Terra-2362.dll
-	deleted:    Binaries/Win64/UE4Editor-Neo_Terra-4524.dll
-	deleted:    Binaries/Win64/UE4Editor-Neo_Terra-4617.dll
-	deleted:    Binaries/Win64/UE4Editor-Neo_Terra-6021.dll
-	deleted:    Binaries/Win64/UE4Editor-Neo_Terra-7815.dll
-	modified:   Binaries/Win64/UE4Editor-Neo_Terra.dll
-	modified:   Config/DefaultInput.ini
-	deleted:    Intermediate/CachedAssetRegistry.bin
-	modified:   Intermediate/Config/CoalescedSourceConfigs/Engine.ini
-	modified:   Intermediate/Config/CoalescedSourceConfigs/Input.ini
-	deleted:    Intermediate/Config/CoalescedSourceConfigs/Script/Engine.Engine.ini
-	modified:   Intermediate/ProjectFiles/Neo_Terra.vcxproj
-	modified:   Intermediate/ProjectFiles/Neo_Terra.vcxproj.filters
-	modified:   Intermediate/ProjectFiles/UE4.vcxproj
-	modified:   Intermediate/ProjectFiles/UE4.vcxproj.filters
-	deleted:    Intermediate/ReimportCache/3688439234.bin
-	modified:   Neo_Terra.sln
-	modified:   Neo_Terra.v12.suo
-	modified:   Saved/AutoScreenshot.png
-	modified:   Saved/Autosaves/PackageRestoreData.json
-	modified:   Saved/Config/Windows/EditorLayout.ini
-	modified:   Saved/Config/Windows/EditorUserSettings.ini
-	modified:   Saved/Config/Windows/Engine.ini
-	modified:   Saved/Logs/Neo_Terra.log
-	deleted:    Source/Neo_Terra/HumanoidController.cpp
-	deleted:    Source/Neo_Terra/HumanoidController.h
-	modified:   Source/Neo_Terra/NTCharacter.h
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-	Saved/HardwareSurvey/
-
-'
-[2015.06.25-17.29.54:390][  0]LogSourceControl: RunCommandInternalRaw: 'git symbolic-ref --short HEAD'
-[2015.06.25-17.29.54:390][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='master
-'
-[2015.06.25-17.29.54:390][  0]LogCollectionManager: Loaded 0 collections in 0.001927 seconds
-[2015.06.25-17.29.54:402][  0]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 1706 classes and 265 folders.
-[2015.06.25-17.29.54:416][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Classes_Game/Neo_Terra'
-[2015.06.25-17.29.54:654][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0054 seconds. Added 1 classes and 2 folders.
-[2015.06.25-17.29.54:817][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.06.25-17.29.54:817][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
-[2015.06.25-17.29.54:822][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.06.25-17.29.54:846][  0]LogLoad: Full Startup: 131.15 seconds (BP compile: 0.11 seconds)
-[2015.06.25-17.29.54:920][  0]SourceControl: Info master
-[2015.06.25-17.29.55:010][  0]LogRenderer:Warning: Reallocating scene render targets to support 376x536 (Frame:2).
-[2015.06.25-17.30.05:775][141]LogAssetRegistry: Asset discovery search completed in 19.4612 seconds
-[2015.06.25-17.34.19:765][ 81]Cmd: QUIT_EDITOR
-[2015.06.25-17.34.19:927][ 81]LogExit: Preparing to exit.
-[2015.06.25-17.34.20:959][ 81]LogExit: Editor shut down
-[2015.06.25-17.34.20:959][ 81]LogExit: Transaction tracking system shut down
-[2015.06.25-17.34.20:960][ 81]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D17418860
-[2015.06.25-17.34.20:960][ 81]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002D22C10A40
-[2015.06.25-17.34.20:991][ 81]LogExit: Object subsystem successfully closed.
-[2015.06.25-17.34.21:040][ 81]LogModuleManager: Shutting down and abandoning module CrashTracker (178)
-[2015.06.25-17.34.21:040][ 81]LogModuleManager: Shutting down and abandoning module SuperSearch (177)
-[2015.06.25-17.34.21:040][ 81]LogModuleManager: Shutting down and abandoning module SceneOutliner (176)
-[2015.06.25-17.34.21:040][ 81]LogModuleManager: Shutting down and abandoning module EditorWidgets (175)
-[2015.06.25-17.34.21:040][ 81]LogModuleManager: Shutting down and abandoning module CollectionManager (174)
-[2015.06.25-17.34.21:040][ 81]LogModuleManager: Shutting down and abandoning module StatsViewer (173)
-[2015.06.25-17.34.21:040][ 81]LogModuleManager: Shutting down and abandoning module FoliageEdit (172)
-[2015.06.25-17.34.21:040][ 81]LogModuleManager: Shutting down and abandoning module LandscapeEditor (171)
-[2015.06.25-17.34.21:041][ 81]LogModuleManager: Shutting down and abandoning module MeshPaint (170)
-[2015.06.25-17.34.21:041][ 81]LogModuleManager: Shutting down and abandoning module ActorPickerMode (169)
-[2015.06.25-17.34.21:041][ 81]LogModuleManager: Shutting down and abandoning module GeometryMode (168)
-[2015.06.25-17.34.21:041][ 81]LogModuleManager: Shutting down and abandoning module TextureAlignMode (167)
-[2015.06.25-17.34.21:041][ 81]LogModuleManager: Shutting down and abandoning module BspMode (166)
-[2015.06.25-17.34.21:041][ 81]LogModuleManager: Shutting down and abandoning module PlacementMode (165)
-[2015.06.25-17.34.21:041][ 81]LogModuleManager: Shutting down and abandoning module AutomationWorker (164)
-[2015.06.25-17.34.21:041][ 81]LogModuleManager: Shutting down and abandoning module CharacterAI (163)
-[2015.06.25-17.34.21:041][ 81]LogModuleManager: Shutting down and abandoning module SmartSnapping (162)
-[2015.06.25-17.34.21:041][ 81]LogModuleManager: Shutting down and abandoning module ViewportSnapping (161)
-[2015.06.25-17.34.21:041][ 81]LogModuleManager: Shutting down and abandoning module LogVisualizer (160)
-[2015.06.25-17.34.21:041][ 81]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (159)
-[2015.06.25-17.34.21:041][ 81]LogModuleManager: Shutting down and abandoning module IntroTutorials (158)
-[2015.06.25-17.34.21:041][ 81]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (157)
-[2015.06.25-17.34.21:041][ 81]LogModuleManager: Shutting down and abandoning module HardwareTargeting (156)
-[2015.06.25-17.34.21:041][ 81]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (155)
-[2015.06.25-17.34.21:041][ 81]LogModuleManager: Shutting down and abandoning module UndoHistory (154)
-[2015.06.25-17.34.21:041][ 81]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (153)
-[2015.06.25-17.34.21:041][ 81]LogModuleManager: Shutting down and abandoning module UserFeedback (152)
-[2015.06.25-17.34.21:041][ 81]LogModuleManager: Shutting down and abandoning module XmlParser (151)
-[2015.06.25-17.34.21:041][ 81]LogModuleManager: Shutting down and abandoning module Blutility (150)
-[2015.06.25-17.34.21:041][ 81]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (149)
-[2015.06.25-17.34.21:041][ 81]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (148)
-[2015.06.25-17.34.21:041][ 81]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (147)
-[2015.06.25-17.34.21:295][ 81]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (146)
-[2015.06.25-17.34.21:295][ 81]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (145)
-[2015.06.25-17.34.21:295][ 81]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (144)
-[2015.06.25-17.34.21:295][ 81]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (143)
-[2015.06.25-17.34.21:295][ 81]LogModuleManager: Shutting down and abandoning module InputBindingEditor (142)
-[2015.06.25-17.34.21:295][ 81]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (141)
-[2015.06.25-17.34.21:295][ 81]LogModuleManager: Shutting down and abandoning module SettingsEditor (140)
-[2015.06.25-17.34.21:295][ 81]LogModuleManager: Shutting down and abandoning module ProjectLauncher (139)
-[2015.06.25-17.34.21:295][ 81]LogModuleManager: Shutting down and abandoning module SessionFrontend (138)
-[2015.06.25-17.34.21:295][ 81]LogModuleManager: Shutting down and abandoning module ProfilerClient (137)
-[2015.06.25-17.34.21:295][ 81]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (136)
-[2015.06.25-17.34.21:295][ 81]LogModuleManager: Shutting down and abandoning module DeviceManager (135)
-[2015.06.25-17.34.21:296][ 81]LogModuleManager: Shutting down and abandoning module AutomationController (134)
-[2015.06.25-17.34.21:296][ 81]LogModuleManager: Shutting down and abandoning module AutomationWindow (133)
-[2015.06.25-17.34.21:296][ 81]LogModuleManager: Shutting down and abandoning module Layers (132)
-[2015.06.25-17.34.21:296][ 81]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (131)
-[2015.06.25-17.34.21:296][ 81]LogModuleManager: Shutting down and abandoning module DetailCustomizations (130)
-[2015.06.25-17.34.21:296][ 81]LogModuleManager: Shutting down and abandoning module PackagesDialog (129)
-[2015.06.25-17.34.21:296][ 81]LogModuleManager: Shutting down and abandoning module AssetRegistry (128)
-[2015.06.25-17.34.21:343][ 81]LogModuleManager: Shutting down and abandoning module Persona (127)
-[2015.06.25-17.34.21:343][ 81]LogModuleManager: Shutting down and abandoning module SlateReflector (126)
-[2015.06.25-17.34.21:343][ 81]LogModuleManager: Shutting down and abandoning module LevelEditor (125)
-[2015.06.25-17.34.21:344][ 81]LogModuleManager: Shutting down and abandoning module Kismet (124)
-[2015.06.25-17.34.21:344][ 81]LogModuleManager: Shutting down and abandoning module GraphEditor (123)
-[2015.06.25-17.34.21:344][ 81]LogModuleManager: Shutting down and abandoning module ClassViewer (122)
-[2015.06.25-17.34.21:344][ 81]LogModuleManager: Shutting down and abandoning module Toolbox (121)
-[2015.06.25-17.34.21:344][ 81]LogModuleManager: Shutting down and abandoning module ModuleUI (120)
-[2015.06.25-17.34.21:344][ 81]LogModuleManager: Shutting down and abandoning module MovieSceneTools (119)
-[2015.06.25-17.34.21:344][ 81]LogModuleManager: Shutting down and abandoning module OutputLog (118)
-[2015.06.25-17.34.21:344][ 81]LogModuleManager: Shutting down and abandoning module GammaUI (117)
-[2015.06.25-17.34.21:344][ 81]LogModuleManager: Shutting down and abandoning module Documentation (116)
-[2015.06.25-17.34.21:344][ 81]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (115)
-[2015.06.25-17.34.21:344][ 81]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (114)
-[2015.06.25-17.34.21:344][ 81]LogModuleManager: Shutting down and abandoning module HTTP (113)
-[2015.06.25-17.34.21:344][ 81]LogModuleManager: Shutting down and abandoning module AnalyticsET (112)
-[2015.06.25-17.34.21:344][ 81]LogModuleManager: Shutting down and abandoning module Analytics (111)
-[2015.06.25-17.34.21:344][ 81]LogModuleManager: Shutting down and abandoning module AITestSuite (110)
-[2015.06.25-17.34.21:344][ 81]LogModuleManager: Shutting down and abandoning module GameplayDebugger (109)
-[2015.06.25-17.34.21:344][ 81]LogModuleManager: Shutting down and abandoning module AIModule (108)
-[2015.06.25-17.34.21:344][ 81]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
-[2015.06.25-17.34.21:541][ 81]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
-[2015.06.25-17.34.21:541][ 81]LogModuleManager: Shutting down and abandoning module SlateRemote (105)
-[2015.06.25-17.34.21:541][ 81]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (104)
-[2015.06.25-17.34.21:541][ 81]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (103)
-[2015.06.25-17.34.21:541][ 81]LogModuleManager: Shutting down and abandoning module CableComponent (102)
-[2015.06.25-17.34.21:541][ 81]LogModuleManager: Shutting down and abandoning module MessagingDebugger (101)
-[2015.06.25-17.34.21:541][ 81]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (100)
-[2015.06.25-17.34.21:541][ 81]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (99)
-[2015.06.25-17.34.21:541][ 81]LogModuleManager: Shutting down and abandoning module PluginsEditor (98)
-[2015.06.25-17.34.21:541][ 81]LogModuleManager: Shutting down and abandoning module MainFrame (97)
-[2015.06.25-17.34.21:541][ 81]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
-[2015.06.25-17.34.21:541][ 81]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (95)
-[2015.06.25-17.34.21:542][ 81]LogModuleManager: Shutting down and abandoning module HotReload (94)
-[2015.06.25-17.34.21:542][ 81]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (93)
-[2015.06.25-17.34.21:542][ 81]LogModuleManager: Shutting down and abandoning module UObjectPlugin (92)
-[2015.06.25-17.34.21:542][ 81]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (91)
-[2015.06.25-17.34.21:542][ 81]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
-[2015.06.25-17.34.21:542][ 81]LogModuleManager: Shutting down and abandoning module SourceControl (89)
-[2015.06.25-17.34.21:542][ 81]LogModuleManager: Shutting down and abandoning module GitSourceControl (88)
-[2015.06.25-17.34.21:542][ 81]LogModuleManager: Shutting down and abandoning module BlankPlugin (87)
-[2015.06.25-17.34.21:542][ 81]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (86)
-[2015.06.25-17.34.21:542][ 81]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (85)
-[2015.06.25-17.34.21:542][ 81]LogModuleManager: Shutting down and abandoning module ContentBrowser (84)
-[2015.06.25-17.34.21:542][ 81]LogModuleManager: Shutting down and abandoning module Paper2DEditor (83)
-[2015.06.25-17.34.21:542][ 81]LogModuleManager: Shutting down and abandoning module Neo_Terra (82)
-[2015.06.25-17.34.21:542][ 81]LogModuleManager: Shutting down and abandoning module ScriptPlugin (81)
-[2015.06.25-17.34.21:542][ 81]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
-[2015.06.25-17.34.21:643][ 81]LogModuleManager: Shutting down and abandoning module Paper2D (79)
-[2015.06.25-17.34.21:643][ 81]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
-[2015.06.25-17.34.21:645][ 81]LogModuleManager: Shutting down and abandoning module Media (77)
-[2015.06.25-17.34.21:645][ 81]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
-[2015.06.25-17.34.21:645][ 81]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
-[2015.06.25-17.34.21:645][ 81]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
-[2015.06.25-17.34.21:645][ 81]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
-[2015.06.25-17.34.21:645][ 81]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
-[2015.06.25-17.34.21:645][ 81]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
-[2015.06.25-17.34.21:645][ 81]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
-[2015.06.25-17.34.21:645][ 81]LogModuleManager: Shutting down and abandoning module MessageLog (69)
-[2015.06.25-17.34.21:645][ 81]LogModuleManager: Shutting down and abandoning module Sequencer (68)
-[2015.06.25-17.34.21:645][ 81]LogModuleManager: Shutting down and abandoning module AssetTools (67)
-[2015.06.25-17.34.21:645][ 81]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
-[2015.06.25-17.34.21:645][ 81]LogModuleManager: Shutting down and abandoning module UMG (65)
-[2015.06.25-17.34.21:645][ 81]LogModuleManager: Shutting down and abandoning module Slate (64)
-[2015.06.25-17.34.21:645][ 81]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
-[2015.06.25-17.34.21:648][ 81]LogModuleManager: Shutting down and abandoning module SessionServices (62)
-[2015.06.25-17.34.21:648][ 81]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
-[2015.06.25-17.34.21:648][ 81]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
-[2015.06.25-17.34.21:648][ 81]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
-[2015.06.25-17.34.21:648][ 81]LogModuleManager: Shutting down and abandoning module Networking (57)
-[2015.06.25-17.34.21:648][ 81]LogModuleManager: Shutting down and abandoning module Core (56)
-[2015.06.25-17.34.21:648][ 81]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
-[2015.06.25-17.34.21:648][ 81]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
-[2015.06.25-17.34.21:648][ 81]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
-[2015.06.25-17.34.21:648][ 81]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
-[2015.06.25-17.34.21:738][ 81]LogDerivedDataCache: Shutdown
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module Messaging (35)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (29)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module InputCore (20)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module Settings (19)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module OculusRift (16)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module DesktopPlatform (14)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module Landscape (11)
-[2015.06.25-17.34.21:738][ 81]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2015.06.25-17.34.21:739][ 81]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2015.06.25-17.34.21:739][ 81]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2015.06.25-17.34.21:739][ 81]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.06.25-17.34.21:739][ 81]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.06.25-17.34.21:739][ 81]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.06.25-17.34.21:739][ 81]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.06.25-17.34.21:739][ 81]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.06.25-17.34.21:739][ 81]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.06.25-17.34.21:739][ 81]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.06.25-17.34.21:739][ 81]LogExit: Exiting.
-[2015.06.25-17.34.21:743][ 81]Log file closed, 06/25/15 10:34:21
+﻿[2015.07.06-02.02.24:966][  0]Log file open, 07/05/15 19:02:24
+[2015.07.06-02.02.24:966][  0]LogInit:Display: Running engine for game: Neo_Terra
+[2015.07.06-02.02.24:966][  0]LogInit:Display: RandInit(729663670) SRandInit(729663671).
+[2015.07.06-02.02.24:966][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.07.06-02.02.24:966][  0]LogStats: Stats thread started
+[2015.07.06-02.02.24:966][  0]LogInit:Warning: Incompatible or missing module: UE4Editor-Neo_Terra.dll
+[2015.07.06-02.02.25:804][  0]Running C:/Program Files/Epic Games/4.8/Engine/Binaries/DotNET/UnrealBuildTool.exe Neo_Terra Development Win64 -project="C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Neo_Terra.uproject" -rocket -editorrecompile -progress -noubtmakefiles
+[2015.07.06-02.02.30:324][  0]Parsing headers for Neo_TerraEditor
+[2015.07.06-02.02.37:431][  0]Reflection code generated for Neo_TerraEditor
+[2015.07.06-02.02.40:234][  0]Performing 10 actions (4 in parallel)
+[2015.07.06-02.02.40:234][  0][2/10] Resource ModuleVersionResource.rc.inl
+[2015.07.06-02.02.40:234][  0][3/10] Resource Neo_Terra.rc
+[2015.07.06-02.02.40:335][  0]PCH.Neo_Terra.h.cpp
+[2015.07.06-02.03.04:158][  0]Neo_Terra.generated.cpp
+[2015.07.06-02.03.04:158][  0]Neo_TerraGameMode.cpp
+[2015.07.06-02.03.04:158][  0]Ship.cpp
+[2015.07.06-02.03.04:158][  0]NTCharacter.cpp
+[2015.07.06-02.03.04:359][  0]HumanoidCameraManager.cpp
+[2015.07.06-02.03.04:359][  0]Neo_Terra.cpp
+[2015.07.06-02.03.04:659][  0][10/10] Link UE4Editor-Neo_Terra.dll
+[2015.07.06-02.03.04:659][  0]   Creating library C:\Users\tyler_000\Documents\Unreal Projects\Neo_Terra\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-Neo_Terra.lib and object C:\Users\tyler_000\Documents\Unreal Projects\Neo_Terra\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-Neo_Terra.exp
+[2015.07.06-02.03.05:161][  0]-------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.07.06-02.03.05:161][  0]Total build time: 39.24 seconds
+[2015.07.06-02.03.05:597][  0]LogInit: Version: 4.8.1-2591939+++depot+UE4-Releases+4.8
+[2015.07.06-02.03.05:597][  0]LogInit: API Version: 2579680
+[2015.07.06-02.03.05:597][  0]LogInit: Compiled (64-bit): Jun 18 2015 11:02:04
+[2015.07.06-02.03.05:597][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.07.06-02.03.05:597][  0]LogInit: Build Configuration: Development
+[2015.07.06-02.03.05:597][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.07.06-02.03.05:597][  0]LogInit: Command line:  
+[2015.07.06-02.03.05:597][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.07.06-02.03.05:597][  0]LogInit: Rocket: 1
+[2015.07.06-02.03.05:611][  0]LogInit: Using libcurl 7.41.0
+[2015.07.06-02.03.05:611][  0]LogInit:  - built for x86_64-pc-win32
+[2015.07.06-02.03.05:611][  0]LogInit:  - supports SSL with WinSSL
+[2015.07.06-02.03.05:611][  0]LogInit:  - other features:
+[2015.07.06-02.03.05:611][  0]LogInit:      CURL_VERSION_SSL
+[2015.07.06-02.03.05:611][  0]LogInit:      CURL_VERSION_IPV6
+[2015.07.06-02.03.05:611][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.07.06-02.03.05:611][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.07.06-02.03.05:611][  0]LogInit:      CURL_VERSION_IDN
+[2015.07.06-02.03.05:611][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.07.06-02.03.05:611][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.07.06-02.03.05:611][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.07.06-02.03.05:611][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.07.06-02.03.05:611][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.07.06-02.03.05:624][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.07.06-02.03.05:638][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.07.06-02.03.05:643][  0]LogInit: Object subsystem initialized
+[2015.07.06-02.03.05:644][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.07.06-02.03.05:644][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.06-02.03.05:644][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.07.06-02.03.05:644][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.06-02.03.05:644][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.07.06-02.03.05:644][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.06-02.03.05:644][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.06-02.03.05:644][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.07.06-02.03.05:649][  0]LogInit: Computer: ALLEN
+[2015.07.06-02.03.05:649][  0]LogInit: User: tyler000
+[2015.07.06-02.03.05:649][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.07.06-02.03.05:649][  0]LogInit: High frequency timer resolution =3.417968 MHz
+[2015.07.06-02.03.05:649][  0]LogMemory: Memory total: Physical=6.9GB (7GB approx)
+[2015.07.06-02.03.05:649][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.06-02.03.05:649][  0]LogMemory: Process Physical Memory: 51.12 MB used, 51.12 MB peak
+[2015.07.06-02.03.05:649][  0]LogMemory: Process Virtual Memory: 22.68 MB used, 22.68 MB peak
+[2015.07.06-02.03.05:649][  0]LogMemory: Physical Memory: 3064.19 MB used, 7109.95 MB total
+[2015.07.06-02.03.05:649][  0]LogMemory: Virtual Memory: 313.17 MB used, 134217728.00 MB total
+[2015.07.06-02.03.05:679][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.07.06-02.03.05:831][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.07.06-02.03.06:160][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2015.07.06-02.03.06:160][  0]LogD3D11RHI: Adapter has 3996MB of dedicated video memory, 0MB of dedicated system memory, and 3554MB of shared system memory, 1 output[s]
+[2015.07.06-02.03.06:192][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.07.06-02.03.06:192][  0]LogD3D11RHI: Adapter has 992MB of dedicated video memory, 0MB of dedicated system memory, and 800MB of shared system memory, 0 output[s]
+[2015.07.06-02.03.06:193][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.07.06-02.03.06:193][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.07.06-02.03.06:193][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.07.06-02.03.06:196][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.07.06-02.03.06:204][  0]LogD3D11RHI: Async texture creation enabled
+[2015.07.06-02.03.06:219][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.07.06-02.03.06:867][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.07.06-02.03.06:881][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.07.06-02.03.06:896][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.07.06-02.03.06:910][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.07.06-02.03.06:925][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.07.06-02.03.06:938][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.07.06-02.03.06:950][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.07.06-02.03.06:962][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.07.06-02.03.06:975][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.07.06-02.03.06:987][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.07.06-02.03.07:000][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.07.06-02.03.07:013][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.07.06-02.03.07:063][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.07.06-02.03.07:075][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.07.06-02.03.07:088][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.07.06-02.03.07:102][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.07.06-02.03.07:102][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.06-02.03.07:317][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.07.06-02.03.07:355][  0]LogDerivedDataCache: Loaded boot cache 0.04s 53MB C:/Users/tyler_000/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.06-02.03.07:356][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/tyler_000/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.07.06-02.03.07:356][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.07.06-02.03.07:356][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.07.06-02.03.07:356][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.07.06-02.03.07:356][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.07.06-02.03.07:468][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.07.06-02.03.07:480][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tyler_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.07.06-02.03.07:650][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.06-02.03.07:711][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.06-02.03.07:711][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.06-02.03.07:738][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.07.06-02.03.07:738][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.07.06-02.03.07:778][  0]LogEnum:Warning: Enum Text 3 for Enum EViewModeIndex failed to resolve to any value
+[2015.07.06-02.03.08:004][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.07.06-02.03.09:015][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.07.06-02.03.09:347][  0]SourceControl: Info Source control is disabled
+[2015.07.06-02.03.09:850][  0]LogObj: 26299 objects as part of root set at end of initial load.
+[2015.07.06-02.03.09:850][  0]LogUObjectAllocator: 5428256 out of 0 bytes used by permanent object pool.
+[2015.07.06-02.03.09:912][  0]LogEngine: Initializing Engine...
+[2015.07.06-02.03.09:915][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.07.06-02.03.09:919][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 108
+[2015.07.06-02.03.10:037][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.07.06-02.03.10:052][  0]LogInit: XAudio2 using 'Digital Output (2- USB PnP Sound Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.06-02.03.10:057][  0]LogInit: FAudioDevice initialized.
+[2015.07.06-02.03.10:102][  0]LogDerivedDataCache: Saved boot cache 0.04s 53MB C:/Users/tyler_000/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.06-02.03.10:105][  0]LogInit: Texture streaming: Disabled
+[2015.07.06-02.03.10:130][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.07.06-02.03.10:130][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.1-2591939+++depot+UE4-Releases+4.8
+[2015.07.06-02.03.10:130][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 6632c32e4547395767ec168df9274b5c|64132dcb96a94bf09c470f630e0c208d|4454835d-7eb2-4712-923a-e1b4390bdbbb
+[2015.07.06-02.03.10:130][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.07.06-02.03.10:164][  0]LogInit: Transaction tracking system initialized
+[2015.07.06-02.03.10:296][  0]BlueprintLog: New page: Editor Load
+[2015.07.06-02.03.10:332][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2015.07.06-02.03.10:332][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.07.06-02.03.11:008][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FirstPersonOverview'
+[2015.07.06-02.03.11:008][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FirstPersonOverview'
+[2015.07.06-02.03.11:009][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FirstPersonOverview'
+[2015.07.06-02.03.11:009][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPerson/FirstPersonOverview.FirstPersonOverview_C'
+[2015.07.06-02.03.11:058][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.07.06-02.03.11:058][  0]LogConsoleResponse:Display: 
+[2015.07.06-02.03.11:148][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.07.06-02.03.11:392][  0]LogAutoReimportManager: Scanning file cache for directory 'C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/' took 0.01s
+[2015.07.06-02.03.11:392][  0]Cmd: MAP LOAD FILE="../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.06-02.03.11:392][  0]LightingResults: New page: Lighting Build
+[2015.07.06-02.03.11:405][  0]MapCheck: New page: Map Check
+[2015.07.06-02.03.11:405][  0]LightingResults: New page: Lighting Build
+[2015.07.06-02.03.11:411][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000045112B6F20
+[2015.07.06-02.03.11:956][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.06-02.03.11:958][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.06-02.03.11:958][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.06-02.03.11:962][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.06-02.03.11:972][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.06-02.03.12:042][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 69.669ms to complete.
+[2015.07.06-02.03.12:042][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.651
+[2015.07.06-02.03.12:137][  0]LogCollectionManager: Loaded 0 collections in 0.002082 seconds
+[2015.07.06-02.03.12:145][  0]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 1796 classes and 303 folders.
+[2015.07.06-02.03.12:192][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0022 seconds. Added 0 classes and 0 folders.
+[2015.07.06-02.03.12:223][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0020 seconds. Added 0 classes and 0 folders.
+[2015.07.06-02.03.12:241][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0021 seconds. Added 1 classes and 2 folders.
+[2015.07.06-02.03.12:269][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.07.06-02.03.12:272][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.07.06-02.03.12:294][  0]LogLoad: Full Startup: 48.62 seconds (BP compile: 0.14 seconds)
+[2015.07.06-02.03.12:357][  0]SourceControl: Info On branch master
+[2015.07.06-02.03.12:357][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2015.07.06-02.03.12:357][  0]SourceControl: Info Changes to be committed:
+[2015.07.06-02.03.12:357][  0]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2015.07.06-02.03.12:357][  0]SourceControl: Info 	new file:   Content/FirstPersonBP/Animations/FirstPersonFire.uasset
+[2015.07.06-02.03.12:357][  0]SourceControl: Info 	new file:   Content/FirstPersonBP/Animations/FirstPersonIdle.uasset
+[2015.07.06-02.03.12:357][  0]SourceControl: Info 	new file:   Content/FirstPersonBP/Animations/FirstPersonJumpEnd.uasset
+[2015.07.06-02.03.12:357][  0]SourceControl: Info 	new file:   Content/FirstPersonBP/Animations/FirstPersonJumpLoop.uasset
+[2015.07.06-02.03.12:357][  0]SourceControl: Info 	new file:   Content/FirstPersonBP/Animations/FirstPersonJumpStart.uasset
+[2015.07.06-02.03.12:357][  0]SourceControl: Info 	new file:   Content/FirstPersonBP/Animations/FirstPersonMontage.uasset
+[2015.07.06-02.03.12:357][  0]SourceControl: Info 	new file:   Content/FirstPersonBP/Animations/FirstPersonRun.uasset
+[2015.07.06-02.03.12:357][  0]SourceControl: Info 	new file:   Content/FirstPersonBP/Audio/FirstPersonFireSound.uasset
+[2015.07.06-02.03.12:357][  0]SourceControl: Info 	new file:   Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2015.07.06-02.03.12:357][  0]SourceControl: Info 	new file:   Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset
+[2015.07.06-02.03.12:357][  0]SourceControl: Info 	new file:   Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset
+[2015.07.06-02.03.12:357][  0]SourceControl: Info 	new file:   Content/FirstPersonBP/Character/FirstPersonAnimBlueprint.uasset
+[2015.07.06-02.03.12:357][  0]SourceControl: Info 	new file:   Content/FirstPersonBP/Character/FirstPersonSkeletalMesh.uasset
+[2015.07.06-02.03.12:357][  0]SourceControl: Info 	new file:   Content/FirstPersonBP/Character/FirstPersonSkeleton.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	new file:   Content/FirstPersonBP/FirstPersonOverview.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	new file:   Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	new file:   Content/FirstPersonBP/Meshes/CubeMaterial.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	new file:   Content/FirstPersonBP/Meshes/CubeMesh.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	modified:   Content/NeoTerra/BlitzPod.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	new file:   Content/NeoTerra/Blueprints/Shrike.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	new file:   Content/NeoTerra/Materials/Shrike.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	renamed:    Content/NeoTerra/BlitzPod.uasset -> Content/NeoTerra/Meshes/BlitzPod.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	new file:   Content/NeoTerra/Meshes/Shrike.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	new file:   Content/NeoTerra/Particles/Materials/P_Mat_MissileThruster.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	new file:   Content/NeoTerra/Particles/Materials/Smoke_Mask_00.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	new file:   Content/NeoTerra/Particles/Materials/Smoke_Thruster_00.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	new file:   Content/NeoTerra/Particles/P_MissileThruster.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	new file:   Content/NeoTerra/Textures/WeaponsMap1-glow.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	new file:   Content/NeoTerra/Textures/WeaponsMap1-shine.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	new file:   Content/NeoTerra/Textures/WeaponsMap1.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info Changes not staged for commit:
+[2015.07.06-02.03.12:358][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2015.07.06-02.03.12:358][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	modified:   Binaries/Win64/UE4Editor-Neo_Terra.dll
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	modified:   Config/DefaultEngine.ini
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	modified:   Config/DefaultInput.ini
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Animations/FirstPersonFire.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Animations/FirstPersonIdle.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Animations/FirstPersonJumpEnd.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Animations/FirstPersonJumpLoop.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Animations/FirstPersonJumpStart.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Animations/FirstPersonMontage.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Animations/FirstPersonRun.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Audio/FirstPersonFire.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Blueprints/FirstPersonCharacter.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Character/FirstPersonAnimBlueprint.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Character/FirstPersonSkeletalMesh.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Character/FirstPersonSkeleton.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPerson/FirstPersonOverview.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Maps/FirstPersonExampleMap.umap
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Meshes/CubeMaterial.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Meshes/CubeMesh.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Meshes/FirstPersonCube.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Textures/FirstPersonCrosshair.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPersonBP/Animations/FirstPersonFire.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPersonBP/Animations/FirstPersonIdle.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPersonBP/Animations/FirstPersonJumpEnd.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPersonBP/Animations/FirstPersonJumpLoop.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPersonBP/Animations/FirstPersonJumpStart.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPersonBP/Animations/FirstPersonMontage.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPersonBP/Animations/FirstPersonRun.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPersonBP/Audio/FirstPersonFireSound.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPersonBP/Character/FirstPersonAnimBlueprint.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPersonBP/Character/FirstPersonSkeletalMesh.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPersonBP/Character/FirstPersonSkeleton.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPersonBP/FirstPersonOverview.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPersonBP/Meshes/CubeMaterial.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/FirstPersonBP/Meshes/CubeMesh.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	modified:   Content/NeoTerra/Blueprints/Shrike.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	modified:   Content/NeoTerra/Materials/Shrike.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	modified:   Content/NeoTerra/Meshes/BlitzPod.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	modified:   Content/NeoTerra/Meshes/Shrike.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	modified:   Content/NeoTerra/Particles/Materials/P_Mat_MissileThruster.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	modified:   Content/NeoTerra/Particles/Materials/Smoke_Mask_00.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	modified:   Content/NeoTerra/Particles/Materials/Smoke_Thruster_00.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	modified:   Content/NeoTerra/Particles/P_MissileThruster.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	modified:   Content/NeoTerra/Textures/WeaponsMap1-glow.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	modified:   Content/StarterContent/Maps/Minimal_Default.umap
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	modified:   Content/StarterContent/Particles/Materials/m_flare_01.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/TopDown/Animations/TopDownIdle.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/TopDown/Animations/TopDownRun.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/TopDown/Animations/TopDownWalk.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/TopDown/Blueprints/TopDownCharacter.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/TopDown/Character/TopDownAnimBlueprint.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/TopDown/Character/TopDownIdleRun.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/TopDown/Character/TopDownSkeletalMesh.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/TopDown/Character/TopDownSkeleton.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/TopDown/Maps/TopDownExampleMap.umap
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/TopDown/Meshes/CubeMaterial.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/TopDown/Meshes/CubeMesh.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	deleted:    Content/TopDown/TopDownOverview.uasset
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2015.07.06-02.03.12:358][  0]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/DeviceProfiles.ini
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Editor.ini
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	deleted:    Intermediate/Config/CoalescedSourceConfigs/EditorGameAgnostic.ini
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	deleted:    Intermediate/Config/CoalescedSourceConfigs/EditorUserSettings.ini
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Game.ini
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Input.ini
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Lightmass.ini
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Scalability.ini
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	deleted:    Intermediate/ProjectFiles/Neo_Terra.vcxproj
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	deleted:    Intermediate/ProjectFiles/Neo_Terra.vcxproj.filters
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	deleted:    Intermediate/ProjectFiles/UE4.vcxproj
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	deleted:    Intermediate/ProjectFiles/UE4.vcxproj.filters
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	deleted:    Intermediate/ReimportCache/3688439234.bin
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	modified:   Neo_Terra.sln
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	modified:   Neo_Terra.uproject
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	modified:   Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	modified:   Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	modified:   Saved/Config/Windows/EditorLayout.ini
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	deleted:    Saved/Config/Windows/EditorUserSettings.ini
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	modified:   Saved/Config/WorldState/3944650773.json
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	modified:   Saved/Logs/Neo_Terra.log
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	deleted:    Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonCharacter.cpp
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	deleted:    Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonCharacter.h
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	deleted:    Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonGameMode.cpp
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	deleted:    Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonGameMode.h
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	deleted:    Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonHUD.cpp
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	deleted:    Source/Neo_Terra/FP_FirstPerson/FP_FirstPersonHUD.h
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	deleted:    Source/Neo_Terra/TP_TopDown/TP_TopDownCharacter.cpp
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	deleted:    Source/Neo_Terra/TP_TopDown/TP_TopDownCharacter.h
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	deleted:    Source/Neo_Terra/TP_TopDown/TP_TopDownGameMode.cpp
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	deleted:    Source/Neo_Terra/TP_TopDown/TP_TopDownGameMode.h
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	deleted:    Source/Neo_Terra/TP_TopDown/TP_TopDownPlayerController.cpp
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	deleted:    Source/Neo_Terra/TP_TopDown/TP_TopDownPlayerController.h
+[2015.07.06-02.03.12:359][  0]SourceControl: Info Untracked files:
+[2015.07.06-02.03.12:359][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	Content/FXStarStarterKit/
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	Content/FX_UWaveStarterKit/
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	Content/NeoTerra/Meshes/Shrike.fbx
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	Content/NeoTerra/Particles/Materials/Smoke_Mask_00.png
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	Content/NeoTerra/Particles/Materials/Smoke_Thruster_00.png
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	Content/NeoTerra/Textures/WeaponsMap1-glow.dds
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	Content/NeoTerra/Textures/WeaponsMap1-glow.png
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	Content/NeoTerra/Textures/WeaponsMap1-shine.png
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	Content/NeoTerra/Textures/WeaponsMap1.dds
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	Content/NeoTerra/Textures/WeaponsMap1.png
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	Intermediate/Config/CoalescedSourceConfigs/EditorPerProjectUserSettings.ini
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	Intermediate/Config/CoalescedSourceConfigs/EditorSettings.ini
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	Intermediate/Config/CoalescedSourceConfigs/InternationalizationExport.ini
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto2.uasset
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto3.uasset
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	Saved/Autosaves/Game/NeoTerra/Blueprints/
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	Saved/Autosaves/Game/NeoTerra/Materials/
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	Saved/Autosaves/Game/NeoTerra/Meshes/
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	Saved/Autosaves/Game/NeoTerra/Particles/
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	Saved/Autosaves/Game/StarterContent/Maps/UEDPCMinimal_Default.umap
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	Saved/Config/Windows/InternationalizationExport.ini
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	Saved/Config/WorldState/1215453700.json
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	Saved/Logs/Dump1397864992.dmp
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	Saved/Logs/UE4CC-Windows-74D1F9CB428A086D02596FBBB7D3E606/
+[2015.07.06-02.03.12:359][  0]SourceControl: Info 	Saved/Logs/UE4CC-Windows-F750F7F54B3190326E2B83943C02F11A/
+[2015.07.06-02.03.12:359][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.07.06-02.03.12:390][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.07.06-02.03.12:483][  0]LogRenderer: Reallocating scene render targets to support 2432x1304 (Frame:2).
+[2015.07.06-02.03.12:547][  1]LogAutoReimportManager: Retrieving MD5 hashes for directory 'C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/' took 0.24s
+[2015.07.06-02.03.12:617][  3]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 417/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.06-02.03.12:701][  5]LogAssetRegistry: Asset discovery search completed in 2.3802 seconds
+[2015.07.06-02.03.15:592][248]LogEditorViewport: Clicking on Actor (LMB): Shrike_C (Shrike)
+[2015.07.06-02.03.19:190][538]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.07.06-02.03.22:642][809]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 417/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.06-02.03.23:668][895]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 417/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.06-02.03.36:370][910]LogBlueprint:Warning: [compiler ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
+[2015.07.06-02.03.36:373][910]LogBlueprint:Warning: [compiler ASP_Character] Warning [0072.70] Compile of ASP_Character successful, but with 1 Warning(s) [in 28 ms]
+[2015.07.06-02.03.36:373][910]LogBlueprint:Warning: [compiler ASP_Character] Warning [0072.70] Compile of ASP_Character successful, but with 2 Warning(s) [in 0 ms]
+[2015.07.06-02.03.36:373][910]LogBlueprint:Warning: [compiler ASP_Character] Warning [0072.70] Compile of ASP_Character successful, but with 3 Warning(s) [in 0 ms]
+[2015.07.06-02.03.36:447][910]LogBlueprint:Warning: [compiler ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
+[2015.07.06-02.03.36:451][910]LogBlueprint:Warning: [compiler ASP_Character] Warning [0072.78] Compile of ASP_Character successful, but with 1 Warning(s) [in 17 ms]
+[2015.07.06-02.03.36:451][910]LogBlueprint:Warning: [compiler ASP_Character] Warning [0072.78] Compile of ASP_Character successful, but with 2 Warning(s) [in 0 ms]
+[2015.07.06-02.03.37:133][913]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 429/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.06-02.03.50:551][827]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.07.06-02.03.55:029][204]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 417/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.06-02.04.07:663][258]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 417/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.06-02.04.08:290][314]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 417/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.06-02.04.09:279][397]LogEditorViewport: Clicking on Actor (LMB): ASP_Character_C (ASP_Character)
+[2015.07.06-02.04.11:045][520]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 450/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.06-02.04.14:975][838]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 450/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.06-02.04.21:286][341]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 450/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.06-02.04.25:365][626]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementAAB0669448093D723A3745B4F015F64A) Not registered. Aborting.
+[2015.07.06-02.04.25:365][626]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.06-02.04.25:699][626]LogSavePackage: Save=94.618202ms
+[2015.07.06-02.04.25:699][626]LogSavePackage: Moving '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Saved/Minimal_Default8E9E369641B37368AE5ED1A2FE579C8F.tmp' to '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.07.06-02.04.25:724][626]LogFileHelpers: Saving map 'Minimal_Default' took 0.246
+[2015.07.06-02.04.26:707][697]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.07.06-02.04.27:393][749]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.06-02.04.27:644][749]PIE: New page: SIE session: Minimal_Default (Jul 5, 2015, 12:04:27 PM)
+[2015.07.06-02.04.27:644][749]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.06-02.04.27:648][749]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003777s)
+[2015.07.06-02.04.27:648][749]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.06-02.04.27:649][749]LogPlayLevel: PIE: World Init took: (0.001015s)
+[2015.07.06-02.04.27:649][749]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004991s)
+[2015.07.06-02.04.27:664][749]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.BP_Sky_Sphere_C_2"
+[2015.07.06-02.04.27:678][749]LogInit: XAudio2 using 'Digital Output (2- USB PnP Sound Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.06-02.04.27:698][749]LogInit: FAudioDevice initialized.
+[2015.07.06-02.04.27:787][749]LogWorld: Game class is 'Neo_TerraGameMode'
+[2015.07.06-02.04.27:808][749]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.06-02.04.27:808][749]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.06-02.04.27:809][749]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.05-19.04.27
+[2015.07.06-02.04.27:809][749]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.06-02.04.27:810][749]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.06-02.04.27:810][749]LogWorld: Bringing up level for play took: 0.004386
+[2015.07.06-02.04.27:850][749]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.317
+[2015.07.06-02.04.27:867][749]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.BP_Sky_Sphere_C_2"
+[2015.07.06-02.04.27:988][751]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 425/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.06-02.04.30:608][913]Cmd: SELECT NONE
+[2015.07.06-02.04.47:469][ 88]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000450FB94D60
+[2015.07.06-02.04.47:489][ 90]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 417/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.06-02.05.19:178][237]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 417/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.06-02.06.06:167][403]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 417/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.06-02.06.25:569][972]LogEditorViewport: Clicking on Actor (LMB): ASP_Character_C (ASP_Character)
+[2015.07.06-02.06.42:649][123]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.07.06-02.06.44:258][245]LogEditorViewport: Clicking on Actor (LMB): ASP_Character_C (ASP_Character)
+[2015.07.06-02.06.45:604][330]LogEditorViewport: Clicking on Actor (LMB): Shrike_C (Shrike)
+[2015.07.06-02.06.53:264][924]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.07.06-02.07.27:939][186]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 435/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.06-02.07.34:530][677]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0022 seconds. Added 2 classes and 2 folders.
+[2015.07.06-02.07.34:625][677]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.06-02.07.34:625][677]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.06-02.08.39:425][405]LogEditorTransaction: Undo Edit Y
+[2015.07.06-02.08.39:725][434]LogEditorTransaction: Undo Edit Y
+[2015.07.06-02.09.14:173][500]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 423/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.06-02.09.18:541][829]LogMaterial: Missing cached shader map for material P_Mat_MissileThruster, compiling. 
+[2015.07.06-02.09.18:676][829]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling. 
+[2015.07.06-02.09.18:677][829]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.07.06-02.09.18:691][829]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.07.06-02.09.18:767][829]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.07.06-02.09.18:769][829]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling. 
+[2015.07.06-02.09.18:809][829]LogMaterial: Missing cached shader map for material P_Mat_MissileThruster, compiling. 
+[2015.07.06-02.09.18:812][829]LogMaterial: 0.000017 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.06-02.09.18:860][829]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling. 
+[2015.07.06-02.09.18:861][829]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.07.06-02.09.18:863][829]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.07.06-02.09.18:864][829]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.07.06-02.09.18:874][829]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling. 
+[2015.07.06-02.09.20:910][ 34]MaterialEditorStats: Info Base pass shader without light map: 28 instructions
+[2015.07.06-02.09.20:911][ 34]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.07.06-02.09.20:911][ 34]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.07.06-02.09.52:018][740]LogMaterial: Missing cached shader map for material P_Mat_MissileThruster, compiling. 
+[2015.07.06-02.09.52:021][740]LogMaterial: 0.000052 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.06-02.09.52:066][740]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling. 
+[2015.07.06-02.09.52:067][740]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.07.06-02.09.52:069][740]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.07.06-02.09.52:070][740]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.07.06-02.09.52:072][740]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling. 
+[2015.07.06-02.09.54:448][ 20]MaterialEditorStats: Info Base pass shader without light map: 28 instructions
+[2015.07.06-02.09.54:448][ 20]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.07.06-02.09.54:448][ 20]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.07.06-02.09.55:429][134]LogMaterial: Missing cached shader map for material P_Mat_MissileThruster, compiling. 
+[2015.07.06-02.09.55:432][134]LogMaterial: 0.000052 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.06-02.09.55:461][134]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling. 
+[2015.07.06-02.09.55:473][134]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.07.06-02.09.55:475][134]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.07.06-02.09.55:496][134]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.07.06-02.09.55:498][134]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling. 
+[2015.07.06-02.09.56:823][289]MaterialEditorStats: Info Base pass shader without light map: 28 instructions
+[2015.07.06-02.09.56:823][289]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.07.06-02.09.56:823][289]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.07.06-02.09.58:967][546]LogMaterial: Missing cached shader map for material P_Mat_MissileThruster, compiling. 
+[2015.07.06-02.09.58:970][546]LogMaterial: 0.000049 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.06-02.09.58:995][546]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling. 
+[2015.07.06-02.09.59:030][546]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.07.06-02.09.59:032][546]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.07.06-02.09.59:034][546]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.07.06-02.09.59:036][546]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling. 
+[2015.07.06-02.10.00:427][709]MaterialEditorStats: Info Base pass shader without light map: 28 instructions
+[2015.07.06-02.10.00:427][709]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.07.06-02.10.00:427][709]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.07.06-02.10.04:351][179]LogMaterial: Missing cached shader map for material P_Mat_MissileThruster, compiling. 
+[2015.07.06-02.10.04:355][179]LogMaterial: 0.000042 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.06-02.10.04:385][179]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling. 
+[2015.07.06-02.10.04:386][179]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.07.06-02.10.04:422][179]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.07.06-02.10.04:424][179]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.07.06-02.10.04:458][179]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling. 
+[2015.07.06-02.10.05:723][327]MaterialEditorStats: Info Base pass shader without light map: 28 instructions
+[2015.07.06-02.10.05:723][327]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.07.06-02.10.05:723][327]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.07.06-02.10.10:255][869]LogMaterial: Missing cached shader map for material P_Mat_MissileThruster, compiling. 
+[2015.07.06-02.10.10:258][869]LogMaterial: 0.000050 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.06-02.10.10:286][869]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling. 
+[2015.07.06-02.10.10:307][869]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.07.06-02.10.10:322][869]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.07.06-02.10.10:354][869]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.07.06-02.10.10:356][869]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling. 
+[2015.07.06-02.10.11:791][ 37]MaterialEditorStats: Info Base pass shader without light map: 28 instructions
+[2015.07.06-02.10.11:792][ 37]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.07.06-02.10.11:792][ 37]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.07.06-02.10.14:567][370]LogMaterial: Missing cached shader map for material P_Mat_MissileThruster, compiling. 
+[2015.07.06-02.10.14:571][370]LogMaterial: 0.000052 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.06-02.10.14:659][370]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling. 
+[2015.07.06-02.10.14:692][370]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.07.06-02.10.14:703][370]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.07.06-02.10.14:730][370]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.07.06-02.10.14:732][370]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling. 
+[2015.07.06-02.10.16:116][533]MaterialEditorStats: Info Base pass shader without light map: 28 instructions
+[2015.07.06-02.10.16:117][533]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.07.06-02.10.16:117][533]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.07.06-02.10.26:259][749]LogMaterialEditor: Applying material P_Mat_MissileThruster
+[2015.07.06-02.10.26:542][749]LogMaterial: Missing cached shader map for material P_Mat_MissileThruster, compiling. 
+[2015.07.06-02.10.26:552][749]LogMaterial: 0.000049 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.06-02.10.26:595][749]LogMaterial: Missing cached shader map for material P_Mat_MissileThruster, compiling. 
+[2015.07.06-02.10.26:628][749]LogMaterial: Missing cached shader map for material P_Mat_MissileThruster, compiling. 
+[2015.07.06-02.10.26:635][749]LogMaterial: 0.000596 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.06-02.10.28:419][958]LogMaterialEditor: Saving and Compiling material P_Mat_MissileThruster
+[2015.07.06-02.10.29:554][958]LogSavePackage: Save=10.287691ms
+[2015.07.06-02.10.29:554][958]LogSavePackage: Moving '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Saved/P_Mat_MissileThrusterD4DF71494B9AC27AA05D43ADBD0DAA0E.tmp' to '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/NeoTerra/Particles/Materials/P_Mat_MissileThruster.uasset'
+[2015.07.06-02.10.29:559][958]MaterialEditorStats: Info Base pass shader without light map: 47 instructions
+[2015.07.06-02.10.29:559][958]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.07.06-02.10.29:559][958]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.07.06-02.10.33:559][394]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 430/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.06-02.10.58:414][778]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 429/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.06-02.10.59:228][839]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.06-02.10.59:241][839]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000450FB972E0
+[2015.07.06-02.10.59:499][839]LogSavePackage: Save=77.773987ms
+[2015.07.06-02.10.59:499][839]LogSavePackage: Moving '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Saved/Minimal_Default5235B36E47D113D9C467B5849005799E.tmp' to '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.07.06-02.10.59:524][839]LogFileHelpers: Saving map 'Minimal_Default' took 0.219
+[2015.07.06-02.12.46:200][912]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 423/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.06-02.13.11:311][154]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 423/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.06-02.13.57:685][ 24]LogCascade: Quitting Cascade. FXSystem=0x000000450997BA60
+[2015.07.06-02.13.58:061][ 25]Cmd: QUIT_EDITOR
+[2015.07.06-02.13.58:568][ 25]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.06-02.13.58:652][ 25]LogExit: Preparing to exit.
+[2015.07.06-02.13.59:657][ 25]LogExit: Editor shut down
+[2015.07.06-02.13.59:657][ 25]LogExit: Transaction tracking system shut down
+[2015.07.06-02.13.59:658][ 25]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004513A0B880
+[2015.07.06-02.13.59:658][ 25]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004517E58D60
+[2015.07.06-02.13.59:658][ 25]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000450827A5C0
+[2015.07.06-02.13.59:658][ 25]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000450997BA60
+[2015.07.06-02.13.59:658][ 25]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004508F198A0
+[2015.07.06-02.13.59:659][ 25]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000450997B420
+[2015.07.06-02.13.59:659][ 25]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000045084600E0
+[2015.07.06-02.13.59:659][ 25]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000451310C720
+[2015.07.06-02.13.59:744][ 25]LogExit: Object subsystem successfully closed.
+[2015.07.06-02.13.59:822][ 25]LogModuleManager: Shutting down and abandoning module MaterialEditor (192)
+[2015.07.06-02.13.59:822][ 25]LogModuleManager: Shutting down and abandoning module DistCurveEditor (191)
+[2015.07.06-02.13.59:822][ 25]LogModuleManager: Shutting down and abandoning module Cascade (190)
+[2015.07.06-02.13.59:822][ 25]LogModuleManager: Shutting down and abandoning module CrashTracker (189)
+[2015.07.06-02.13.59:822][ 25]LogModuleManager: Shutting down and abandoning module SceneOutliner (188)
+[2015.07.06-02.13.59:822][ 25]LogModuleManager: Shutting down and abandoning module SuperSearch (187)
+[2015.07.06-02.13.59:822][ 25]LogModuleManager: Shutting down and abandoning module WidgetCarousel (186)
+[2015.07.06-02.13.59:822][ 25]LogModuleManager: Shutting down and abandoning module AddContentDialog (185)
+[2015.07.06-02.13.59:823][ 25]LogModuleManager: Shutting down and abandoning module EditorWidgets (184)
+[2015.07.06-02.13.59:823][ 25]LogModuleManager: Shutting down and abandoning module CollectionManager (183)
+[2015.07.06-02.13.59:823][ 25]LogModuleManager: Shutting down and abandoning module StatsViewer (182)
+[2015.07.06-02.13.59:823][ 25]LogModuleManager: Shutting down and abandoning module FoliageEdit (181)
+[2015.07.06-02.13.59:823][ 25]LogModuleManager: Shutting down and abandoning module LandscapeEditor (180)
+[2015.07.06-02.13.59:823][ 25]LogModuleManager: Shutting down and abandoning module ActorPickerMode (179)
+[2015.07.06-02.13.59:823][ 25]LogModuleManager: Shutting down and abandoning module GeometryMode (178)
+[2015.07.06-02.13.59:823][ 25]LogModuleManager: Shutting down and abandoning module TextureAlignMode (177)
+[2015.07.06-02.13.59:823][ 25]LogModuleManager: Shutting down and abandoning module BspMode (176)
+[2015.07.06-02.13.59:823][ 25]LogModuleManager: Shutting down and abandoning module PlacementMode (175)
+[2015.07.06-02.13.59:823][ 25]LogModuleManager: Shutting down and abandoning module AutomationWorker (174)
+[2015.07.06-02.13.59:823][ 25]LogModuleManager: Shutting down and abandoning module CharacterAI (173)
+[2015.07.06-02.13.59:823][ 25]LogModuleManager: Shutting down and abandoning module SmartSnapping (172)
+[2015.07.06-02.13.59:823][ 25]LogModuleManager: Shutting down and abandoning module ViewportSnapping (171)
+[2015.07.06-02.13.59:823][ 25]LogModuleManager: Shutting down and abandoning module LogVisualizer (170)
+[2015.07.06-02.13.59:823][ 25]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (169)
+[2015.07.06-02.13.59:823][ 25]LogModuleManager: Shutting down and abandoning module IntroTutorials (168)
+[2015.07.06-02.13.59:823][ 25]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (167)
+[2015.07.06-02.13.59:823][ 25]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (166)
+[2015.07.06-02.13.59:823][ 25]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (165)
+[2015.07.06-02.13.59:823][ 25]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (164)
+[2015.07.06-02.14.00:449][ 25]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (163)
+[2015.07.06-02.14.00:449][ 25]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (162)
+[2015.07.06-02.14.00:449][ 25]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (161)
+[2015.07.06-02.14.00:449][ 25]LogModuleManager: Shutting down and abandoning module MergeActors (160)
+[2015.07.06-02.14.00:449][ 25]LogModuleManager: Shutting down and abandoning module SizeMap (159)
+[2015.07.06-02.14.00:449][ 25]LogModuleManager: Shutting down and abandoning module TreeMap (158)
+[2015.07.06-02.14.00:449][ 25]LogModuleManager: Shutting down and abandoning module ReferenceViewer (157)
+[2015.07.06-02.14.00:449][ 25]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (156)
+[2015.07.06-02.14.00:449][ 25]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.07.06-02.14.00:449][ 25]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.07.06-02.14.00:449][ 25]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.07.06-02.14.00:449][ 25]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.07.06-02.14.00:449][ 25]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.07.06-02.14.00:449][ 25]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.07.06-02.14.00:449][ 25]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.07.06-02.14.00:449][ 25]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (148)
+[2015.07.06-02.14.00:449][ 25]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (147)
+[2015.07.06-02.14.00:449][ 25]LogModuleManager: Shutting down and abandoning module InputBindingEditor (146)
+[2015.07.06-02.14.00:449][ 25]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (145)
+[2015.07.06-02.14.00:449][ 25]LogModuleManager: Shutting down and abandoning module SettingsEditor (144)
+[2015.07.06-02.14.00:449][ 25]LogModuleManager: Shutting down and abandoning module ProjectLauncher (143)
+[2015.07.06-02.14.00:449][ 25]LogModuleManager: Shutting down and abandoning module SessionFrontend (142)
+[2015.07.06-02.14.00:449][ 25]LogModuleManager: Shutting down and abandoning module ProfilerClient (141)
+[2015.07.06-02.14.00:449][ 25]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (140)
+[2015.07.06-02.14.00:449][ 25]LogModuleManager: Shutting down and abandoning module DeviceManager (139)
+[2015.07.06-02.14.00:449][ 25]LogModuleManager: Shutting down and abandoning module AutomationController (138)
+[2015.07.06-02.14.00:449][ 25]LogModuleManager: Shutting down and abandoning module AutomationWindow (137)
+[2015.07.06-02.14.00:449][ 25]LogModuleManager: Shutting down and abandoning module Layers (136)
+[2015.07.06-02.14.00:449][ 25]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (135)
+[2015.07.06-02.14.00:449][ 25]LogModuleManager: Shutting down and abandoning module DetailCustomizations (134)
+[2015.07.06-02.14.00:449][ 25]LogModuleManager: Shutting down and abandoning module PackagesDialog (133)
+[2015.07.06-02.14.00:449][ 25]LogModuleManager: Shutting down and abandoning module AssetRegistry (132)
+[2015.07.06-02.14.00:503][ 25]LogModuleManager: Shutting down and abandoning module Persona (131)
+[2015.07.06-02.14.00:503][ 25]LogModuleManager: Shutting down and abandoning module Kismet (130)
+[2015.07.06-02.14.00:503][ 25]LogModuleManager: Shutting down and abandoning module GraphEditor (129)
+[2015.07.06-02.14.00:503][ 25]LogModuleManager: Shutting down and abandoning module ClassViewer (128)
+[2015.07.06-02.14.00:503][ 25]LogModuleManager: Shutting down and abandoning module Toolbox (127)
+[2015.07.06-02.14.00:503][ 25]LogModuleManager: Shutting down and abandoning module ModuleUI (126)
+[2015.07.06-02.14.00:503][ 25]LogModuleManager: Shutting down and abandoning module MovieSceneTools (125)
+[2015.07.06-02.14.00:503][ 25]LogModuleManager: Shutting down and abandoning module OutputLog (124)
+[2015.07.06-02.14.00:503][ 25]LogModuleManager: Shutting down and abandoning module GammaUI (123)
+[2015.07.06-02.14.00:503][ 25]LogModuleManager: Shutting down and abandoning module Documentation (122)
+[2015.07.06-02.14.00:503][ 25]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (121)
+[2015.07.06-02.14.00:503][ 25]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (120)
+[2015.07.06-02.14.00:503][ 25]LogModuleManager: Shutting down and abandoning module AnalyticsET (119)
+[2015.07.06-02.14.00:503][ 25]LogModuleManager: Shutting down and abandoning module Analytics (118)
+[2015.07.06-02.14.00:503][ 25]LogModuleManager: Shutting down and abandoning module AITestSuite (117)
+[2015.07.06-02.14.00:503][ 25]LogModuleManager: Shutting down and abandoning module GameplayDebugger (116)
+[2015.07.06-02.14.00:503][ 25]LogModuleManager: Shutting down and abandoning module AIModule (115)
+[2015.07.06-02.14.00:503][ 25]LogModuleManager: Shutting down and abandoning module ProfilerService (114)
+[2015.07.06-02.14.00:504][ 25]LogModuleManager: Shutting down and abandoning module TaskGraph (113)
+[2015.07.06-02.14.00:504][ 25]LogModuleManager: Shutting down and abandoning module SlateRemote (112)
+[2015.07.06-02.14.00:504][ 25]LogModuleManager: Shutting down and abandoning module SteamVRController (111)
+[2015.07.06-02.14.00:504][ 25]LogModuleManager: Shutting down and abandoning module SteamVR (110)
+[2015.07.06-02.14.00:504][ 25]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (109)
+[2015.07.06-02.14.00:504][ 25]LogModuleManager: Shutting down and abandoning module OculusRift (108)
+[2015.07.06-02.14.00:504][ 25]LogModuleManager: Shutting down and abandoning module LeapMotionController (107)
+[2015.07.06-02.14.00:512][ 25]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (106)
+[2015.07.06-02.14.00:512][ 25]LogModuleManager: Shutting down and abandoning module CableComponent (105)
+[2015.07.06-02.14.00:512][ 25]LogModuleManager: Shutting down and abandoning module MessagingDebugger (104)
+[2015.07.06-02.14.00:512][ 25]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (103)
+[2015.07.06-02.14.00:512][ 25]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (102)
+[2015.07.06-02.14.00:512][ 25]LogModuleManager: Shutting down and abandoning module PluginBrowser (101)
+[2015.07.06-02.14.00:512][ 25]LogModuleManager: Shutting down and abandoning module EpicSurvey (100)
+[2015.07.06-02.14.00:512][ 25]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (99)
+[2015.07.06-02.14.00:512][ 25]LogModuleManager: Shutting down and abandoning module UObjectPlugin (98)
+[2015.07.06-02.14.00:512][ 25]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (97)
+[2015.07.06-02.14.00:512][ 25]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (96)
+[2015.07.06-02.14.00:512][ 25]LogModuleManager: Shutting down and abandoning module SourceControl (95)
+[2015.07.06-02.14.00:512][ 25]LogModuleManager: Shutting down and abandoning module GitSourceControl (94)
+[2015.07.06-02.14.00:512][ 25]LogModuleManager: Shutting down and abandoning module BlankPlugin (93)
+[2015.07.06-02.14.00:512][ 25]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (92)
+[2015.07.06-02.14.00:512][ 25]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (91)
+[2015.07.06-02.14.00:512][ 25]LogModuleManager: Shutting down and abandoning module MeshPaint (90)
+[2015.07.06-02.14.00:512][ 25]LogModuleManager: Shutting down and abandoning module SlateReflector (89)
+[2015.07.06-02.14.00:512][ 25]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (88)
+[2015.07.06-02.14.00:513][ 25]LogModuleManager: Shutting down and abandoning module HotReload (87)
+[2015.07.06-02.14.00:513][ 25]LogModuleManager: Shutting down and abandoning module MainFrame (86)
+[2015.07.06-02.14.00:513][ 25]LogModuleManager: Shutting down and abandoning module LevelEditor (85)
+[2015.07.06-02.14.00:513][ 25]LogModuleManager: Shutting down and abandoning module ContentBrowser (84)
+[2015.07.06-02.14.00:514][ 25]LogModuleManager: Shutting down and abandoning module Paper2DEditor (83)
+[2015.07.06-02.14.00:514][ 25]LogModuleManager: Shutting down and abandoning module Neo_Terra (82)
+[2015.07.06-02.14.00:514][ 25]LogModuleManager: Shutting down and abandoning module UdpMessaging (81)
+[2015.07.06-02.14.00:615][ 25]LogModuleManager: Shutting down and abandoning module Paper2D (80)
+[2015.07.06-02.14.00:615][ 25]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (79)
+[2015.07.06-02.14.00:616][ 25]LogModuleManager: Shutting down and abandoning module Media (78)
+[2015.07.06-02.14.00:617][ 25]LogModuleManager: Shutting down and abandoning module WmfMedia (77)
+[2015.07.06-02.14.00:617][ 25]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (76)
+[2015.07.06-02.14.00:617][ 25]LogModuleManager: Shutting down and abandoning module PropertyEditor (75)
+[2015.07.06-02.14.00:617][ 25]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (74)
+[2015.07.06-02.14.00:617][ 25]LogModuleManager: Shutting down and abandoning module FunctionalTesting (73)
+[2015.07.06-02.14.00:617][ 25]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (72)
+[2015.07.06-02.14.00:617][ 25]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (71)
+[2015.07.06-02.14.00:617][ 25]LogModuleManager: Shutting down and abandoning module MessageLog (70)
+[2015.07.06-02.14.00:617][ 25]LogModuleManager: Shutting down and abandoning module Sequencer (69)
+[2015.07.06-02.14.00:617][ 25]LogModuleManager: Shutting down and abandoning module AssetTools (68)
+[2015.07.06-02.14.00:617][ 25]LogModuleManager: Shutting down and abandoning module UMGEditor (67)
+[2015.07.06-02.14.00:617][ 25]LogModuleManager: Shutting down and abandoning module UMG (66)
+[2015.07.06-02.14.00:617][ 25]LogModuleManager: Shutting down and abandoning module Slate (65)
+[2015.07.06-02.14.00:617][ 25]LogModuleManager: Shutting down and abandoning module EditorStyle (64)
+[2015.07.06-02.14.00:619][ 25]LogModuleManager: Shutting down and abandoning module SessionServices (63)
+[2015.07.06-02.14.00:619][ 25]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (62)
+[2015.07.06-02.14.00:619][ 25]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (61)
+[2015.07.06-02.14.00:619][ 25]LogModuleManager: Shutting down and abandoning module XAudio2 (60)
+[2015.07.06-02.14.00:619][ 25]LogModuleManager: Shutting down and abandoning module Networking (58)
+[2015.07.06-02.14.00:619][ 25]LogModuleManager: Shutting down and abandoning module Core (57)
+[2015.07.06-02.14.00:619][ 25]LogModuleManager: Shutting down and abandoning module KismetCompiler (56)
+[2015.07.06-02.14.00:619][ 25]LogModuleManager: Shutting down and abandoning module PhysXFormats (55)
+[2015.07.06-02.14.00:619][ 25]LogModuleManager: Shutting down and abandoning module MeshUtilities (54)
+[2015.07.06-02.14.00:619][ 25]LogModuleManager: Shutting down and abandoning module DerivedDataCache (53)
+[2015.07.06-02.14.00:683][ 25]LogDerivedDataCache: Shutdown
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (52)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (51)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (50)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (49)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (48)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (47)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (46)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module ImageWrapper (45)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (44)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (43)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (42)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (41)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (40)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (39)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (38)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (37)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module Messaging (36)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (35)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (34)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (33)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (32)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (31)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (30)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (29)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (28)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (27)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (26)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (25)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (24)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (23)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (22)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module InputCore (20)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module Settings (19)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module DesktopPlatform (14)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.07.06-02.14.00:683][ 25]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.07.06-02.14.00:684][ 25]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.07.06-02.14.00:684][ 25]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.07.06-02.14.00:684][ 25]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.07.06-02.14.00:684][ 25]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.07.06-02.14.00:684][ 25]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.07.06-02.14.00:684][ 25]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.07.06-02.14.00:684][ 25]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.07.06-02.14.00:684][ 25]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.07.06-02.14.00:684][ 25]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.07.06-02.14.00:684][ 25]LogExit: Exiting.
+[2015.07.06-02.14.00:696][ 25]Log file closed, 07/05/15 19:14:00
