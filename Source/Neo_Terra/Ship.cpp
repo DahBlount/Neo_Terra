@@ -32,5 +32,9 @@ void AShip::SetupPlayerInputComponent(class UInputComponent* InputComponent)
 {
 	Super::SetupPlayerInputComponent(InputComponent);
 
+	InputComponent->BindAxis("Roll", this, &AShip::Roll);
+	InputComponent->BindAxis("MoveForward", this, &AShip::MoveForward);
+	InputComponent->BindAxis("Strafe", this, &AShip::Strafe);
+	InputComponent->BindAction("Fire", IE_Pressed, this, &AShip::OnFire);
 }
 
