@@ -8,21 +8,28 @@
 AWeapon::AWeapon(const FObjectInitializer& ObjectInitializer)
 	:Super(ObjectInitializer)
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
+	WeaponMesh = ObjectInitializer.CreateDefaultSubobject<UStaticMeshComponent>(this, TEXT("Weapon Mesh"));
+	RootComponent = WeaponMesh;
+
+	TrailComp = ObjectInitializer.CreateDefaultSubobject<UParticleSystemComponent>(this, TEXT("Weapon Trail"));
+	TArray<FName> MeshSockets = WeaponMesh->GetAllSocketNames();
+	for (auto It = MeshSockets.CreateConstIterator(); It; ++It)
+	{
+		FName* Socket = MeshSockets.FindByKey(*It);
+		FString SocketString = Socket->ToString();
+		if ((SocketString.Contains(TEXT("Thruster"), ESearchCase::CaseSensitive, ESearchDir::FromStart)) || (SocketString.Contains(TEXT("Trail"), ESearchCase::CaseSensitive, ESearchDir::FromStart)))
+		{
+			TrailComp->AttachTo(RootComponent, *Socket);
+		}
+	}
+}
+
+void AWeapon::Fire()
+{
 
 }
 
-// Called when the game starts or when spawned
-void AWeapon::BeginPlay()
+void AWeapon::InstantFire()
 {
-	Super::BeginPlay();
-	
-}
-
-// Called every frame
-void AWeapon::Tick( float DeltaTime )
-{
-	Super::Tick( DeltaTime );
 
 }

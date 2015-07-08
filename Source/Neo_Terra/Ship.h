@@ -28,4 +28,6 @@ public:
 	void MoveForward(float Val);
 
 	void Strafe(float Val);
+
+	void FireWeapon();
 };
