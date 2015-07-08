@@ -5,7 +5,7 @@
 #include "GameFramework/Character.h"
 #include "NTCharacter.generated.h"
 
-UCLASS(config = Game)
+UCLASS(config=Game)
 class NEO_TERRA_API ANTCharacter : public ACharacter
 {
 	GENERATED_BODY()

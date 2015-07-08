@@ -1,106 +1,90 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\Neo_Terra.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{85233C80-B66F-4256-8A9B-4324E1C97AE9}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\Neo_Terra.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\Neo_TerraEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{ED8EEC44-D642-411D-BC61-294C903127D1}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultInput.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\Neo_Terra">
-			<UniqueIdentifier>{25F7BFAB-FFD9-4118-AC07-2743FC3F262D}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\Neo_Terra\HumanoidCameraManager.cpp">
-			<Filter>Source\Neo_Terra</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Neo_Terra\HumanoidCameraManager.h">
-			<Filter>Source\Neo_Terra</Filter>
-		</ClInclude >
-		<None Include="..\..\Source\Neo_Terra\Neo_Terra.Build.cs">
-			<Filter>Source\Neo_Terra</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\Neo_Terra\Neo_Terra.cpp">
-			<Filter>Source\Neo_Terra</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Neo_Terra\Neo_Terra.h">
-			<Filter>Source\Neo_Terra</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Neo_Terra\Neo_TerraGameMode.cpp">
-			<Filter>Source\Neo_Terra</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Neo_Terra\Neo_TerraGameMode.h">
-			<Filter>Source\Neo_Terra</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Neo_Terra\NTCharacter.cpp">
-			<Filter>Source\Neo_Terra</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Neo_Terra\NTCharacter.h">
-			<Filter>Source\Neo_Terra</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Neo_Terra\Ship.cpp">
-			<Filter>Source\Neo_Terra</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Neo_Terra\Ship.h">
-			<Filter>Source\Neo_Terra</Filter>
-		</ClInclude >
-		<Filter Include="Source\Neo_Terra\FP_FirstPerson">
-			<UniqueIdentifier>{142EBE65-5527-47AB-AA9B-6F6A30B7E731}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\Neo_Terra\FP_FirstPerson\FP_FirstPersonCharacter.cpp">
-			<Filter>Source\Neo_Terra\FP_FirstPerson</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Neo_Terra\FP_FirstPerson\FP_FirstPersonCharacter.h">
-			<Filter>Source\Neo_Terra\FP_FirstPerson</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Neo_Terra\FP_FirstPerson\FP_FirstPersonGameMode.cpp">
-			<Filter>Source\Neo_Terra\FP_FirstPerson</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Neo_Terra\FP_FirstPerson\FP_FirstPersonGameMode.h">
-			<Filter>Source\Neo_Terra\FP_FirstPerson</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Neo_Terra\FP_FirstPerson\FP_FirstPersonHUD.cpp">
-			<Filter>Source\Neo_Terra\FP_FirstPerson</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Neo_Terra\FP_FirstPerson\FP_FirstPersonHUD.h">
-			<Filter>Source\Neo_Terra\FP_FirstPerson</Filter>
-		</ClInclude >
-		<Filter Include="Source\Neo_Terra\Resources">
-			<UniqueIdentifier>{08033AB4-7001-40C8-AC3B-E7B44431CB74}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="Source\Neo_Terra\Resources\Windows">
-			<UniqueIdentifier>{2E306A5B-6702-404C-BD8C-73287E87443F}</UniqueIdentifier>
-		</Filter>
-		<ResourceCompile Include="..\..\Source\Neo_Terra\Resources\Windows\Neo_Terra.rc">
-			<Filter>Source\Neo_Terra\Resources\Windows</Filter>
-		</ResourceCompile >
-		<Filter Include="Source\Neo_Terra\Weapons">
-			<UniqueIdentifier>{47228223-E9FB-4F33-B1D7-6FAB6E98A99C}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\Neo_Terra\Weapons\Weapon.cpp">
-			<Filter>Source\Neo_Terra\Weapons</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Neo_Terra\Weapons\Weapon.h">
-			<Filter>Source\Neo_Terra\Weapons</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Neo_Terra.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{B5CC353B-EF4A-4D3F-932B-5903CC64C761}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Neo_Terra.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Neo_TerraEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{34A6202B-FC40-421B-8F7E-705CA0A07586}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Neo_Terra">
+      <UniqueIdentifier>{475D7D84-0FBF-4A8D-B19D-8A03B15A9E15}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Neo_Terra\HumanoidCameraManager.cpp">
+      <Filter>Source\Neo_Terra</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Neo_Terra\HumanoidCameraManager.h">
+      <Filter>Source\Neo_Terra</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Neo_Terra\Neo_Terra.Build.cs">
+      <Filter>Source\Neo_Terra</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Neo_Terra\Neo_Terra.cpp">
+      <Filter>Source\Neo_Terra</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Neo_Terra\Neo_Terra.h">
+      <Filter>Source\Neo_Terra</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Neo_Terra\Neo_TerraGameMode.cpp">
+      <Filter>Source\Neo_Terra</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Neo_Terra\Neo_TerraGameMode.h">
+      <Filter>Source\Neo_Terra</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Neo_Terra\NTCharacter.cpp">
+      <Filter>Source\Neo_Terra</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Neo_Terra\NTCharacter.h">
+      <Filter>Source\Neo_Terra</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Neo_Terra\Ship.cpp">
+      <Filter>Source\Neo_Terra</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Neo_Terra\Ship.h">
+      <Filter>Source\Neo_Terra</Filter>
+    </ClInclude>
+    <Filter Include="Source\Neo_Terra\Resources">
+      <UniqueIdentifier>{A86215B4-3F21-4F70-B4BD-891C6E736B5B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Neo_Terra\Resources\Windows">
+      <UniqueIdentifier>{ABAE205C-BDBF-49A6-A0F3-8EFB96C0C1A4}</UniqueIdentifier>
+    </Filter>
+    <ResourceCompile Include="..\..\Source\Neo_Terra\Resources\Windows\Neo_Terra.rc">
+      <Filter>Source\Neo_Terra\Resources\Windows</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\Neo_Terra\Weapon">
+      <UniqueIdentifier>{686e2dff-d1bf-42e6-ab30-072650b157b5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Neo_Terra\Weapon\Weapon.h">
+      <Filter>Source\Neo_Terra\Weapon</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Neo_Terra\Weapon\Weapon.cpp">
+      <Filter>Source\Neo_Terra\Weapon</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

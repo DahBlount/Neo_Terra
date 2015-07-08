@@ -6,6 +6,7 @@
 
 // Sets default values
 AShip::AShip()
+	:Super()
 {
  	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
@@ -31,10 +32,6 @@ void AShip::Tick( float DeltaTime )
 void AShip::SetupPlayerInputComponent(class UInputComponent* InputComponent)
 {
 	Super::SetupPlayerInputComponent(InputComponent);
-
-	InputComponent->BindAxis("Roll", this, &AShip::Roll);
-	InputComponent->BindAxis("MoveForward", this, &AShip::MoveForward);
-	InputComponent->BindAxis("Strafe", this, &AShip::Strafe);
-	InputComponent->BindAction("Fire", IE_Pressed, this, &AShip::OnFire);
 }
-
+ 
+// A ship wants to fire a weapon, let's find all of its data then call Weapon_Create

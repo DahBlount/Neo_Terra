@@ -11,8 +11,6 @@ class NEO_TERRA_API AShip : public APawn
 	GENERATED_BODY()
 
 public:
-
-public:
 	// Sets default values for this pawn's properties
 	AShip();
 
@@ -30,6 +28,4 @@ public:
 	void MoveForward(float Val);
 
 	void Strafe(float Val);
-
-	void OnFire();
 };
