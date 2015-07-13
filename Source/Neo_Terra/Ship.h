@@ -3,6 +3,7 @@
 #pragma once
 
 #include "GameFramework/Pawn.h"
+#include "Weapon/Weapon.h"
 #include "Ship.generated.h"
 
 UCLASS()
@@ -28,6 +29,4 @@ public:
 	void MoveForward(float Val);
 
 	void Strafe(float Val);
-
-	void FireWeapon();
 };

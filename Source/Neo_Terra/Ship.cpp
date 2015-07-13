@@ -33,8 +33,3 @@ void AShip::SetupPlayerInputComponent(class UInputComponent* InputComponent)
 {
 	Super::SetupPlayerInputComponent(InputComponent);
 }
- 
-// A ship wants to fire a weapon, let's find all of its data then call Weapon_Create
-void AShip::FireWeapon()
-{
-}
