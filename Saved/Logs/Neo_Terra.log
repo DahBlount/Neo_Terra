@@ -1,882 +1,497 @@
-﻿[2015.07.11-22.38.15:972][  0]Log file open, 07/11/15 15:38:15
-[2015.07.11-22.38.15:972][  0]LogInit:Display: Running engine for game: Neo_Terra
-[2015.07.11-22.38.15:972][  0]LogInit:Display: RandInit(-1596480667) SRandInit(-1596480667).
-[2015.07.11-22.38.15:972][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-[2015.07.11-22.38.15:972][  0]LogStats: Stats thread started
-[2015.07.11-22.38.15:972][  0]LogInit: Version: 4.8.1-2591939+++depot+UE4-Releases+4.8
-[2015.07.11-22.38.15:972][  0]LogInit: API Version: 2579680
-[2015.07.11-22.38.15:972][  0]LogInit: Compiled (64-bit): Jun 18 2015 11:02:04
-[2015.07.11-22.38.15:972][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
-[2015.07.11-22.38.15:972][  0]LogInit: Build Configuration: Development
-[2015.07.11-22.38.15:972][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
-[2015.07.11-22.38.15:972][  0]LogInit: Command line:  
-[2015.07.11-22.38.15:972][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
-[2015.07.11-22.38.15:972][  0]LogInit: Rocket: 1
-[2015.07.11-22.38.16:045][  0]LogInit: Using libcurl 7.41.0
-[2015.07.11-22.38.16:045][  0]LogInit:  - built for x86_64-pc-win32
-[2015.07.11-22.38.16:045][  0]LogInit:  - supports SSL with WinSSL
-[2015.07.11-22.38.16:045][  0]LogInit:  - other features:
-[2015.07.11-22.38.16:045][  0]LogInit:      CURL_VERSION_SSL
-[2015.07.11-22.38.16:045][  0]LogInit:      CURL_VERSION_IPV6
-[2015.07.11-22.38.16:045][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2015.07.11-22.38.16:045][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2015.07.11-22.38.16:045][  0]LogInit:      CURL_VERSION_IDN
-[2015.07.11-22.38.16:045][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2015.07.11-22.38.16:045][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2015.07.11-22.38.16:045][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2015.07.11-22.38.16:045][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2015.07.11-22.38.16:045][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2015.07.11-22.38.16:057][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.07.11-22.38.16:156][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.07.11-22.38.16:161][  0]LogInit: Object subsystem initialized
-[2015.07.11-22.38.16:162][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
-[2015.07.11-22.38.16:162][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.07.11-22.38.16:162][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2015.07.11-22.38.16:162][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.07.11-22.38.16:162][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2015.07.11-22.38.16:162][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.07.11-22.38.16:162][  0]LogInit: Selected Device Profile: [Windows]
-[2015.07.11-22.38.16:162][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.07.11-22.38.16:168][  0]LogInit: Computer: ALLEN
-[2015.07.11-22.38.16:168][  0]LogInit: User: tyler000
-[2015.07.11-22.38.16:168][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.07.11-22.38.16:168][  0]LogInit: High frequency timer resolution =3.417966 MHz
-[2015.07.11-22.38.16:168][  0]LogMemory: Memory total: Physical=6.9GB (7GB approx)
-[2015.07.11-22.38.16:168][  0]LogMemory: Platform Memory Stats for Windows
-[2015.07.11-22.38.16:168][  0]LogMemory: Process Physical Memory: 52.64 MB used, 52.64 MB peak
-[2015.07.11-22.38.16:168][  0]LogMemory: Process Virtual Memory: 25.59 MB used, 25.59 MB peak
-[2015.07.11-22.38.16:168][  0]LogMemory: Physical Memory: 3868.55 MB used, 7109.95 MB total
-[2015.07.11-22.38.16:168][  0]LogMemory: Virtual Memory: 298.57 MB used, 134217728.00 MB total
-[2015.07.11-22.38.18:316][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
-[2015.07.11-22.38.18:467][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+﻿[2015.07.13-20.00.46:640][  0]Log file open, 07/13/15 15:00:46
+[2015.07.13-20.00.46:640][  0]LogInit:Display: Running engine for game: Neo_Terra
+[2015.07.13-20.00.46:640][  0]LogInit:Display: RandInit(-1602927257) SRandInit(-1602927257).
+[2015.07.13-20.00.46:640][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.07.13-20.00.46:640][  0]LogStats: Stats thread started
+[2015.07.13-20.00.46:640][  0]LogInit: Version: 4.8.1-2591939+++depot+UE4-Releases+4.8
+[2015.07.13-20.00.46:640][  0]LogInit: API Version: 2579680
+[2015.07.13-20.00.46:640][  0]LogInit: Compiled (64-bit): Jun 18 2015 11:02:04
+[2015.07.13-20.00.46:640][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.07.13-20.00.46:640][  0]LogInit: Build Configuration: Development
+[2015.07.13-20.00.46:640][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.07.13-20.00.46:640][  0]LogInit: Command line:  
+[2015.07.13-20.00.46:640][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.07.13-20.00.46:640][  0]LogInit: Rocket: 1
+[2015.07.13-20.00.46:656][  0]LogInit: Using libcurl 7.41.0
+[2015.07.13-20.00.46:656][  0]LogInit:  - built for x86_64-pc-win32
+[2015.07.13-20.00.46:656][  0]LogInit:  - supports SSL with WinSSL
+[2015.07.13-20.00.46:656][  0]LogInit:  - other features:
+[2015.07.13-20.00.46:656][  0]LogInit:      CURL_VERSION_SSL
+[2015.07.13-20.00.46:656][  0]LogInit:      CURL_VERSION_IPV6
+[2015.07.13-20.00.46:656][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.07.13-20.00.46:656][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.07.13-20.00.46:656][  0]LogInit:      CURL_VERSION_IDN
+[2015.07.13-20.00.46:656][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.07.13-20.00.46:656][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.07.13-20.00.46:656][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.07.13-20.00.46:656][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.07.13-20.00.46:656][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.07.13-20.00.46:667][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.07.13-20.00.46:762][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.07.13-20.00.46:767][  0]LogInit: Object subsystem initialized
+[2015.07.13-20.00.46:768][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.07.13-20.00.46:768][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.13-20.00.46:768][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.07.13-20.00.46:768][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.13-20.00.46:768][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.07.13-20.00.46:768][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.13-20.00.46:768][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.13-20.00.46:768][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.07.13-20.00.46:773][  0]LogInit: Computer: ALLEN
+[2015.07.13-20.00.46:773][  0]LogInit: User: tyler000
+[2015.07.13-20.00.46:773][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.07.13-20.00.46:773][  0]LogInit: High frequency timer resolution =3.417966 MHz
+[2015.07.13-20.00.46:773][  0]LogMemory: Memory total: Physical=6.9GB (7GB approx)
+[2015.07.13-20.00.46:773][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.13-20.00.46:773][  0]LogMemory: Process Physical Memory: 52.93 MB used, 52.93 MB peak
+[2015.07.13-20.00.46:773][  0]LogMemory: Process Virtual Memory: 25.61 MB used, 25.61 MB peak
+[2015.07.13-20.00.46:773][  0]LogMemory: Physical Memory: 3357.44 MB used, 7109.95 MB total
+[2015.07.13-20.00.46:773][  0]LogMemory: Virtual Memory: 298.57 MB used, 134217728.00 MB total
+[2015.07.13-20.00.47:280][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.07.13-20.00.47:429][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
 Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
 Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
-[2015.07.11-22.38.19:088][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
-[2015.07.11-22.38.19:088][  0]LogD3D11RHI: Adapter has 3996MB of dedicated video memory, 0MB of dedicated system memory, and 3554MB of shared system memory, 1 output[s]
-[2015.07.11-22.38.19:272][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
-[2015.07.11-22.38.19:273][  0]LogD3D11RHI: Adapter has 992MB of dedicated video memory, 0MB of dedicated system memory, and 800MB of shared system memory, 0 output[s]
-[2015.07.11-22.38.19:273][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.07.11-22.38.19:273][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
-[2015.07.11-22.38.19:273][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.07.11-22.38.19:276][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.07.11-22.38.19:284][  0]LogD3D11RHI: Async texture creation enabled
-[2015.07.11-22.38.19:299][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2015.07.11-22.38.21:509][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
-[2015.07.11-22.38.21:560][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2015.07.11-22.38.21:646][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2015.07.11-22.38.21:694][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2015.07.11-22.38.21:740][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2015.07.11-22.38.21:790][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2015.07.11-22.38.21:858][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2015.07.11-22.38.21:928][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2015.07.11-22.38.21:992][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2015.07.11-22.38.22:033][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2015.07.11-22.38.22:074][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2015.07.11-22.38.22:112][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2015.07.11-22.38.22:320][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2015.07.11-22.38.22:370][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2015.07.11-22.38.22:399][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2015.07.11-22.38.22:441][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2015.07.11-22.38.22:441][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.07.11-22.38.23:351][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.07.11-22.38.23:944][  0]LogDerivedDataCache: Loaded boot cache 0.59s 53MB C:/Users/tyler_000/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
-[2015.07.11-22.38.23:944][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/tyler_000/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
-[2015.07.11-22.38.23:944][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.07.11-22.38.23:944][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.07.11-22.38.23:944][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2015.07.11-22.38.23:944][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2015.07.11-22.38.24:108][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.07.11-22.38.24:120][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tyler_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.07.11-22.38.27:331][  0]LogInit: Selected Device Profile: [Windows]
-[2015.07.11-22.38.27:509][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
-[2015.07.11-22.38.27:509][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
-[2015.07.11-22.38.27:666][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.07.11-22.38.27:666][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.07.11-22.38.29:486][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.07.11-22.38.52:045][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.07.11-22.38.56:822][  0]SourceControl: Info Source control is disabled
-[2015.07.11-22.38.59:889][  0]LogObj: 26471 objects as part of root set at end of initial load.
-[2015.07.11-22.38.59:889][  0]LogUObjectAllocator: 5480776 out of 0 bytes used by permanent object pool.
-[2015.07.11-22.39.00:205][  0]LogEngine: Initializing Engine...
-[2015.07.11-22.39.00:208][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
-[2015.07.11-22.39.00:576][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 108
-[2015.07.11-22.39.01:332][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.07.11-22.39.01:415][  0]LogInit: XAudio2 using 'Digital Output (2- USB PnP Sound Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2015.07.11-22.39.01:479][  0]LogInit: FAudioDevice initialized.
-[2015.07.11-22.39.01:832][  0]LogDerivedDataCache: Saved boot cache 0.35s 71MB C:/Users/tyler_000/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
-[2015.07.11-22.39.02:008][  0]LogInit: Texture streaming: Disabled
-[2015.07.11-22.39.02:061][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.07.11-22.39.02:061][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.1-2591939+++depot+UE4-Releases+4.8
-[2015.07.11-22.39.02:061][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 6632c32e4547395767ec168df9274b5c|64132dcb96a94bf09c470f630e0c208d|4454835d-7eb2-4712-923a-e1b4390bdbbb
-[2015.07.11-22.39.02:061][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2015.07.11-22.39.02:487][  0]LogInit: Transaction tracking system initialized
-[2015.07.11-22.39.03:219][  0]BlueprintLog: New page: Editor Load
-[2015.07.11-22.39.03:337][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
-[2015.07.11-22.39.03:337][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2015.07.11-22.39.15:115][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FirstPersonOverview'
-[2015.07.11-22.39.15:115][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FirstPersonOverview'
-[2015.07.11-22.39.15:115][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FirstPersonOverview'
-[2015.07.11-22.39.15:115][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPerson/FirstPersonOverview.FirstPersonOverview_C'
-[2015.07.11-22.39.15:953][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
-[2015.07.11-22.39.15:953][  0]LogConsoleResponse:Display: 
-[2015.07.11-22.39.19:529][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.07.11-22.39.20:932][  0]LogAutoReimportManager: Scanning file cache for directory 'C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/' took 0.02s
-[2015.07.11-22.39.21:266][  0]Cmd: MAP LOAD FILE="../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.07.11-22.39.21:266][  0]LightingResults: New page: Lighting Build
-[2015.07.11-22.39.21:279][  0]MapCheck: New page: Map Check
-[2015.07.11-22.39.21:279][  0]LightingResults: New page: Lighting Build
-[2015.07.11-22.39.21:286][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD4CFD23E0
-[2015.07.11-22.39.26:649][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2015.07.11-22.39.26:873][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
-[2015.07.11-22.39.26:873][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
-[2015.07.11-22.39.26:873][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
-[2015.07.11-22.39.26:873][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
-[2015.07.11-22.39.27:062][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.07.11-22.39.27:074][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.07.11-22.39.27:144][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 70.216ms to complete.
-[2015.07.11-22.39.27:144][  0]LogFileHelpers: Loading map 'Minimal_Default' took 5.879
-[2015.07.11-22.39.30:553][  0]LogCollectionManager: Loaded 0 collections in 0.002040 seconds
-[2015.07.11-22.39.30:560][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 1798 classes and 306 folders.
-[2015.07.11-22.39.31:514][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0031 seconds. Added 0 classes and 0 folders.
-[2015.07.11-22.39.33:139][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0023 seconds. Added 0 classes and 0 folders.
-[2015.07.11-22.39.33:210][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.07.11-22.39.33:213][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.07.11-22.39.33:235][  0]LogLoad: Full Startup: 79.30 seconds (BP compile: 0.39 seconds)
-[2015.07.11-22.39.34:713][  0]SourceControl: Info On branch master
-[2015.07.11-22.39.34:713][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
-[2015.07.11-22.39.34:713][  0]SourceControl: Info Changes to be committed:
-[2015.07.11-22.39.34:713][  0]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
-[2015.07.11-22.39.34:713][  0]SourceControl: Info 	deleted:    Content/AnimStarterPack/Character/ASP_Character.uasset
-[2015.07.11-22.39.34:713][  0]SourceControl: Info 	deleted:    Content/AnimStarterPack/Character/ASP_HeroTPP_AnimBlueprint.uasset
-[2015.07.11-22.39.34:713][  0]SourceControl: Info 	deleted:    Content/AnimStarterPack/Showcase.umap
-[2015.07.11-22.39.34:713][  0]SourceControl: Info 	deleted:    Content/NeoTerra/Blueprints/NTCameraManager.uasset
-[2015.07.11-22.39.34:713][  0]SourceControl: Info 	deleted:    Content/NeoTerra/Blueprints/Shrike.uasset
-[2015.07.11-22.39.34:713][  0]SourceControl: Info 	new file:   Content/NeoTerra/Blueprints/WP_Shrike.uasset
-[2015.07.11-22.39.34:713][  0]SourceControl: Info Changes not staged for commit:
-[2015.07.11-22.39.34:713][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
-[2015.07.11-22.39.34:713][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
-[2015.07.11-22.39.34:713][  0]SourceControl: Info 	modified:   Binaries/Win64/UE4Editor-Neo_Terra.dll
-[2015.07.11-22.39.34:713][  0]SourceControl: Info 	modified:   Config/DefaultInput.ini
-[2015.07.11-22.39.34:713][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Aim_Space_Hip.uasset
-[2015.07.11-22.39.34:713][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Aim_Space_Ironsights.uasset
-[2015.07.11-22.39.34:713][  0]SourceControl: Info 	deleted:    Content/AnimStarterPack/Character/HeroTPP.uasset
-[2015.07.11-22.39.34:713][  0]SourceControl: Info 	deleted:    Content/AnimStarterPack/Character/HeroTPP_Physics.uasset
-[2015.07.11-22.39.34:713][  0]SourceControl: Info 	deleted:    Content/AnimStarterPack/Character/HeroTPP_Skeleton.uasset
-[2015.07.11-22.39.34:713][  0]SourceControl: Info 	deleted:    Content/AnimStarterPack/Character/R_CrouchWalk.uasset
-[2015.07.11-22.39.34:713][  0]SourceControl: Info 	deleted:    Content/AnimStarterPack/Character/R_Jog.uasset
-[2015.07.11-22.39.34:713][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Crouch_Idle_Rifle_Hip.uasset
-[2015.07.11-22.39.34:713][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Crouch_Idle_Rifle_Ironsights.uasset
-[2015.07.11-22.39.34:713][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip.uasset
-[2015.07.11-22.39.34:713][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Ironsights.uasset
-[2015.07.11-22.39.34:713][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Hip.uasset
-[2015.07.11-22.39.34:713][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Ironsights.uasset
-[2015.07.11-22.39.34:713][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Crouch_Walk_Lt_Rifle_Hip.uasset
-[2015.07.11-22.39.34:713][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Crouch_Walk_Lt_Rifle_Ironsights.uasset
-[2015.07.11-22.39.34:713][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Crouch_Walk_Rt_Rifle_Hip.uasset
-[2015.07.11-22.39.34:713][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Crouch_Walk_Rt_Rifle_Ironsights.uasset
-[2015.07.11-22.39.34:713][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Crouch_to_Stand_Rifle_Hip.uasset
-[2015.07.11-22.39.34:713][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Crouch_to_Stand_Rifle_Ironsights.uasset
-[2015.07.11-22.39.34:713][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Death_1.uasset
-[2015.07.11-22.39.34:713][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Death_2.uasset
-[2015.07.11-22.39.34:714][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Death_3.uasset
-[2015.07.11-22.39.34:714][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Death_Ironsights_1.uasset
-[2015.07.11-22.39.34:714][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Death_Ironsights_2.uasset
-[2015.07.11-22.39.34:716][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Equip_Pistol_Standing.uasset
-[2015.07.11-22.39.34:716][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Equip_Rifle_Standing.uasset
-[2015.07.11-22.39.34:716][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Fire_Rifle_Hip.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Fire_Rifle_Ironsights.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Fire_Shotgun_Hip.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Fire_Shotgun_Ironsights.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Hit_React_1.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Hit_React_2.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Hit_React_3.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Hit_React_4.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Idle_Pistol.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Idle_Rifle_Hip.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Idle_Rifle_Hip_Break1.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Idle_Rifle_Hip_Break2.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Idle_Rifle_Ironsights.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Jog_Bwd_Rifle.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Jog_Fwd_Rifle.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Jog_Lt_Rifle.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Jog_Rt_Rifle.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Jump_From_Jog.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Jump_From_Stand.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Jump_From_Stand_Ironsights.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Prone_Death_1.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Prone_Death_2.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Prone_Fire_1.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Prone_Fire_2.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Prone_Idle.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Prone_Reload_Rifle.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Prone_Reload_Shotgun.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Prone_To_Stand.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Reload_Pistol.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Reload_Rifle_Hip.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Reload_Rifle_Ironsights.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Reload_Shotgun_Hip.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Reload_Shotgun_Ironsights.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Sprint_Fwd_Rifle.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Stand_To_Prone.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Stand_to_Crouch_Rifle_Hip.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Stand_to_Crouch_Rifle_Ironsights.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Walk_Bwd_Rifle_Ironsights.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Walk_Fwd_Rifle_Ironsights.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Walk_Lt_Rifle_Ironsights.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/AnimStarterPack/Walk_Rt_Rifle_Ironsights.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Animations/FirstPersonFire_Copy.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Animations/FirstPersonMontage_Fire.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Animations/FirstPerson_EndJump.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Animations/FirstPerson_Fire.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Animations/FirstPerson_Idle.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Animations/FirstPerson_LoopJump.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Animations/FirstPerson_Run.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Animations/FirstPerson_StartJump.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Animations/FirstPerson_animBP.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Audio/FirstPersonFire.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Blueprints/FirstPersonCharacter.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Character/Materials/M_UE4Man_Body.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_PhysicsAsset.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Character/Textures/UE4_LOGO_CARD.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Character/Textures/UE4_Mannequin__normals.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Character/Textures/UE4_Mannequin_occlusion_Mobile.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	deleted:    Content/FirstPerson/FirstPersonOverview.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Maps/FirstPersonExampleMap.umap
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Meshes/CubeMaterial.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Meshes/CubeMesh.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Meshes/FirstPersonCube.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	deleted:    Content/FirstPerson/Textures/FirstPersonCrosshair.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/NeoTerra/Blueprints/WP_Shrike.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/NeoTerra/Materials/Shrike.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/NeoTerra/Meshes/Shrike.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/NeoTerra/Particles/Materials/Circle_Norm.png
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/NeoTerra/Particles/Materials/Circle_Norm.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/NeoTerra/Particles/P_MissileThruster.uasset
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Content/StarterContent/Maps/Minimal_Default.umap
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Input.ini
-[2015.07.11-22.39.34:717][  0]SourceControl: Info 	modified:   Intermediate/ReimportCache/3688439234.bin
-[2015.07.11-22.39.34:718][  0]SourceControl: Info 	modified:   Neo_Terra.v12.suo
-[2015.07.11-22.39.34:718][  0]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
-[2015.07.11-22.39.34:718][  0]SourceControl: Info 	modified:   Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap
-[2015.07.11-22.39.34:718][  0]SourceControl: Info 	modified:   Saved/Autosaves/Game/StarterContent/Maps/UEDPCMinimal_Default.umap
-[2015.07.11-22.39.34:718][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
-[2015.07.11-22.39.34:718][  0]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2015.07.11-22.39.34:718][  0]SourceControl: Info 	modified:   Saved/Logs/Neo_Terra.log
-[2015.07.11-22.39.34:718][  0]SourceControl: Info 	modified:   Source/Neo_Terra/Weapon/Weapon.cpp
-[2015.07.11-22.39.34:718][  0]SourceControl: Info 	modified:   Source/Neo_Terra/Weapon/Weapon.h
-[2015.07.11-22.39.34:718][  0]SourceControl: Info Untracked files:
-[2015.07.11-22.39.34:718][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
-[2015.07.11-22.39.34:718][  0]SourceControl: Info 	Binaries/Win64/UE4Editor-Neo_Terra-8156.dll
-[2015.07.11-22.39.34:718][  0]SourceControl: Info 	Content/AnimStarterPack/BS_CrouchWalk.uasset
-[2015.07.11-22.39.34:718][  0]SourceControl: Info 	Content/AnimStarterPack/BS_Jog.uasset
-[2015.07.11-22.39.34:718][  0]SourceControl: Info 	Content/AnimStarterPack/Showcase.umap
-[2015.07.11-22.39.34:718][  0]SourceControl: Info 	Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset
-[2015.07.11-22.39.34:718][  0]SourceControl: Info 	Content/AnimStarterPack/UE4_Mannequin/
-[2015.07.11-22.39.34:718][  0]SourceControl: Info 	Content/AnimStarterPack/Ue4ASP_Character.uasset
-[2015.07.11-22.39.34:718][  0]SourceControl: Info 	Saved/Autosaves/Game/NeoTerra/Blueprints/NewWidgetBlueprint_Auto2.uasset
-[2015.07.11-22.39.34:718][  0]SourceControl: Info 	Saved/Autosaves/Game/NeoTerra/Blueprints/WP_Shrike_Auto1.uasset
-[2015.07.11-22.39.34:718][  0]SourceControl: Info 	Saved/Autosaves/Game/NeoTerra/Blueprints/W_TestWidget_Auto1.uasset
-[2015.07.11-22.39.34:718][  0]SourceControl: Info 	Saved/Logs/UE4CC-Windows-3A8306BA4D266763F445CE9BB3FA2FDD/
-[2015.07.11-22.39.34:718][  0]SourceControl: Info 	Saved/Logs/UE4CC-Windows-4520CFAA4EEA0C154CF2939FDFF67FAA/
-[2015.07.11-22.39.34:718][  0]SourceControl: Info 	Saved/Logs/UE4CC-Windows-56CBE216485E930F6795DBB058A6A32B/
-[2015.07.11-22.39.34:718][  0]SourceControl: Info 	Saved/Logs/UE4CC-Windows-70124BD34C07D9049DC1329C99339F47/
-[2015.07.11-22.39.34:718][  0]SourceControl: Info 	Saved/Logs/UE4CC-Windows-771A926443E6DCD4446BDA978DB73D4C/
-[2015.07.11-22.39.34:718][  0]SourceControl: Info 	Saved/Logs/UE4CC-Windows-9235DE8241B425FE18557688DC6695CC/
-[2015.07.11-22.39.34:718][  0]SourceControl: Info 	Saved/Logs/UE4CC-Windows-95E129974AD7D3C93727688B9FF5CD70/
-[2015.07.11-22.39.34:718][  0]SourceControl: Info 	Saved/Logs/UE4CC-Windows-966676E140718070CDB74BBDE2A69062/
-[2015.07.11-22.39.34:718][  0]SourceControl: Info 	Saved/Logs/UE4CC-Windows-ADAB3DE5404304DC7B1B31B2973046F4/
-[2015.07.11-22.39.34:718][  0]SourceControl: Info 	Saved/Logs/UE4CC-Windows-CC834F984DC2217BD5035EA680B0CCB6/
-[2015.07.11-22.39.34:718][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.07.11-22.39.35:575][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2015.07.11-22.39.35:915][  2]LogRenderer: Reallocating scene render targets to support 616x272 (Frame:2).
-[2015.07.11-22.39.37:548][  5]LogAssetRegistry: Asset discovery search completed in 34.2231 seconds
-[2015.07.11-22.39.39:150][  8]LogRenderer: Reallocating scene render targets to support 1208x1568 (Frame:6).
-[2015.07.11-22.39.50:238][157]LogMaterial: Missing cached shader map for material Mat_Rust, compiling. 
-[2015.07.11-22.39.50:375][157]LogMaterial: Missing cached shader map for material Mat_Rust, compiling. 
-[2015.07.11-22.39.50:378][157]LogMaterial: 0.000016 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.39.54:125][499]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
-[2015.07.11-22.39.54:125][499]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.07.11-22.39.54:125][499]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.07.11-22.39.57:060][844]LogMaterial: Missing cached shader map for material Mat_Rust, compiling. 
-[2015.07.11-22.39.57:064][844]LogMaterial: 0.000061 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.39.58:893][ 23]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
-[2015.07.11-22.39.58:893][ 23]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.07.11-22.39.58:893][ 23]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.07.11-22.40.01:125][232]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_0, compiling. 
-[2015.07.11-22.40.09:660][ 61]LogMaterial: Missing cached shader map for material Material_0, compiling. 
-[2015.07.11-22.40.09:664][ 61]LogMaterial: 0.000016 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.40.14:257][513]LogMaterial: Missing cached shader map for material Material_0, compiling. 
-[2015.07.11-22.40.14:260][513]LogMaterial: 0.000028 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.40.14:315][513]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_0, compiling. 
-[2015.07.11-22.40.17:198][806]LogMaterial: Missing cached shader map for material Material_0, compiling. 
-[2015.07.11-22.40.17:200][806]LogMaterial: 0.000034 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.40.17:288][806]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_0, compiling. 
-[2015.07.11-22.40.22:166][271]LogMaterial: Missing cached shader map for material Material_0, compiling. 
-[2015.07.11-22.40.22:168][271]LogMaterial: 0.000036 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.40.22:252][271]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_0, compiling. 
-[2015.07.11-22.40.26:861][701]LogMaterial: Missing cached shader map for material Material_0, compiling. 
-[2015.07.11-22.40.26:863][701]LogMaterial: 0.000035 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.40.26:946][701]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_0, compiling. 
-[2015.07.11-22.40.29:203][922]LogMaterial: Missing cached shader map for material Material_0, compiling. 
-[2015.07.11-22.40.29:205][922]LogMaterial: 0.000025 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.40.29:232][922]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_0, compiling. 
-[2015.07.11-22.40.30:744][ 65]LogMaterial: Missing cached shader map for material Material_0, compiling. 
-[2015.07.11-22.40.30:746][ 65]LogMaterial: 0.000035 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.40.30:794][ 65]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_0, compiling. 
-[2015.07.11-22.40.39:750][909]LogMaterial: Missing cached shader map for material Material_0, compiling. 
-[2015.07.11-22.40.39:752][909]LogMaterial: 0.000032 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.40.39:839][909]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_0, compiling. 
-[2015.07.11-22.40.44:215][338]LogMaterial: Missing cached shader map for material Material_0, compiling. 
-[2015.07.11-22.40.44:217][338]LogMaterial: 0.000037 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.40.44:265][338]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_0, compiling. 
-[2015.07.11-22.40.48:840][800]LogMaterial: Missing cached shader map for material Material_0, compiling. 
-[2015.07.11-22.40.48:842][800]LogMaterial: 0.000049 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.40.48:912][800]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_0, compiling. 
-[2015.07.11-22.40.53:134][221]LogMaterial: Missing cached shader map for material Material_0, compiling. 
-[2015.07.11-22.40.53:136][221]LogMaterial: 0.000043 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.40.53:163][221]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_0, compiling. 
-[2015.07.11-22.40.58:132][719]LogMaterial: Missing cached shader map for material Material_0, compiling. 
-[2015.07.11-22.40.58:134][719]LogMaterial: 0.000024 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.40.58:187][719]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_0, compiling. 
-[2015.07.11-22.41.04:270][282]LogMaterial: Missing cached shader map for material Material_0, compiling. 
-[2015.07.11-22.41.04:272][282]LogMaterial: 0.000047 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.41.04:297][282]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_0, compiling. 
-[2015.07.11-22.42.18:586][523]LogMaterial: Missing cached shader map for material Material_0, compiling. 
-[2015.07.11-22.42.18:588][523]LogMaterial: 0.000029 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.42.18:649][523]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_0, compiling. 
-[2015.07.11-22.42.22:087][863]LogMaterial: Missing cached shader map for material Mat_Rust, compiling. 
-[2015.07.11-22.42.22:091][863]LogMaterial: 0.000043 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.42.24:836][121]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 108 instructions
-[2015.07.11-22.42.24:836][121]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.07.11-22.42.24:836][121]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.07.11-22.42.37:459][387]LogMaterial: Missing cached shader map for material Mat_Rust, compiling. 
-[2015.07.11-22.42.37:463][387]LogMaterial: 0.000048 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.42.37:512][387]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_0, compiling. 
-[2015.07.11-22.42.42:342][837]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 182 instructions
-[2015.07.11-22.42.42:342][837]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.07.11-22.42.42:342][837]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.07.11-22.42.58:367][312]LogMaterial: Missing cached shader map for material Mat_Rust, compiling. 
-[2015.07.11-22.42.58:371][312]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.42.58:468][312]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_0, compiling. 
-[2015.07.11-22.43.03:803][822]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 257 instructions
-[2015.07.11-22.43.03:803][822]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.07.11-22.43.03:803][822]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.07.11-22.43.07:492][167]LogMaterial: Missing cached shader map for material Mat_Rust, compiling. 
-[2015.07.11-22.43.07:496][167]LogMaterial: 0.000047 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.43.07:549][167]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_0, compiling. 
-[2015.07.11-22.43.10:308][457]LogMaterial: Missing cached shader map for material Mat_Rust, compiling. 
-[2015.07.11-22.43.10:313][457]LogMaterial: 0.000021 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.43.10:338][457]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_0, compiling. 
-[2015.07.11-22.43.11:875][598]LogMaterial: Missing cached shader map for material Mat_Rust, compiling. 
-[2015.07.11-22.43.11:880][598]LogMaterial: 0.000035 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.43.11:976][598]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_0, compiling. 
-[2015.07.11-22.43.14:891][867]LogMaterial: Missing cached shader map for material Mat_Rust, compiling. 
-[2015.07.11-22.43.14:895][867]LogMaterial: 0.000027 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.43.14:920][867]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_0, compiling. 
-[2015.07.11-22.43.20:465][385]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 255 instructions
-[2015.07.11-22.43.20:465][385]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.07.11-22.43.20:465][385]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.07.11-22.44.38:399][544]LogMaterial: Missing cached shader map for material Mat_Rust, compiling. 
-[2015.07.11-22.44.38:403][544]LogMaterial: 0.000047 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.44.38:469][544]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_0, compiling. 
-[2015.07.11-22.44.41:969][908]LogMaterial: Missing cached shader map for material Mat_Rust, compiling. 
-[2015.07.11-22.44.41:973][908]LogMaterial: 0.000016 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.44.41:995][908]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_0, compiling. 
-[2015.07.11-22.44.43:026][ 13]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 255 instructions
-[2015.07.11-22.44.43:026][ 13]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.07.11-22.44.43:026][ 13]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.07.11-22.44.43:587][ 62]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionBlackBody_0, compiling. 
-[2015.07.11-22.44.58:027][590]LogMaterial: Missing cached shader map for material Material_1, compiling. 
-[2015.07.11-22.44.58:029][590]LogMaterial: 0.000013 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.45.01:620][968]LogMaterial: Missing cached shader map for material Material_1, compiling. 
-[2015.07.11-22.45.01:622][968]LogMaterial: 0.000045 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.45.01:667][968]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_0, compiling. 
-[2015.07.11-22.45.01:683][968]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionBlackBody_0, compiling. 
-[2015.07.11-22.45.04:478][252]LogMaterial: Missing cached shader map for material Mat_Rust, compiling. 
-[2015.07.11-22.45.04:482][252]LogMaterial: 0.000031 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.45.09:047][683]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 353 instructions
-[2015.07.11-22.45.09:047][683]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.07.11-22.45.09:047][683]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.07.11-22.46.36:904][264]LogMaterial: Missing cached shader map for material M_Metal_Rust, compiling. 
-[2015.07.11-22.46.37:077][264]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_55, compiling. 
-[2015.07.11-22.46.37:079][264]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
-[2015.07.11-22.46.37:121][264]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_58, compiling. 
-[2015.07.11-22.46.37:176][264]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_59, compiling. 
-[2015.07.11-22.46.37:210][264]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_20, compiling. 
-[2015.07.11-22.46.37:256][264]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
-[2015.07.11-22.46.37:282][264]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
-[2015.07.11-22.46.37:290][264]LogMaterial: Missing cached shader map for material M_Metal_Rust, compiling. 
-[2015.07.11-22.46.37:295][264]LogMaterial: 0.000025 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.46.37:353][264]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_55, compiling. 
-[2015.07.11-22.46.37:392][264]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
-[2015.07.11-22.46.37:394][264]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_58, compiling. 
-[2015.07.11-22.46.37:425][264]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_59, compiling. 
-[2015.07.11-22.46.37:426][264]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_20, compiling. 
-[2015.07.11-22.46.37:488][264]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
-[2015.07.11-22.46.37:517][264]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
-[2015.07.11-22.46.39:233][455]MaterialEditorStats: Info Base pass shader with static lighting: 103 instructions
-[2015.07.11-22.46.39:233][455]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 71 instructions
-[2015.07.11-22.46.39:233][455]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.07.11-22.46.39:233][455]MaterialEditorStats: Info Texture samplers: 5/16
-[2015.07.11-22.46.58:979][817]LogMaterial: Missing cached shader map for material M_Metal_Rust, compiling. 
-[2015.07.11-22.46.58:992][817]LogMaterial: 0.000039 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.46.59:088][817]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_55, compiling. 
-[2015.07.11-22.46.59:089][817]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
-[2015.07.11-22.46.59:118][817]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_58, compiling. 
-[2015.07.11-22.46.59:120][817]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_59, compiling. 
-[2015.07.11-22.46.59:122][817]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_20, compiling. 
-[2015.07.11-22.46.59:161][817]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
-[2015.07.11-22.46.59:179][817]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
-[2015.07.11-22.47.01:312][ 62]MaterialEditorStats: Info Base pass shader with static lighting: 103 instructions
-[2015.07.11-22.47.01:312][ 62]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 71 instructions
-[2015.07.11-22.47.01:312][ 62]MaterialEditorStats: Info Vertex shader: 54 instructions
-[2015.07.11-22.47.01:312][ 62]MaterialEditorStats: Info Texture samplers: 5/16
-[2015.07.11-22.47.13:985][567]LogMaterial: Missing cached shader map for material M_Metal_Rust, compiling. 
-[2015.07.11-22.47.13:989][567]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.47.14:045][567]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_55, compiling. 
-[2015.07.11-22.47.14:056][567]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
-[2015.07.11-22.47.14:083][567]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_58, compiling. 
-[2015.07.11-22.47.14:085][567]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_59, compiling. 
-[2015.07.11-22.47.14:097][567]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_20, compiling. 
-[2015.07.11-22.47.14:123][567]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
-[2015.07.11-22.47.14:136][567]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
-[2015.07.11-22.47.15:874][765]MaterialEditorStats: Info Base pass shader with static lighting: 103 instructions
-[2015.07.11-22.47.15:874][765]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 71 instructions
-[2015.07.11-22.47.15:874][765]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.07.11-22.47.15:874][765]MaterialEditorStats: Info Texture samplers: 5/16
-[2015.07.11-22.49.05:415][649]LogMaterial: Missing cached shader map for material Mat_Rust, compiling. 
-[2015.07.11-22.49.05:419][649]LogMaterial: 0.000036 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.49.05:470][649]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_0, compiling. 
-[2015.07.11-22.49.05:472][649]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionBlackBody_0, compiling. 
-[2015.07.11-22.49.08:917][ 41]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 279 instructions
-[2015.07.11-22.49.08:917][ 41]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.07.11-22.49.08:917][ 41]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.07.11-22.49.20:299][396]LogMaterial: Missing cached shader map for material Mat_Rust, compiling. 
-[2015.07.11-22.49.20:303][396]LogMaterial: 0.000040 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.49.20:331][396]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_0, compiling. 
-[2015.07.11-22.49.20:333][396]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionBlackBody_0, compiling. 
-[2015.07.11-22.49.22:281][617]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 181 instructions
-[2015.07.11-22.49.22:281][617]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.07.11-22.49.22:281][617]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.07.11-22.49.23:690][781]LogMaterial: Missing cached shader map for material Mat_Rust, compiling. 
-[2015.07.11-22.49.23:694][781]LogMaterial: 0.000049 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.49.23:736][781]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_0, compiling. 
-[2015.07.11-22.49.23:774][781]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionBlackBody_0, compiling. 
-[2015.07.11-22.49.25:551][988]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 108 instructions
-[2015.07.11-22.49.25:551][988]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.07.11-22.49.25:551][988]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.07.11-22.49.32:206][782]LogMaterial: Missing cached shader map for material Mat_Rust, compiling. 
-[2015.07.11-22.49.32:209][782]LogMaterial: 0.000046 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.49.32:264][782]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_0, compiling. 
-[2015.07.11-22.49.32:292][782]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionBlackBody_0, compiling. 
-[2015.07.11-22.49.33:156][881]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 108 instructions
-[2015.07.11-22.49.33:156][881]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.07.11-22.49.33:156][881]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.07.11-22.49.44:040][181]LogMaterial: Missing cached shader map for material Mat_Rust, compiling. 
-[2015.07.11-22.49.44:044][181]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.49.44:082][181]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_0, compiling. 
-[2015.07.11-22.49.44:119][181]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionBlackBody_0, compiling. 
-[2015.07.11-22.49.45:600][349]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 109 instructions
-[2015.07.11-22.49.45:600][349]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.07.11-22.49.45:600][349]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.07.11-22.49.46:581][461]LogMaterial: Missing cached shader map for material Mat_Rust, compiling. 
-[2015.07.11-22.49.46:585][461]LogMaterial: 0.000045 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.49.46:609][461]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_0, compiling. 
-[2015.07.11-22.49.46:611][461]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionBlackBody_0, compiling. 
-[2015.07.11-22.49.48:121][632]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 108 instructions
-[2015.07.11-22.49.48:121][632]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.07.11-22.49.48:121][632]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.07.11-22.49.56:444][628]LogMaterial: Missing cached shader map for material Mat_Rust, compiling. 
-[2015.07.11-22.49.56:449][628]LogMaterial: 0.000031 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.49.56:478][628]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_0, compiling. 
-[2015.07.11-22.49.56:511][628]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionBlackBody_0, compiling. 
-[2015.07.11-22.50.00:057][ 29]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 108 instructions
-[2015.07.11-22.50.00:057][ 29]MaterialEditorStats: Info Vertex shader: 106 instructions
-[2015.07.11-22.50.00:057][ 29]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.07.11-22.50.38:705][647]LogMaterial: Missing cached shader map for material Mat_Rust, compiling. 
-[2015.07.11-22.50.38:709][647]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.50.38:806][647]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_0, compiling. 
-[2015.07.11-22.50.38:884][647]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionBlackBody_0, compiling. 
-[2015.07.11-22.50.40:867][872]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 108 instructions
-[2015.07.11-22.50.40:867][872]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.07.11-22.50.40:867][872]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.07.11-22.51.02:851][501]LogMaterial: Missing cached shader map for material Mat_Rust, compiling. 
-[2015.07.11-22.51.02:855][501]LogMaterial: 0.000040 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.51.02:948][501]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_0, compiling. 
-[2015.07.11-22.51.02:950][501]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionBlackBody_0, compiling. 
-[2015.07.11-22.51.04:819][713]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 108 instructions
-[2015.07.11-22.51.04:819][713]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.07.11-22.51.04:819][713]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.07.11-22.51.05:490][790]LogMaterial: Missing cached shader map for material Material_2, compiling. 
-[2015.07.11-22.51.05:492][790]LogMaterial: 0.000017 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.51.07:747][ 56]LogMaterial: Missing cached shader map for material Mat_Rust, compiling. 
-[2015.07.11-22.51.07:751][ 56]LogMaterial: 0.000038 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.51.09:499][255]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 108 instructions
-[2015.07.11-22.51.09:499][255]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.07.11-22.51.09:499][255]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.07.11-22.51.11:551][496]LogMaterial: Missing cached shader map for material Mat_Rust, compiling. 
-[2015.07.11-22.51.11:555][496]LogMaterial: 0.000045 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.51.11:589][496]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_0, compiling. 
-[2015.07.11-22.51.11:610][496]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionBlackBody_0, compiling. 
-[2015.07.11-22.51.12:825][633]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 108 instructions
-[2015.07.11-22.51.12:825][633]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.07.11-22.51.12:825][633]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.07.11-22.51.22:536][508]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD509E4220
-[2015.07.11-22.51.22:536][508]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD593F5F80
-[2015.07.11-22.51.38:564][878]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2015.07.11-22.51.41:291][143]LogEditorViewport: Clicking on Actor (LMB): WP_Shrike_C (WP_Shrike)
-[2015.07.11-22.51.43:314][328]LogMaterial: Missing cached shader map for material Shrike, compiling. 
-[2015.07.11-22.51.43:413][328]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2015.07.11-22.51.43:415][328]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
-[2015.07.11-22.51.43:435][328]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
-[2015.07.11-22.51.43:436][328]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionPanner_2, compiling. 
-[2015.07.11-22.51.43:438][328]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
-[2015.07.11-22.51.43:439][328]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionPanner_3, compiling. 
-[2015.07.11-22.51.43:520][328]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
-[2015.07.11-22.51.43:540][328]LogMaterial: Missing cached shader map for material Shrike, compiling. 
-[2015.07.11-22.51.43:545][328]LogMaterial: 0.000016 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.51.43:605][328]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2015.07.11-22.51.43:606][328]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
-[2015.07.11-22.51.43:642][328]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
-[2015.07.11-22.51.43:672][328]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionPanner_2, compiling. 
-[2015.07.11-22.51.43:701][328]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
-[2015.07.11-22.51.43:761][328]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionPanner_3, compiling. 
-[2015.07.11-22.51.43:791][328]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
-[2015.07.11-22.51.45:518][518]MaterialEditorStats: Info Base pass shader with static lighting: 91 instructions
-[2015.07.11-22.51.45:518][518]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
-[2015.07.11-22.51.45:518][518]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.07.11-22.51.45:518][518]MaterialEditorStats: Info Texture samplers: 6/16
-[2015.07.11-22.52.19:078][518]LogMaterial: Missing cached shader map for material Shrike, compiling. 
-[2015.07.11-22.52.19:082][518]LogMaterial: 0.000045 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.52.19:106][518]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2015.07.11-22.52.19:180][518]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
-[2015.07.11-22.52.19:223][518]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
-[2015.07.11-22.52.19:300][518]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionPanner_2, compiling. 
-[2015.07.11-22.52.19:365][518]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
-[2015.07.11-22.52.19:367][518]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionPanner_3, compiling. 
-[2015.07.11-22.52.19:368][518]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
-[2015.07.11-22.52.21:406][752]MaterialEditorStats: Info Base pass shader with static lighting: 88 instructions
-[2015.07.11-22.52.21:406][752]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 57 instructions
-[2015.07.11-22.52.21:406][752]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.07.11-22.52.21:406][752]MaterialEditorStats: Info Texture samplers: 6/16
-[2015.07.11-22.52.55:443][823]LogMaterialEditor: Applying material Shrike
-[2015.07.11-22.52.55:718][823]LogMaterial: Missing cached shader map for material Shrike, compiling. 
-[2015.07.11-22.52.55:735][823]LogMaterial: 0.000049 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.52.55:798][823]LogMaterial: Missing cached shader map for material Shrike, compiling. 
-[2015.07.11-22.52.55:874][823]LogMaterial: Missing cached shader map for material Shrike, compiling. 
-[2015.07.11-22.52.55:882][823]LogMaterial: 0.000378 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.52.56:539][897]LogMaterialEditor: Saving and Compiling material Shrike
-[2015.07.11-22.52.58:984][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NeoTerra/Materials/Shrike" FILE="../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/NeoTerra/Materials/Shrike.uasset" SILENT=true
-[2015.07.11-22.52.59:020][897]LogSavePackage: Save=11.309943ms
-[2015.07.11-22.52.59:020][897]LogSavePackage: Moving '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Saved/Shrike0FD4E140450F42ECB7C032BA9C1D8A1D.tmp' to '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/NeoTerra/Materials/Shrike.uasset'
-[2015.07.11-22.52.59:027][897]MaterialEditorStats: Info Base pass shader with static lighting: 117 instructions
-[2015.07.11-22.52.59:027][897]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 85 instructions
-[2015.07.11-22.52.59:027][897]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.07.11-22.52.59:027][897]MaterialEditorStats: Info Texture samplers: 7/16
-[2015.07.11-22.53.50:541][802]LogEditorViewport: Clicking on Actor (LMB): WP_Shrike_C (WP_Shrike)
-[2015.07.11-22.54.17:458][366]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2015.07.11-22.54.18:319][463]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2015.07.11-22.54.19:758][632]LogEditorViewport: Clicking on Actor (LMB): WP_Shrike_C (WP_Shrike)
-[2015.07.11-22.54.25:546][321]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2015.07.11-22.54.28:748][700]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.07.11-22.54.28:925][700]PIE: New page: SIE session: Minimal_Default (Jul 11, 2015, 8:54:28 AM)
-[2015.07.11-22.54.28:925][700]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2015.07.11-22.54.28:929][700]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003651s)
-[2015.07.11-22.54.28:930][700]LogAIModule: Creating AISystem for world Minimal_Default
-[2015.07.11-22.54.28:930][700]LogPlayLevel: PIE: World Init took: (0.001006s)
-[2015.07.11-22.54.28:930][700]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004834s)
-[2015.07.11-22.54.28:938][700]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD42BB0AE0
-[2015.07.11-22.54.28:945][700]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.BP_Sky_Sphere_C_2"
-[2015.07.11-22.54.28:959][700]LogInit: XAudio2 using 'Digital Output (2- USB PnP Sound Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2015.07.11-22.54.28:962][700]LogInit: FAudioDevice initialized.
-[2015.07.11-22.54.29:073][700]LogWorld: Game class is 'Neo_TerraGameMode'
-[2015.07.11-22.54.29:075][700]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
-[2015.07.11-22.54.29:075][700]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
-[2015.07.11-22.54.29:076][700]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
-[2015.07.11-22.54.29:076][700]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
-[2015.07.11-22.54.29:077][700]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.11-15.54.29
-[2015.07.11-22.54.29:077][700]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.11-22.54.29:077][700]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.07.11-22.54.29:078][700]LogWorld: Bringing up level for play took: 0.003246
-[2015.07.11-22.54.29:079][700]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.088
-[2015.07.11-22.54.29:131][700]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.BP_Sky_Sphere_C_2"
-[2015.07.11-22.54.30:032][785]LogEditorViewport: Clicking on Actor (LMB): WP_Shrike_C (WP_Shrike)
-[2015.07.11-22.54.30:032][785]LogSelection:Warning: PIE object was selected: "WP_Shrike_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.WP_Shrike_C_1"
-[2015.07.11-22.54.39:012][527]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD423942C0
-[2015.07.11-22.54.41:554][790]LogSavePackage: Save=61.543621ms
-[2015.07.11-22.54.41:554][790]LogSavePackage: Moving '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Saved/Minimal_DefaultFB9CEF7843603733B8D241ACF4CFDDD5.tmp' to '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/StarterContent/Maps/Minimal_Default.umap'
-[2015.07.11-22.54.41:584][790]LogFileHelpers: Saving map 'Minimal_Default' took 0.229
-[2015.07.11-22.54.49:122][576]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.07.11-22.54.49:240][576]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.07.11-22.55.02:580][ 46]BlueprintLog: New page: Compile WP_Shrike
-[2015.07.11-22.55.02:666][ 46]BlueprintEditorCompileResults: Info [1008.73] Compile of WP_Shrike successful! [in 86 ms]
-[2015.07.11-22.55.04:357][207]LogSavePackage: Save=75.140305ms
-[2015.07.11-22.55.04:357][207]LogSavePackage: Moving '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Saved/Minimal_Default5D3EC3E3414ED759AD6A029893E6FE30.tmp' to '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/StarterContent/Maps/Minimal_Default.umap'
-[2015.07.11-22.55.04:384][207]LogFileHelpers: Saving map 'Minimal_Default' took 0.245
-[2015.07.11-22.55.04:400][207]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NeoTerra/Blueprints/WP_Shrike" FILE="../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/NeoTerra/Blueprints/WP_Shrike.uasset" SILENT=true
-[2015.07.11-22.55.04:449][207]LogSavePackage: Save=16.611633ms
-[2015.07.11-22.55.04:449][207]LogSavePackage: Moving '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Saved/WP_Shrike2527D9EA4A1AC7D20CD9A1B485D74E65.tmp' to '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/NeoTerra/Blueprints/WP_Shrike.uasset'
-[2015.07.11-22.55.17:298][601]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0024 seconds. Added 1 classes and 2 folders.
-[2015.07.11-22.56.09:363][181]LogMaterial: Missing cached shader map for material Refraction, compiling. 
-[2015.07.11-22.56.09:448][181]LogMaterial: Missing cached shader map for material Refraction, compiling. 
-[2015.07.11-22.56.09:453][181]LogMaterial: 0.000022 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.56.13:489][547]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
-[2015.07.11-22.56.13:489][547]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.07.11-22.56.13:489][547]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.07.11-22.56.15:412][751]LogMaterial: Missing cached shader map for material Refraction, compiling. 
-[2015.07.11-22.56.15:447][751]LogMaterial: Missing cached shader map for material Refraction, compiling. 
-[2015.07.11-22.56.15:451][751]LogMaterial: 0.000031 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.56.18:246][ 12]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
-[2015.07.11-22.56.18:246][ 12]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.07.11-22.56.18:246][ 12]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.07.11-22.56.20:358][247]LogMaterial: Missing cached shader map for material Refraction, compiling. 
-[2015.07.11-22.56.20:360][247]LogMaterial: Missing cached shader map for material Refraction, compiling. 
-[2015.07.11-22.56.20:362][247]LogMaterial: 0.000031 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.56.21:043][309]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
-[2015.07.11-22.56.21:043][309]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.07.11-22.56.21:043][309]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.07.11-22.56.25:472][800]LogMaterial: Missing cached shader map for material Refraction, compiling. 
-[2015.07.11-22.56.25:477][800]LogMaterial: Missing cached shader map for material Refraction, compiling. 
-[2015.07.11-22.56.25:481][800]LogMaterial: 0.000030 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.56.26:927][939]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
-[2015.07.11-22.56.26:927][939]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.07.11-22.56.26:927][939]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.07.11-22.56.30:040][292]LogMaterial: Missing cached shader map for material Refraction, compiling. 
-[2015.07.11-22.56.30:083][292]LogMaterial: Missing cached shader map for material Refraction, compiling. 
-[2015.07.11-22.56.30:087][292]LogMaterial: 0.000040 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.56.32:471][515]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
-[2015.07.11-22.56.32:471][515]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.07.11-22.56.32:471][515]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.07.11-22.56.33:125][586]LogMaterial: Missing cached shader map for material Refraction, compiling. 
-[2015.07.11-22.56.33:138][586]LogMaterial: Missing cached shader map for material Refraction, compiling. 
-[2015.07.11-22.56.33:142][586]LogMaterial: 0.000020 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.56.37:068][980]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
-[2015.07.11-22.56.37:068][980]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 62 instructions
-[2015.07.11-22.56.37:068][980]MaterialEditorStats: Info Vertex shader: 68 instructions
-[2015.07.11-22.56.37:068][980]MaterialEditorStats: Info Texture samplers: 4/16
-[2015.07.11-22.56.50:055][241]LogMaterial: Missing cached shader map for material Refraction, compiling. 
-[2015.07.11-22.56.50:059][241]LogMaterial: 0.000042 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.07.11-22.56.50:121][241]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2015.07.11-22.56.50:162][241]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2015.07.11-22.56.54:676][699]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
-[2015.07.11-22.56.54:676][699]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 62 instructions
-[2015.07.11-22.56.54:676][699]MaterialEditorStats: Info Vertex shader: 68 instructions
-[2015.07.11-22.56.54:676][699]MaterialEditorStats: Info Texture samplers: 4/16
-[2015.07.11-22.57.07:776][951]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD58A75D00
-[2015.07.11-22.57.07:777][951]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD652E56C0
-[2015.07.11-22.57.09:588][ 30]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2015.07.11-22.57.12:595][335]Cmd: QUIT_EDITOR
-[2015.07.11-22.57.12:837][335]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.07.11-22.57.12:937][335]LogExit: Preparing to exit.
-[2015.07.11-22.57.14:111][335]LogExit: Editor shut down
-[2015.07.11-22.57.14:111][335]LogExit: Transaction tracking system shut down
-[2015.07.11-22.57.14:113][335]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD52DC3240
-[2015.07.11-22.57.14:113][335]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD55DB0AE0
-[2015.07.11-22.57.14:113][335]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD55C59F80
-[2015.07.11-22.57.14:113][335]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD50861C60
-[2015.07.11-22.57.14:113][335]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD42B25C60
-[2015.07.11-22.57.14:231][335]LogExit: Object subsystem successfully closed.
-[2015.07.11-22.57.14:322][335]LogModuleManager: Shutting down and abandoning module TextureEditor (191)
-[2015.07.11-22.57.14:322][335]LogModuleManager: Shutting down and abandoning module MaterialEditor (190)
-[2015.07.11-22.57.14:322][335]LogModuleManager: Shutting down and abandoning module CrashTracker (189)
-[2015.07.11-22.57.14:322][335]LogModuleManager: Shutting down and abandoning module SuperSearch (188)
-[2015.07.11-22.57.14:322][335]LogModuleManager: Shutting down and abandoning module WidgetCarousel (187)
-[2015.07.11-22.57.14:322][335]LogModuleManager: Shutting down and abandoning module AddContentDialog (186)
-[2015.07.11-22.57.14:323][335]LogModuleManager: Shutting down and abandoning module EditorWidgets (185)
-[2015.07.11-22.57.14:323][335]LogModuleManager: Shutting down and abandoning module CollectionManager (184)
-[2015.07.11-22.57.14:323][335]LogModuleManager: Shutting down and abandoning module SceneOutliner (183)
-[2015.07.11-22.57.14:323][335]LogModuleManager: Shutting down and abandoning module StatsViewer (182)
-[2015.07.11-22.57.14:323][335]LogModuleManager: Shutting down and abandoning module FoliageEdit (181)
-[2015.07.11-22.57.14:323][335]LogModuleManager: Shutting down and abandoning module LandscapeEditor (180)
-[2015.07.11-22.57.14:323][335]LogModuleManager: Shutting down and abandoning module ActorPickerMode (179)
-[2015.07.11-22.57.14:323][335]LogModuleManager: Shutting down and abandoning module GeometryMode (178)
-[2015.07.11-22.57.14:323][335]LogModuleManager: Shutting down and abandoning module TextureAlignMode (177)
-[2015.07.11-22.57.14:323][335]LogModuleManager: Shutting down and abandoning module BspMode (176)
-[2015.07.11-22.57.14:323][335]LogModuleManager: Shutting down and abandoning module PlacementMode (175)
-[2015.07.11-22.57.14:323][335]LogModuleManager: Shutting down and abandoning module AutomationWorker (174)
-[2015.07.11-22.57.14:323][335]LogModuleManager: Shutting down and abandoning module CharacterAI (173)
-[2015.07.11-22.57.14:323][335]LogModuleManager: Shutting down and abandoning module SmartSnapping (172)
-[2015.07.11-22.57.14:323][335]LogModuleManager: Shutting down and abandoning module ViewportSnapping (171)
-[2015.07.11-22.57.14:323][335]LogModuleManager: Shutting down and abandoning module LogVisualizer (170)
-[2015.07.11-22.57.14:323][335]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (169)
-[2015.07.11-22.57.14:323][335]LogModuleManager: Shutting down and abandoning module IntroTutorials (168)
-[2015.07.11-22.57.14:323][335]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (167)
-[2015.07.11-22.57.14:323][335]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (166)
-[2015.07.11-22.57.14:323][335]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (165)
-[2015.07.11-22.57.14:323][335]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (164)
-[2015.07.11-22.57.14:478][335]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (163)
-[2015.07.11-22.57.14:478][335]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (162)
-[2015.07.11-22.57.14:478][335]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (161)
-[2015.07.11-22.57.14:478][335]LogModuleManager: Shutting down and abandoning module MergeActors (160)
-[2015.07.11-22.57.14:478][335]LogModuleManager: Shutting down and abandoning module SizeMap (159)
-[2015.07.11-22.57.14:478][335]LogModuleManager: Shutting down and abandoning module TreeMap (158)
-[2015.07.11-22.57.14:478][335]LogModuleManager: Shutting down and abandoning module ReferenceViewer (157)
-[2015.07.11-22.57.14:478][335]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (156)
-[2015.07.11-22.57.14:478][335]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
-[2015.07.11-22.57.14:478][335]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
-[2015.07.11-22.57.14:478][335]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
-[2015.07.11-22.57.14:478][335]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
-[2015.07.11-22.57.14:478][335]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
-[2015.07.11-22.57.14:478][335]LogModuleManager: Shutting down and abandoning module XmlParser (150)
-[2015.07.11-22.57.14:478][335]LogModuleManager: Shutting down and abandoning module Blutility (149)
-[2015.07.11-22.57.14:478][335]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (148)
-[2015.07.11-22.57.14:478][335]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (147)
-[2015.07.11-22.57.14:478][335]LogModuleManager: Shutting down and abandoning module InputBindingEditor (146)
-[2015.07.11-22.57.14:478][335]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (145)
-[2015.07.11-22.57.14:478][335]LogModuleManager: Shutting down and abandoning module SettingsEditor (144)
-[2015.07.11-22.57.14:478][335]LogModuleManager: Shutting down and abandoning module ProjectLauncher (143)
-[2015.07.11-22.57.14:478][335]LogModuleManager: Shutting down and abandoning module SessionFrontend (142)
-[2015.07.11-22.57.14:478][335]LogModuleManager: Shutting down and abandoning module ProfilerClient (141)
-[2015.07.11-22.57.14:478][335]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (140)
-[2015.07.11-22.57.14:478][335]LogModuleManager: Shutting down and abandoning module DeviceManager (139)
-[2015.07.11-22.57.14:478][335]LogModuleManager: Shutting down and abandoning module AutomationController (138)
-[2015.07.11-22.57.14:478][335]LogModuleManager: Shutting down and abandoning module AutomationWindow (137)
-[2015.07.11-22.57.14:478][335]LogModuleManager: Shutting down and abandoning module Layers (136)
-[2015.07.11-22.57.14:478][335]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (135)
-[2015.07.11-22.57.14:478][335]LogModuleManager: Shutting down and abandoning module DetailCustomizations (134)
-[2015.07.11-22.57.14:478][335]LogModuleManager: Shutting down and abandoning module PackagesDialog (133)
-[2015.07.11-22.57.14:478][335]LogModuleManager: Shutting down and abandoning module AssetRegistry (132)
-[2015.07.11-22.57.14:585][335]LogModuleManager: Shutting down and abandoning module Persona (131)
-[2015.07.11-22.57.14:585][335]LogModuleManager: Shutting down and abandoning module Kismet (130)
-[2015.07.11-22.57.14:585][335]LogModuleManager: Shutting down and abandoning module GraphEditor (129)
-[2015.07.11-22.57.14:585][335]LogModuleManager: Shutting down and abandoning module ClassViewer (128)
-[2015.07.11-22.57.14:585][335]LogModuleManager: Shutting down and abandoning module Toolbox (127)
-[2015.07.11-22.57.14:585][335]LogModuleManager: Shutting down and abandoning module ModuleUI (126)
-[2015.07.11-22.57.14:585][335]LogModuleManager: Shutting down and abandoning module MovieSceneTools (125)
-[2015.07.11-22.57.14:585][335]LogModuleManager: Shutting down and abandoning module OutputLog (124)
-[2015.07.11-22.57.14:585][335]LogModuleManager: Shutting down and abandoning module GammaUI (123)
-[2015.07.11-22.57.14:585][335]LogModuleManager: Shutting down and abandoning module Documentation (122)
-[2015.07.11-22.57.14:585][335]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (121)
-[2015.07.11-22.57.14:585][335]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (120)
-[2015.07.11-22.57.14:585][335]LogModuleManager: Shutting down and abandoning module AnalyticsET (119)
-[2015.07.11-22.57.14:585][335]LogModuleManager: Shutting down and abandoning module Analytics (118)
-[2015.07.11-22.57.14:585][335]LogModuleManager: Shutting down and abandoning module AITestSuite (117)
-[2015.07.11-22.57.14:585][335]LogModuleManager: Shutting down and abandoning module GameplayDebugger (116)
-[2015.07.11-22.57.14:585][335]LogModuleManager: Shutting down and abandoning module AIModule (115)
-[2015.07.11-22.57.14:585][335]LogModuleManager: Shutting down and abandoning module ProfilerService (114)
-[2015.07.11-22.57.14:626][335]LogModuleManager: Shutting down and abandoning module TaskGraph (113)
-[2015.07.11-22.57.14:626][335]LogModuleManager: Shutting down and abandoning module SlateRemote (112)
-[2015.07.11-22.57.14:626][335]LogModuleManager: Shutting down and abandoning module SteamVRController (111)
-[2015.07.11-22.57.14:626][335]LogModuleManager: Shutting down and abandoning module SteamVR (110)
-[2015.07.11-22.57.14:626][335]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (109)
-[2015.07.11-22.57.14:626][335]LogModuleManager: Shutting down and abandoning module OculusRift (108)
-[2015.07.11-22.57.14:626][335]LogModuleManager: Shutting down and abandoning module LeapMotionController (107)
-[2015.07.11-22.57.14:634][335]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (106)
-[2015.07.11-22.57.14:634][335]LogModuleManager: Shutting down and abandoning module CableComponent (105)
-[2015.07.11-22.57.14:634][335]LogModuleManager: Shutting down and abandoning module MessagingDebugger (104)
-[2015.07.11-22.57.14:634][335]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (103)
-[2015.07.11-22.57.14:634][335]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (102)
-[2015.07.11-22.57.14:634][335]LogModuleManager: Shutting down and abandoning module PluginBrowser (101)
-[2015.07.11-22.57.14:634][335]LogModuleManager: Shutting down and abandoning module EpicSurvey (100)
-[2015.07.11-22.57.14:634][335]LogModuleManager: Shutting down and abandoning module DesktopPlatform (99)
-[2015.07.11-22.57.14:634][335]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (98)
-[2015.07.11-22.57.14:634][335]LogModuleManager: Shutting down and abandoning module UObjectPlugin (97)
-[2015.07.11-22.57.14:634][335]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (96)
-[2015.07.11-22.57.14:634][335]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (95)
-[2015.07.11-22.57.14:634][335]LogModuleManager: Shutting down and abandoning module SourceControl (94)
-[2015.07.11-22.57.14:634][335]LogModuleManager: Shutting down and abandoning module GitSourceControl (93)
-[2015.07.11-22.57.14:634][335]LogModuleManager: Shutting down and abandoning module BlankPlugin (92)
-[2015.07.11-22.57.14:634][335]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (91)
-[2015.07.11-22.57.14:634][335]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (90)
-[2015.07.11-22.57.14:634][335]LogModuleManager: Shutting down and abandoning module MeshPaint (89)
-[2015.07.11-22.57.14:634][335]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
-[2015.07.11-22.57.14:634][335]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
-[2015.07.11-22.57.14:635][335]LogModuleManager: Shutting down and abandoning module HotReload (86)
-[2015.07.11-22.57.14:635][335]LogModuleManager: Shutting down and abandoning module MainFrame (85)
-[2015.07.11-22.57.14:635][335]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
-[2015.07.11-22.57.14:635][335]LogModuleManager: Shutting down and abandoning module ContentBrowser (83)
-[2015.07.11-22.57.14:636][335]LogModuleManager: Shutting down and abandoning module Paper2DEditor (82)
-[2015.07.11-22.57.14:636][335]LogModuleManager: Shutting down and abandoning module Neo_Terra (81)
-[2015.07.11-22.57.14:636][335]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
-[2015.07.11-22.57.14:737][335]LogModuleManager: Shutting down and abandoning module Paper2D (79)
-[2015.07.11-22.57.14:737][335]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
-[2015.07.11-22.57.14:737][335]LogModuleManager: Shutting down and abandoning module Media (77)
-[2015.07.11-22.57.14:737][335]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
-[2015.07.11-22.57.14:737][335]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
-[2015.07.11-22.57.14:737][335]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
-[2015.07.11-22.57.14:737][335]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
-[2015.07.11-22.57.14:737][335]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
-[2015.07.11-22.57.14:737][335]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
-[2015.07.11-22.57.14:737][335]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
-[2015.07.11-22.57.14:737][335]LogModuleManager: Shutting down and abandoning module MessageLog (69)
-[2015.07.11-22.57.14:737][335]LogModuleManager: Shutting down and abandoning module Sequencer (68)
-[2015.07.11-22.57.14:737][335]LogModuleManager: Shutting down and abandoning module AssetTools (67)
-[2015.07.11-22.57.14:737][335]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
-[2015.07.11-22.57.14:737][335]LogModuleManager: Shutting down and abandoning module UMG (65)
-[2015.07.11-22.57.14:737][335]LogModuleManager: Shutting down and abandoning module Slate (64)
-[2015.07.11-22.57.14:737][335]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
-[2015.07.11-22.57.14:739][335]LogModuleManager: Shutting down and abandoning module SessionServices (62)
-[2015.07.11-22.57.14:739][335]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
-[2015.07.11-22.57.14:739][335]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
-[2015.07.11-22.57.14:739][335]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
-[2015.07.11-22.57.14:739][335]LogModuleManager: Shutting down and abandoning module Networking (57)
-[2015.07.11-22.57.14:739][335]LogModuleManager: Shutting down and abandoning module Core (56)
-[2015.07.11-22.57.14:739][335]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
-[2015.07.11-22.57.14:739][335]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
-[2015.07.11-22.57.14:739][335]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
-[2015.07.11-22.57.14:739][335]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
-[2015.07.11-22.57.14:839][335]LogDerivedDataCache: Shutdown
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module Messaging (35)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module InputCore (19)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module Settings (18)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module HTTP (15)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module Landscape (11)
-[2015.07.11-22.57.14:839][335]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2015.07.11-22.57.14:841][335]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2015.07.11-22.57.14:841][335]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2015.07.11-22.57.14:841][335]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.07.11-22.57.14:841][335]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.07.11-22.57.14:841][335]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.07.11-22.57.14:841][335]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.07.11-22.57.14:841][335]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.07.11-22.57.14:841][335]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.07.11-22.57.14:841][335]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.07.11-22.57.14:841][335]LogExit: Exiting.
-[2015.07.11-22.57.14:842][335]Log file closed, 07/11/15 15:57:14
+[2015.07.13-20.00.48:010][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2015.07.13-20.00.48:010][  0]LogD3D11RHI: Adapter has 3996MB of dedicated video memory, 0MB of dedicated system memory, and 3554MB of shared system memory, 1 output[s]
+[2015.07.13-20.00.48:179][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.07.13-20.00.48:179][  0]LogD3D11RHI: Adapter has 992MB of dedicated video memory, 0MB of dedicated system memory, and 800MB of shared system memory, 0 output[s]
+[2015.07.13-20.00.48:180][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.07.13-20.00.48:180][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.07.13-20.00.48:180][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.07.13-20.00.48:183][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.07.13-20.00.48:191][  0]LogD3D11RHI: Async texture creation enabled
+[2015.07.13-20.00.48:205][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.07.13-20.00.49:829][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.07.13-20.00.49:881][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.07.13-20.00.49:921][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.07.13-20.00.49:956][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.07.13-20.00.49:979][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.07.13-20.00.50:039][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.07.13-20.00.50:064][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.07.13-20.00.50:092][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.07.13-20.00.50:115][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.07.13-20.00.50:141][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.07.13-20.00.50:163][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.07.13-20.00.50:184][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.07.13-20.00.50:282][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.07.13-20.00.50:304][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.07.13-20.00.50:365][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.07.13-20.00.50:393][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.07.13-20.00.50:393][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.13-20.00.51:186][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.07.13-20.00.51:802][  0]LogDerivedDataCache: Loaded boot cache 0.62s 71MB C:/Users/tyler_000/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.13-20.00.51:802][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/tyler_000/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.07.13-20.00.51:802][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.07.13-20.00.51:802][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.07.13-20.00.51:802][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.07.13-20.00.51:802][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.07.13-20.00.51:915][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.07.13-20.00.51:926][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tyler_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.07.13-20.00.53:013][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.13-20.00.53:077][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.13-20.00.53:077][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.13-20.00.53:161][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.07.13-20.00.53:161][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.07.13-20.00.53:566][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.07.13-20.01.08:690][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.07.13-20.01.10:110][  0]SourceControl: Info Source control is disabled
+[2015.07.13-20.01.11:772][  0]LogObj: 26471 objects as part of root set at end of initial load.
+[2015.07.13-20.01.11:772][  0]LogUObjectAllocator: 5480888 out of 0 bytes used by permanent object pool.
+[2015.07.13-20.01.11:928][  0]LogEngine: Initializing Engine...
+[2015.07.13-20.01.11:931][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.07.13-20.01.12:242][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 108
+[2015.07.13-20.01.12:414][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.07.13-20.01.12:431][  0]LogInit: XAudio2 using 'Digital Output (2- USB PnP Sound Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.13-20.01.12:438][  0]LogInit: FAudioDevice initialized.
+[2015.07.13-20.01.12:468][  0]LogDerivedDataCache: Saved boot cache 0.03s 71MB C:/Users/tyler_000/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.13-20.01.12:472][  0]LogInit: Texture streaming: Disabled
+[2015.07.13-20.01.12:610][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.07.13-20.01.12:610][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.1-2591939+++depot+UE4-Releases+4.8
+[2015.07.13-20.01.12:610][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 6632c32e4547395767ec168df9274b5c|64132dcb96a94bf09c470f630e0c208d|4454835d-7eb2-4712-923a-e1b4390bdbbb
+[2015.07.13-20.01.12:610][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.07.13-20.01.13:100][  0]LogInit: Transaction tracking system initialized
+[2015.07.13-20.01.14:744][  0]BlueprintLog: New page: Editor Load
+[2015.07.13-20.01.14:968][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
+[2015.07.13-20.01.14:968][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.07.13-20.01.17:591][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FirstPersonOverview'
+[2015.07.13-20.01.17:591][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FirstPersonOverview'
+[2015.07.13-20.01.17:591][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FirstPersonOverview'
+[2015.07.13-20.01.17:591][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPerson/FirstPersonOverview.FirstPersonOverview_C'
+[2015.07.13-20.01.17:785][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.07.13-20.01.17:785][  0]LogConsoleResponse:Display: 
+[2015.07.13-20.01.17:892][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.07.13-20.01.18:501][  0]LogAutoReimportManager: Scanning file cache for directory 'C:/Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/' took 0.01s
+[2015.07.13-20.01.18:639][  0]Cmd: MAP LOAD FILE="../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.13-20.01.18:640][  0]LightingResults: New page: Lighting Build
+[2015.07.13-20.01.18:652][  0]MapCheck: New page: Map Check
+[2015.07.13-20.01.18:652][  0]LightingResults: New page: Lighting Build
+[2015.07.13-20.01.18:658][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FD6EE16F20
+[2015.07.13-20.01.19:584][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.13-20.01.19:586][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.13-20.01.19:586][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.13-20.01.19:587][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.13-20.01.19:587][  0]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.13-20.01.19:590][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.13-20.01.19:600][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.13-20.01.19:673][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 73.496ms to complete.
+[2015.07.13-20.01.19:673][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.034
+[2015.07.13-20.01.19:919][  0]LogCollectionManager: Loaded 0 collections in 0.001942 seconds
+[2015.07.13-20.01.19:926][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 1798 classes and 306 folders.
+[2015.07.13-20.01.20:069][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0023 seconds. Added 0 classes and 0 folders.
+[2015.07.13-20.01.20:164][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0023 seconds. Added 0 classes and 0 folders.
+[2015.07.13-20.01.20:189][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.07.13-20.01.20:193][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.07.13-20.01.20:214][  0]LogLoad: Full Startup: 35.13 seconds (BP compile: 0.18 seconds)
+[2015.07.13-20.01.20:272][  0]SourceControl: Info On branch master
+[2015.07.13-20.01.20:272][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2015.07.13-20.01.20:272][  0]SourceControl: Info Changes not staged for commit:
+[2015.07.13-20.01.20:272][  0]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2015.07.13-20.01.20:272][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2015.07.13-20.01.20:272][  0]SourceControl: Info 	modified:   Content/NeoTerra/Blueprints/WP_Shrike.uasset
+[2015.07.13-20.01.20:272][  0]SourceControl: Info 	modified:   Content/NeoTerra/Meshes/Shrike.uasset
+[2015.07.13-20.01.20:272][  0]SourceControl: Info 	modified:   Content/NeoTerra/Particles/Materials/P_Mat_MissileThruster.uasset
+[2015.07.13-20.01.20:272][  0]SourceControl: Info 	modified:   Content/NeoTerra/Particles/P_MissileThruster.uasset
+[2015.07.13-20.01.20:272][  0]SourceControl: Info 	modified:   Content/StarterContent/Maps/Minimal_Default.umap
+[2015.07.13-20.01.20:272][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2015.07.13-20.01.20:272][  0]SourceControl: Info 	modified:   Neo_Terra.v12.suo
+[2015.07.13-20.01.20:272][  0]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
+[2015.07.13-20.01.20:272][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2015.07.13-20.01.20:272][  0]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2015.07.13-20.01.20:272][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2015.07.13-20.01.20:272][  0]SourceControl: Info 	modified:   Saved/Logs/Neo_Terra.log
+[2015.07.13-20.01.20:272][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2015.07.13-20.01.20:272][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.07.13-20.01.20:302][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.07.13-20.01.20:403][  2]LogRenderer: Reallocating scene render targets to support 632x296 (Frame:2).
+[2015.07.13-20.01.20:550][  5]LogAssetRegistry: Asset discovery search completed in 5.5931 seconds
+[2015.07.13-20.01.25:362][553]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.13-20.01.25:414][553]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.13-20.01.31:711][ 42]LogRenderer: Reallocating scene render targets to support 1208x1568 (Frame:549).
+[2015.07.13-20.01.33:742][269]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.13-20.01.33:744][269]PIE: New page: SIE session: Minimal_Default (Jul 13, 2015, 10:01:33 AM)
+[2015.07.13-20.01.33:744][269]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.13-20.01.33:747][269]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003180s)
+[2015.07.13-20.01.33:748][269]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.13-20.01.33:748][269]LogPlayLevel: PIE: World Init took: (0.000883s)
+[2015.07.13-20.01.33:748][269]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004246s)
+[2015.07.13-20.01.33:798][269]LogInit: XAudio2 using 'Digital Output (2- USB PnP Sound Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.13-20.01.33:802][269]LogInit: FAudioDevice initialized.
+[2015.07.13-20.01.33:854][269]LogWorld: Game class is 'Neo_TerraGameMode'
+[2015.07.13-20.01.33:856][269]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.13-20.01.33:856][269]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.13-20.01.33:857][269]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.13-20.01.33:857][269]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.13-20.01.33:858][269]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.13-15.01.33
+[2015.07.13-20.01.33:858][269]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.13-20.01.33:858][269]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.13-20.01.33:859][269]LogWorld: Bringing up level for play took: 0.003009
+[2015.07.13-20.01.33:860][269]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.013
+[2015.07.13-20.01.47:717][787]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FD7985F600
+[2015.07.13-20.01.49:656][ 14]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.13-20.01.49:656][ 14]PIE: New page: PIE session: Minimal_Default (Jul 13, 2015, 10:01:49 AM)
+[2015.07.13-20.01.49:656][ 14]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.13-20.01.49:659][ 14]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002935s)
+[2015.07.13-20.01.49:660][ 14]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.13-20.01.49:660][ 14]LogPlayLevel: PIE: World Init took: (0.000972s)
+[2015.07.13-20.01.49:660][ 14]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004040s)
+[2015.07.13-20.01.49:693][ 14]LogInit: XAudio2 using 'Digital Output (2- USB PnP Sound Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.13-20.01.49:696][ 14]LogInit: FAudioDevice initialized.
+[2015.07.13-20.01.49:726][ 14]LogWorld: Game class is 'Neo_TerraGameMode'
+[2015.07.13-20.01.49:728][ 14]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.13-20.01.49:728][ 14]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.13-20.01.49:729][ 14]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.13-20.01.49:729][ 14]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.13-20.01.49:730][ 14]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.13-15.01.49
+[2015.07.13-20.01.49:730][ 14]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.13-20.01.49:730][ 14]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.13-20.01.49:730][ 14]LogWorld: Bringing up level for play took: 0.003040
+[2015.07.13-20.01.49:732][ 14]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.141
+[2015.07.13-20.01.50:556][103]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FD6130C360
+[2015.07.13-20.02.04:748][586]LogRenderer: Reallocating scene render targets to support 2432x1576 (Frame:2714).
+[2015.07.13-20.02.04:804][588]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 517/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.13-20.02.19:996][947]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 503/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.13-20.02.33:402][ 49]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.07.13-20.02.33:459][ 50]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 503/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.13-20.02.55:513][203]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 503/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.13-20.02.56:369][257]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.07.13-20.03.08:014][477]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 503/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.13-20.03.09:303][552]LogRenderer: Reallocating scene render targets to support 3136x1872 (Frame:3560).
+[2015.07.13-20.03.09:442][553]LogRenderer: Reallocating scene render targets to support 3840x2160 (Frame:3563).
+[2015.07.13-20.03.15:967][746]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 989/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.13-20.03.24:540][836]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 989/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.13-20.03.25:284][879]LogEditorViewport: Clicking on Actor (LMB): WP_Shrike_C (WP_Shrike)
+[2015.07.13-20.03.39:990][119]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 989/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.13-20.03.40:543][149]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.07.13-20.03.45:485][454]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.13-20.03.45:485][454]PIE: New page: PIE session: Minimal_Default (Jul 13, 2015, 10:03:45 AM)
+[2015.07.13-20.03.45:486][454]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.13-20.03.45:489][454]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003207s)
+[2015.07.13-20.03.45:489][454]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.13-20.03.45:490][454]LogPlayLevel: PIE: World Init took: (0.000973s)
+[2015.07.13-20.03.45:490][454]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004338s)
+[2015.07.13-20.03.45:524][454]LogInit: XAudio2 using 'Digital Output (2- USB PnP Sound Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.13-20.03.45:527][454]LogInit: FAudioDevice initialized.
+[2015.07.13-20.03.45:559][454]LogWorld: Game class is 'Neo_TerraGameMode'
+[2015.07.13-20.03.45:561][454]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.13-20.03.45:561][454]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.13-20.03.45:562][454]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.13-20.03.45:562][454]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.13-20.03.45:563][454]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.13-15.03.45
+[2015.07.13-20.03.45:563][454]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.13-20.03.45:563][454]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.13-20.03.45:564][454]LogWorld: Bringing up level for play took: 0.002985
+[2015.07.13-20.03.45:565][454]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.308
+[2015.07.13-20.03.45:587][455]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 997/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.13-20.04.36:440][524]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FD62C5D260
+[2015.07.13-20.04.38:626][583]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.13-20.04.46:295][606]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 533/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.13-20.04.48:973][616]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 1053/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.13-20.04.49:047][617]MapCheck: New page: Map Check
+[2015.07.13-20.04.49:086][617]Cmd: MAP REBUILD ALLVISIBLE
+[2015.07.13-20.04.49:086][617]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.07.13-20.04.49:096][617]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.13-20.04.49:096][617]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.13-20.04.49:097][617]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.13-20.04.49:097][617]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.13-20.04.49:122][617]LightingResults: New page: Lighting Build - Jul 13, 2015, 10:04:49 AM
+[2015.07.13-20.05.02:412][617]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.07.13-20.05.02:412][617]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.07.13-20.05.02:412][617]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.07.13-20.05.02:412][617]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.07.13-20.05.02:412][617]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.07.13-20.05.02:412][617]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.07.13-20.05.03:071][617]LogEditorBuildUtils: Build time 0:00:14
+[2015.07.13-20.05.03:140][619]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 1038/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.13-20.05.10:692][635]Job is a success!
+[2015.07.13-20.05.11:103][636]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.13-20.05.11:103][636]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.13-20.05.11:103][636]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.13-20.05.11:103][636]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.13-20.05.11:173][636]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.07.13-20.05.11:256][636]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.07.13-20.05.11:258][636]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.07.13-20.05.11:262][636]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.07.13-20.05.11:373][636]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.07.13-20.05.11:383][636]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2015.07.13-20.05.22:206][636]Lightmass on ALLEN: 4.61 sec total, 695 ms importing, 11 ms setup, 138 ms photons, 2.59 sec processing, 0 ms extra exporting [5/5 mappings]. Threads: 10.3 sec total, 4.25 sec processing.
+[2015.07.13-20.05.22:219][636]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.13-20.05.22:219][636]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.13-20.05.22:219][636]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.07.13-20.05.22:219][636]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.07.13-20.05.22:245][636]LogStaticLightingSystem: Illumination: 32.7 sec (228 ms encoding lightmaps)
+[2015.07.13-20.05.22:245][636]LogStaticLightingSystem: Lightmap texture memory:  0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 4 textures
+[2015.07.13-20.05.22:245][636]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2015.07.13-20.05.22:417][637]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.07.13-20.05.22:417][637]MapCheck: New page: Minimal_Default - Jul 13, 2015, 10:05:22 AM
+[2015.07.13-20.05.22:510][637]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 93.094ms to complete.
+[2015.07.13-20.05.22:549][637]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.07.13-20.05.22:670][638]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 1069/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.13-20.05.38:861][230]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 1061/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.13-20.05.45:138][251]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 1061/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.13-20.05.50:542][503]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.07.13-20.06.39:979][806]SourceControl:Error: Error fatal: Could not switch to '/Script/': No such file or directory
+[2015.07.13-20.07.14:540][209]LogSavePackage: Save=124.536934ms
+[2015.07.13-20.07.14:540][209]LogSavePackage: Moving '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Saved/Minimal_Default235225354CBF91CB6DB6E5B519A905C2.tmp' to '../../../../../../Users/tyler_000/Documents/Unreal Projects/Neo_Terra/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.07.13-20.07.14:566][209]LogFileHelpers: Saving map 'Minimal_Default' took 0.314
+[2015.07.13-20.07.15:553][274]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.13-20.07.15:781][275]Cmd: QUIT_EDITOR
+[2015.07.13-20.07.16:613][275]LogExit: Preparing to exit.
+[2015.07.13-20.07.16:890][275]LogExit: Editor shut down
+[2015.07.13-20.07.16:890][275]LogExit: Transaction tracking system shut down
+[2015.07.13-20.07.16:891][275]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FD6F852FC0
+[2015.07.13-20.07.16:891][275]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FD7BC66E80
+[2015.07.13-20.07.16:891][275]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FD78560A40
+[2015.07.13-20.07.16:891][275]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FD7337DF80
+[2015.07.13-20.07.16:891][275]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FD5FA63100
+[2015.07.13-20.07.16:893][275]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FD64486A20
+[2015.07.13-20.07.17:000][275]LogExit: Object subsystem successfully closed.
+[2015.07.13-20.07.17:074][275]LogModuleManager: Shutting down and abandoning module CrashTracker (189)
+[2015.07.13-20.07.17:074][275]LogModuleManager: Shutting down and abandoning module SuperSearch (188)
+[2015.07.13-20.07.17:074][275]LogModuleManager: Shutting down and abandoning module WidgetCarousel (187)
+[2015.07.13-20.07.17:074][275]LogModuleManager: Shutting down and abandoning module AddContentDialog (186)
+[2015.07.13-20.07.17:074][275]LogModuleManager: Shutting down and abandoning module EditorWidgets (185)
+[2015.07.13-20.07.17:074][275]LogModuleManager: Shutting down and abandoning module CollectionManager (184)
+[2015.07.13-20.07.17:074][275]LogModuleManager: Shutting down and abandoning module SceneOutliner (183)
+[2015.07.13-20.07.17:074][275]LogModuleManager: Shutting down and abandoning module StatsViewer (182)
+[2015.07.13-20.07.17:074][275]LogModuleManager: Shutting down and abandoning module FoliageEdit (181)
+[2015.07.13-20.07.17:074][275]LogModuleManager: Shutting down and abandoning module LandscapeEditor (180)
+[2015.07.13-20.07.17:074][275]LogModuleManager: Shutting down and abandoning module ActorPickerMode (179)
+[2015.07.13-20.07.17:074][275]LogModuleManager: Shutting down and abandoning module GeometryMode (178)
+[2015.07.13-20.07.17:074][275]LogModuleManager: Shutting down and abandoning module TextureAlignMode (177)
+[2015.07.13-20.07.17:074][275]LogModuleManager: Shutting down and abandoning module BspMode (176)
+[2015.07.13-20.07.17:074][275]LogModuleManager: Shutting down and abandoning module PlacementMode (175)
+[2015.07.13-20.07.17:074][275]LogModuleManager: Shutting down and abandoning module AutomationWorker (174)
+[2015.07.13-20.07.17:074][275]LogModuleManager: Shutting down and abandoning module CharacterAI (173)
+[2015.07.13-20.07.17:074][275]LogModuleManager: Shutting down and abandoning module SmartSnapping (172)
+[2015.07.13-20.07.17:074][275]LogModuleManager: Shutting down and abandoning module ViewportSnapping (171)
+[2015.07.13-20.07.17:074][275]LogModuleManager: Shutting down and abandoning module LogVisualizer (170)
+[2015.07.13-20.07.17:075][275]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (169)
+[2015.07.13-20.07.17:075][275]LogModuleManager: Shutting down and abandoning module IntroTutorials (168)
+[2015.07.13-20.07.17:075][275]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (167)
+[2015.07.13-20.07.17:075][275]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (166)
+[2015.07.13-20.07.17:075][275]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (165)
+[2015.07.13-20.07.17:075][275]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (164)
+[2015.07.13-20.07.17:465][275]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (163)
+[2015.07.13-20.07.17:465][275]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (162)
+[2015.07.13-20.07.17:465][275]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (161)
+[2015.07.13-20.07.17:465][275]LogModuleManager: Shutting down and abandoning module MergeActors (160)
+[2015.07.13-20.07.17:465][275]LogModuleManager: Shutting down and abandoning module SizeMap (159)
+[2015.07.13-20.07.17:465][275]LogModuleManager: Shutting down and abandoning module TreeMap (158)
+[2015.07.13-20.07.17:465][275]LogModuleManager: Shutting down and abandoning module ReferenceViewer (157)
+[2015.07.13-20.07.17:465][275]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (156)
+[2015.07.13-20.07.17:465][275]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.07.13-20.07.17:465][275]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.07.13-20.07.17:465][275]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.07.13-20.07.17:465][275]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.07.13-20.07.17:465][275]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.07.13-20.07.17:465][275]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.07.13-20.07.17:465][275]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.07.13-20.07.17:465][275]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (148)
+[2015.07.13-20.07.17:465][275]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (147)
+[2015.07.13-20.07.17:465][275]LogModuleManager: Shutting down and abandoning module InputBindingEditor (146)
+[2015.07.13-20.07.17:465][275]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (145)
+[2015.07.13-20.07.17:465][275]LogModuleManager: Shutting down and abandoning module SettingsEditor (144)
+[2015.07.13-20.07.17:465][275]LogModuleManager: Shutting down and abandoning module ProjectLauncher (143)
+[2015.07.13-20.07.17:465][275]LogModuleManager: Shutting down and abandoning module SessionFrontend (142)
+[2015.07.13-20.07.17:465][275]LogModuleManager: Shutting down and abandoning module ProfilerClient (141)
+[2015.07.13-20.07.17:465][275]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (140)
+[2015.07.13-20.07.17:465][275]LogModuleManager: Shutting down and abandoning module DeviceManager (139)
+[2015.07.13-20.07.17:465][275]LogModuleManager: Shutting down and abandoning module AutomationController (138)
+[2015.07.13-20.07.17:465][275]LogModuleManager: Shutting down and abandoning module AutomationWindow (137)
+[2015.07.13-20.07.17:465][275]LogModuleManager: Shutting down and abandoning module Layers (136)
+[2015.07.13-20.07.17:465][275]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (135)
+[2015.07.13-20.07.17:465][275]LogModuleManager: Shutting down and abandoning module DetailCustomizations (134)
+[2015.07.13-20.07.17:465][275]LogModuleManager: Shutting down and abandoning module PackagesDialog (133)
+[2015.07.13-20.07.17:465][275]LogModuleManager: Shutting down and abandoning module AssetRegistry (132)
+[2015.07.13-20.07.17:538][275]LogModuleManager: Shutting down and abandoning module Persona (131)
+[2015.07.13-20.07.17:538][275]LogModuleManager: Shutting down and abandoning module Kismet (130)
+[2015.07.13-20.07.17:538][275]LogModuleManager: Shutting down and abandoning module GraphEditor (129)
+[2015.07.13-20.07.17:538][275]LogModuleManager: Shutting down and abandoning module ClassViewer (128)
+[2015.07.13-20.07.17:538][275]LogModuleManager: Shutting down and abandoning module Toolbox (127)
+[2015.07.13-20.07.17:538][275]LogModuleManager: Shutting down and abandoning module ModuleUI (126)
+[2015.07.13-20.07.17:538][275]LogModuleManager: Shutting down and abandoning module MovieSceneTools (125)
+[2015.07.13-20.07.17:538][275]LogModuleManager: Shutting down and abandoning module OutputLog (124)
+[2015.07.13-20.07.17:538][275]LogModuleManager: Shutting down and abandoning module GammaUI (123)
+[2015.07.13-20.07.17:538][275]LogModuleManager: Shutting down and abandoning module Documentation (122)
+[2015.07.13-20.07.17:538][275]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (121)
+[2015.07.13-20.07.17:538][275]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (120)
+[2015.07.13-20.07.17:538][275]LogModuleManager: Shutting down and abandoning module AnalyticsET (119)
+[2015.07.13-20.07.17:538][275]LogModuleManager: Shutting down and abandoning module Analytics (118)
+[2015.07.13-20.07.17:538][275]LogModuleManager: Shutting down and abandoning module AITestSuite (117)
+[2015.07.13-20.07.17:538][275]LogModuleManager: Shutting down and abandoning module GameplayDebugger (116)
+[2015.07.13-20.07.17:538][275]LogModuleManager: Shutting down and abandoning module AIModule (115)
+[2015.07.13-20.07.17:538][275]LogModuleManager: Shutting down and abandoning module ProfilerService (114)
+[2015.07.13-20.07.17:560][275]LogModuleManager: Shutting down and abandoning module TaskGraph (113)
+[2015.07.13-20.07.17:560][275]LogModuleManager: Shutting down and abandoning module SlateRemote (112)
+[2015.07.13-20.07.17:560][275]LogModuleManager: Shutting down and abandoning module SteamVRController (111)
+[2015.07.13-20.07.17:560][275]LogModuleManager: Shutting down and abandoning module SteamVR (110)
+[2015.07.13-20.07.17:560][275]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (109)
+[2015.07.13-20.07.17:560][275]LogModuleManager: Shutting down and abandoning module OculusRift (108)
+[2015.07.13-20.07.17:560][275]LogModuleManager: Shutting down and abandoning module LeapMotionController (107)
+[2015.07.13-20.07.17:568][275]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (106)
+[2015.07.13-20.07.17:568][275]LogModuleManager: Shutting down and abandoning module CableComponent (105)
+[2015.07.13-20.07.17:568][275]LogModuleManager: Shutting down and abandoning module MessagingDebugger (104)
+[2015.07.13-20.07.17:568][275]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (103)
+[2015.07.13-20.07.17:568][275]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (102)
+[2015.07.13-20.07.17:568][275]LogModuleManager: Shutting down and abandoning module PluginBrowser (101)
+[2015.07.13-20.07.17:568][275]LogModuleManager: Shutting down and abandoning module EpicSurvey (100)
+[2015.07.13-20.07.17:568][275]LogModuleManager: Shutting down and abandoning module DesktopPlatform (99)
+[2015.07.13-20.07.17:568][275]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (98)
+[2015.07.13-20.07.17:568][275]LogModuleManager: Shutting down and abandoning module UObjectPlugin (97)
+[2015.07.13-20.07.17:568][275]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (96)
+[2015.07.13-20.07.17:568][275]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (95)
+[2015.07.13-20.07.17:568][275]LogModuleManager: Shutting down and abandoning module SourceControl (94)
+[2015.07.13-20.07.17:569][275]LogModuleManager: Shutting down and abandoning module GitSourceControl (93)
+[2015.07.13-20.07.17:569][275]LogModuleManager: Shutting down and abandoning module BlankPlugin (92)
+[2015.07.13-20.07.17:569][275]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (91)
+[2015.07.13-20.07.17:569][275]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (90)
+[2015.07.13-20.07.17:569][275]LogModuleManager: Shutting down and abandoning module MeshPaint (89)
+[2015.07.13-20.07.17:569][275]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
+[2015.07.13-20.07.17:569][275]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.07.13-20.07.17:569][275]LogModuleManager: Shutting down and abandoning module HotReload (86)
+[2015.07.13-20.07.17:569][275]LogModuleManager: Shutting down and abandoning module MainFrame (85)
+[2015.07.13-20.07.17:569][275]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
+[2015.07.13-20.07.17:570][275]LogModuleManager: Shutting down and abandoning module ContentBrowser (83)
+[2015.07.13-20.07.17:570][275]LogModuleManager: Shutting down and abandoning module Paper2DEditor (82)
+[2015.07.13-20.07.17:570][275]LogModuleManager: Shutting down and abandoning module Neo_Terra (81)
+[2015.07.13-20.07.17:570][275]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.07.13-20.07.17:671][275]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.07.13-20.07.17:671][275]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.07.13-20.07.17:673][275]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.07.13-20.07.17:673][275]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.07.13-20.07.17:673][275]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.07.13-20.07.17:673][275]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.07.13-20.07.17:673][275]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.07.13-20.07.17:673][275]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.07.13-20.07.17:673][275]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.07.13-20.07.17:673][275]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.07.13-20.07.17:673][275]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.07.13-20.07.17:673][275]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.07.13-20.07.17:673][275]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.07.13-20.07.17:673][275]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.07.13-20.07.17:673][275]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.07.13-20.07.17:673][275]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.07.13-20.07.17:673][275]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.07.13-20.07.17:675][275]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.07.13-20.07.17:675][275]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.07.13-20.07.17:675][275]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.07.13-20.07.17:675][275]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.07.13-20.07.17:675][275]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.07.13-20.07.17:675][275]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.07.13-20.07.17:675][275]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.07.13-20.07.17:675][275]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.07.13-20.07.17:675][275]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.07.13-20.07.17:675][275]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.07.13-20.07.17:749][275]LogDerivedDataCache: Shutdown
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.07.13-20.07.17:749][275]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.07.13-20.07.17:750][275]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.07.13-20.07.17:750][275]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.07.13-20.07.17:750][275]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.07.13-20.07.17:750][275]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.07.13-20.07.17:750][275]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.07.13-20.07.17:750][275]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.07.13-20.07.17:750][275]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.07.13-20.07.17:750][275]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.07.13-20.07.17:750][275]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.07.13-20.07.17:750][275]LogExit: Exiting.
+[2015.07.13-20.07.17:752][275]Log file closed, 07/13/15 15:07:17
