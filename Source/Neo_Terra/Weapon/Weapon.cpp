@@ -38,6 +38,7 @@ AWeapon::AWeapon(const FObjectInitializer& ObjectInitializer)
 	TrailComponent = ObjectInitializer.CreateDefaultSubobject<UParticleSystemComponent>(this, TEXT("Weapon Trail"));
 	static ConstructorHelpers::FObjectFinder<UParticleSystem> ParticleAsset(TEXT("ParticleSystem'/Game/NeoTerra/Particles/P_MissileThruster.P_MissileThruster'"));
 	TrailComponent->Template = ParticleAsset.Object;
+	TrailComponent->SetRelativeScale3D(FVector(3.0f,3.0f,3));
 	TArray<FName> MeshSockets = WeaponMesh->GetAllSocketNames();
 	for (auto It = MeshSockets.CreateConstIterator(); It; ++It)
 	{
@@ -48,6 +49,7 @@ AWeapon::AWeapon(const FObjectInitializer& ObjectInitializer)
 			TrailComponent->AttachTo(RootComponent, *Socket);
 		}
 	}
+
 }
 
 void AWeapon::Tick(float DeltaTime)

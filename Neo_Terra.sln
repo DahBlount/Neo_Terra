@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{CCDC22BB-AE90-4EEF-A174-6DB273248421}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{5D542306-9552-4068-85E7-F45A8B02C47C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{FC7AD0C9-39C3-448F-BEBE-03E80E93FA26}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{97D57551-9623-4249-8D74-A36567A3E181}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Neo_Terra", "Intermediate\ProjectFiles\Neo_Terra.vcxproj", "{2F6BAF4B-21D0-4984-83A2-C7ECA8B4FB7C}"
 EndProject
@@ -54,7 +54,6 @@ Global
 		{81C861F3-76F1-459C-92F5-FA93083C56C8}.Development Editor|Win32.ActiveCfg = BuiltWithUnrealBuildTool|Win32
 		{81C861F3-76F1-459C-92F5-FA93083C56C8}.Development Editor|Win32.Build.0 = BuiltWithUnrealBuildTool|Win32
 		{81C861F3-76F1-459C-92F5-FA93083C56C8}.Development Editor|Win64.ActiveCfg = BuiltWithUnrealBuildTool|Win32
-		{81C861F3-76F1-459C-92F5-FA93083C56C8}.Development Editor|Win64.Build.0 = BuiltWithUnrealBuildTool|Win32
 		{81C861F3-76F1-459C-92F5-FA93083C56C8}.Development|Win32.ActiveCfg = BuiltWithUnrealBuildTool|Win32
 		{81C861F3-76F1-459C-92F5-FA93083C56C8}.Development|Win32.Build.0 = BuiltWithUnrealBuildTool|Win32
 		{81C861F3-76F1-459C-92F5-FA93083C56C8}.Development|Win64.ActiveCfg = BuiltWithUnrealBuildTool|Win32
@@ -66,7 +65,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{2F6BAF4B-21D0-4984-83A2-C7ECA8B4FB7C} = {FC7AD0C9-39C3-448F-BEBE-03E80E93FA26}
-		{81C861F3-76F1-459C-92F5-FA93083C56C8} = {CCDC22BB-AE90-4EEF-A174-6DB273248421}
+		{2F6BAF4B-21D0-4984-83A2-C7ECA8B4FB7C} = {97D57551-9623-4249-8D74-A36567A3E181}
+		{81C861F3-76F1-459C-92F5-FA93083C56C8} = {5D542306-9552-4068-85E7-F45A8B02C47C}
 	EndGlobalSection
 EndGlobal
