@@ -60,7 +60,7 @@ public:
 
 	// This is only used when the weapon is a Projectile or Beam
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Collision")
-	UBoxComponent* CollisionComp;
+	USphereComponent* CollisionComp;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Config")
 	UStaticMeshComponent* WeaponMesh;
@@ -73,6 +73,8 @@ public:
 #define TYPE_PROJECTILE		1
 #define TYPE_MISSILE		2
 #define TYPE_BEAM			3
+
+TArray<FWeaponData> WeaponConfigArray;
 
 // Parse weapons
 void ParseWeapon(uint8 Type, const FString Filename);

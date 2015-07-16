@@ -10,7 +10,7 @@
 @param Filename = The name of the weapons config file*/
 void ParseWeapon(uint8 Type, const FString Filename)
 {
-
+	
 }
 
 /* Parse the weapons config file
@@ -38,7 +38,7 @@ AWeapon::AWeapon(const FObjectInitializer& ObjectInitializer)
 	TrailComponent = ObjectInitializer.CreateDefaultSubobject<UParticleSystemComponent>(this, TEXT("Weapon Trail"));
 	static ConstructorHelpers::FObjectFinder<UParticleSystem> ParticleAsset(TEXT("ParticleSystem'/Game/NeoTerra/Particles/P_MissileThruster.P_MissileThruster'"));
 	TrailComponent->Template = ParticleAsset.Object;
-	TrailComponent->SetRelativeScale3D(FVector(3.0f,3.0f,3));
+	TrailComponent->SetRelativeScale3D(FVector(3.0f,3.0f,3.0f));
 	TArray<FName> MeshSockets = WeaponMesh->GetAllSocketNames();
 	for (auto It = MeshSockets.CreateConstIterator(); It; ++It)
 	{
