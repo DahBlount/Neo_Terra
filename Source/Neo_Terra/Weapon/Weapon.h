@@ -74,8 +74,6 @@ public:
 #define TYPE_MISSILE		2
 #define TYPE_BEAM			3
 
-TArray<FWeaponData> WeaponConfigArray;
-
 // Parse weapons
 void ParseWeapon(uint8 Type, const FString Filename);
 void ParseWeaponsIni(const FString Filename);
