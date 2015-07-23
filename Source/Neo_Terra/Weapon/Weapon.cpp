@@ -5,6 +5,9 @@
 #include "Engine.h"
 #include "ConfigCacheIni.h"
 
+TArray<AWeapon> WeaponsArray;						// Contains all of the weapons currently in a specific world instance
+TArray<FWeaponData> WeaponConfigArray;				// Contains all the Weapon Configuration data
+
 /* Parse a weapon
 @param Type = The weapons type, can be a value from 1-3
 @param Filename = The name of the weapons config file*/

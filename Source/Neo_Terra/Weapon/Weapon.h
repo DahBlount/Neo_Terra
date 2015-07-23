@@ -62,7 +62,7 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Collision")
 	USphereComponent* CollisionComp;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Config")
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Mesh")
 	UStaticMeshComponent* WeaponMesh;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Trail")
